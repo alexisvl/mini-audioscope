@@ -15,4 +15,5 @@
   (lib (name "Regulator_Switching")(type "Legacy")(uri "${KICAD_SYMBOL_DIR}/Regulator_Switching.lib")(options "")(descr ""))
   (lib (name "TexasInstruments")(type "Legacy")(uri "${KIPRJMOD}/TexasInstruments.lib")(options "")(descr ""))
   (lib (name "Regulator_Linear")(type "Legacy")(uri "${KICAD_SYMBOL_DIR}/Regulator_Linear.lib")(options "")(descr ""))
+  (lib (name "mini-audioscope")(type "Legacy")(uri "${KIPRJMOD}/mini-audioscope.lib")(options "")(descr ""))
 )

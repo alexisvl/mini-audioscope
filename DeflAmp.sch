@@ -3,7 +3,7 @@ EELAYER 31 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 7
+Sheet 5 7
 Title "Deflection Amplifier"
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ Connection ~ 5100 3400
 Connection ~ 4500 1700
 Connection ~ 6000 4800
 Connection ~ 5250 4800
-Connection ~ 5000 2700
+Connection ~ 5250 2700
 Connection ~ 4500 4800
 Connection ~ 5100 2700
 Connection ~ 4500 1250
@@ -75,25 +75,25 @@ Wire Wire Line
 Wire Wire Line
 	4500 6350 4500 6400
 Wire Wire Line
-	4800 2700 5000 2700
+	4800 2700 5100 2700
 Wire Wire Line
 	4900 3400 5100 3400
 Wire Wire Line
-	5000 2150 5000 2200
-Wire Wire Line
-	5000 2500 5000 2700
-Wire Wire Line
-	5000 2700 5100 2700
-Wire Wire Line
 	5100 2700 5100 2950
 Wire Wire Line
-	5100 2700 5700 2700
+	5100 2700 5250 2700
 Wire Wire Line
 	5100 3250 5100 3400
 Wire Wire Line
 	5100 3400 5250 3400
 Wire Wire Line
 	5200 4800 5250 4800
+Wire Wire Line
+	5250 2150 5250 2200
+Wire Wire Line
+	5250 2500 5250 2700
+Wire Wire Line
+	5250 2700 5700 2700
 Wire Wire Line
 	5250 3400 5600 3400
 Wire Wire Line
@@ -161,87 +161,77 @@ DEFL-
 Text HLabel 6750 1800 2    50   Output ~ 0
 DEFL+
 $Comp
-L power:+12V #PWR?
-U 1 1 00000000
+L power:+9V #PWR?
+U 1 1 5E75B83F
 P 4100 5100
-AR Path="/00000000" Ref="#PWR?"  Part="1" 
-AR Path="/00000000/00000000" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4100 4950 50  0001 C CNN
-F 1 "+12V" H 4100 5240 50  0000 C CNN
+F 1 "+9V" H 4100 5240 50  0000 C CNN
 F 2 "" H 4100 5100 50  0001 C CNN
 F 3 "" H 4100 5100 50  0001 C CNN
 	1    4100 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-12V #PWR?
-U 1 1 00000000
+L power:-9V #PWR?
+U 1 1 5E75AD66
 P 4100 6200
-AR Path="/00000000" Ref="#PWR?"  Part="1" 
-AR Path="/00000000/00000000" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4100 6300 50  0001 C CNN
-F 1 "-12V" H 4100 6350 50  0000 C CNN
+F 0 "#PWR?" H 4100 6075 50  0001 C CNN
+F 1 "-9V" H 4100 6350 50  0000 C CNN
 F 2 "" H 4100 6200 50  0001 C CNN
 F 3 "" H 4100 6200 50  0001 C CNN
 	1    4100 6200
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:-12V #PWR?
-U 1 1 00000000
+L power:-9V #PWR?
+U 1 1 5E75C5B3
 P 4500 6400
-AR Path="/00000000" Ref="#PWR?"  Part="1" 
-AR Path="/00000000/00000000" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4500 6500 50  0001 C CNN
-F 1 "-12V" H 4500 6550 50  0000 C CNN
+F 0 "#PWR?" H 4500 6275 50  0001 C CNN
+F 1 "-9V" H 4500 6550 50  0000 C CNN
 F 2 "" H 4500 6400 50  0001 C CNN
 F 3 "" H 4500 6400 50  0001 C CNN
 	1    4500 6400
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR?
-U 1 1 00000000
-P 5000 2150
-AR Path="/00000000" Ref="#PWR?"  Part="1" 
-AR Path="/00000000/00000000" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5000 2000 50  0001 C CNN
-F 1 "+12V" H 5000 2290 50  0000 C CNN
-F 2 "" H 5000 2150 50  0001 C CNN
-F 3 "" H 5000 2150 50  0001 C CNN
-	1    5000 2150
+L power:+9V #PWR?
+U 1 1 5E759F3A
+P 5250 2150
+F 0 "#PWR?" H 5250 2000 50  0001 C CNN
+F 1 "+9V" H 5250 2290 50  0000 C CNN
+F 2 "" H 5250 2150 50  0001 C CNN
+F 3 "" H 5250 2150 50  0001 C CNN
+	1    5250 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-12V #PWR?
-U 1 1 00000000
+L power:-9V #PWR?
+U 1 1 5E75CEF5
 P 6000 6400
-AR Path="/00000000" Ref="#PWR?"  Part="1" 
-AR Path="/00000000/00000000" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6000 6500 50  0001 C CNN
-F 1 "-12V" H 6000 6550 50  0000 C CNN
+F 0 "#PWR?" H 6000 6275 50  0001 C CNN
+F 1 "-9V" H 6000 6550 50  0000 C CNN
 F 2 "" H 6000 6400 50  0001 C CNN
 F 3 "" H 6000 6400 50  0001 C CNN
 	1    6000 6400
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR?
-U 1 1 00000000
+L power:+9V #PWR?
+U 1 1 5E75A38D
 P 6650 3750
 F 0 "#PWR?" H 6650 3600 50  0001 C CNN
-F 1 "+12V" H 6650 3890 50  0000 C CNN
+F 1 "+9V" H 6650 3890 50  0000 C CNN
 F 2 "" H 6650 3750 50  0001 C CNN
 F 3 "" H 6650 3750 50  0001 C CNN
 	1    6650 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-12V #PWR?
-U 1 1 00000000
+L power:-9V #PWR?
+U 1 1 5E75A934
 P 6650 4850
-F 0 "#PWR?" H 6650 4950 50  0001 C CNN
-F 1 "-12V" H 6650 5000 50  0000 C CNN
+F 0 "#PWR?" H 6650 4725 50  0001 C CNN
+F 1 "-9V" H 6650 5000 50  0000 C CNN
 F 2 "" H 6650 4850 50  0001 C CNN
 F 3 "" H 6650 4850 50  0001 C CNN
 	1    6650 4850
@@ -249,10 +239,12 @@ F 3 "" H 6650 4850 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607EBF
 P 4100 5250
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607EBF" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607EBF" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607EBF" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607EBF" Ref="R?"  Part="1" 
 F 0 "R?" H 4265 5295 50  0000 C CNN
 F 1 "10k" H 4265 5205 50  0000 C CNN
 F 2 "" V 4140 5240 50  0001 C CNN
@@ -262,10 +254,12 @@ F 3 "~" H 4100 5250 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607ECC
 P 4100 6000
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607ECC" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607ECC" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607ECC" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607ECC" Ref="R?"  Part="1" 
 F 0 "R?" H 4265 6045 50  0000 C CNN
 F 1 "10k" H 4265 5955 50  0000 C CNN
 F 2 "" V 4140 5990 50  0001 C CNN
@@ -275,10 +269,12 @@ F 3 "~" H 4100 6000 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607ED9
 P 4500 1500
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607ED9" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607ED9" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607ED9" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607ED9" Ref="R?"  Part="1" 
 F 0 "R?" H 4665 1545 50  0000 C CNN
 F 1 "R" H 4665 1455 50  0000 C CNN
 F 2 "" V 4540 1490 50  0001 C CNN
@@ -288,10 +284,12 @@ F 3 "~" H 4500 1500 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607EE6
 P 4500 3150
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607EE6" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607EE6" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607EE6" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607EE6" Ref="R?"  Part="1" 
 F 0 "R?" H 4665 3195 50  0000 C CNN
 F 1 "R_US" H 4665 3105 50  0000 C CNN
 F 2 "" V 4540 3140 50  0001 C CNN
@@ -301,10 +299,12 @@ F 3 "~" H 4500 3150 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607EF3
 P 4500 6200
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607EF3" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607EF3" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607EF3" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607EF3" Ref="R?"  Part="1" 
 F 0 "R?" H 4665 6245 50  0000 C CNN
 F 1 "10k" H 4665 6155 50  0000 C CNN
 F 2 "" V 4540 6190 50  0001 C CNN
@@ -314,23 +314,12 @@ F 3 "~" H 4500 6200 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
-P 5000 2350
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
-F 0 "R?" H 5165 2395 50  0000 C CNN
-F 1 "10k" H 5165 2305 50  0000 C CNN
-F 2 "" V 5040 2340 50  0001 C CNN
-F 3 "~" H 5000 2350 50  0001 C CNN
-	1    5000 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607F0D
 P 5050 4800
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607F0D" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F0D" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F0D" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607F0D" Ref="R?"  Part="1" 
 F 0 "R?" V 5254 4800 50  0000 C CNN
 F 1 "10k" V 5163 4800 50  0000 C CNN
 F 2 "" V 5090 4790 50  0001 C CNN
@@ -340,10 +329,27 @@ F 3 "~" H 5050 4800 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607F00
+P 5250 2350
+AR Path="/5E607F00" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F00" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F00" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607F00" Ref="R?"  Part="1" 
+F 0 "R?" H 5415 2395 50  0000 C CNN
+F 1 "10k" H 5415 2305 50  0000 C CNN
+F 2 "" V 5290 2340 50  0001 C CNN
+F 3 "~" H 5250 2350 50  0001 C CNN
+	1    5250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E607F1A
 P 6000 1500
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607F1A" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F1A" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F1A" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607F1A" Ref="R?"  Part="1" 
 F 0 "R?" H 6165 1545 50  0000 C CNN
 F 1 "R" H 6165 1455 50  0000 C CNN
 F 2 "" V 6040 1490 50  0001 C CNN
@@ -353,10 +359,12 @@ F 3 "~" H 6000 1500 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607F27
 P 6000 3150
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607F27" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F27" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F27" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607F27" Ref="R?"  Part="1" 
 F 0 "R?" H 6165 3195 50  0000 C CNN
 F 1 "R_US" H 6165 3105 50  0000 C CNN
 F 2 "" V 6040 3140 50  0001 C CNN
@@ -366,10 +374,12 @@ F 3 "~" H 6000 3150 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607F34
 P 6000 6200
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607F34" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F34" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F34" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607F34" Ref="R?"  Part="1" 
 F 0 "R?" H 6165 6245 50  0000 C CNN
 F 1 "10k" H 6165 6155 50  0000 C CNN
 F 2 "" V 6040 6190 50  0001 C CNN
@@ -379,10 +389,12 @@ F 3 "~" H 6000 6200 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607F41
 P 6400 1700
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607F41" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F41" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F41" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607F41" Ref="R?"  Part="1" 
 F 0 "R?" V 6604 1700 50  0000 C CNN
 F 1 "R" V 6513 1700 50  0000 C CNN
 F 2 "" V 6440 1690 50  0001 C CNN
@@ -392,10 +404,12 @@ F 3 "~" H 6400 1700 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607F4E
 P 6400 1800
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607F4E" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F4E" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F4E" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607F4E" Ref="R?"  Part="1" 
 F 0 "R?" V 6513 1800 50  0000 C CNN
 F 1 "R" V 6604 1800 50  0000 C CNN
 F 2 "" V 6440 1790 50  0001 C CNN
@@ -405,10 +419,12 @@ F 3 "~" H 6400 1800 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607F5B
 P 6650 3900
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607F5B" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F5B" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F5B" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607F5B" Ref="R?"  Part="1" 
 F 0 "R?" V 6854 3900 50  0000 C CNN
 F 1 "10k" V 6763 3900 50  0000 C CNN
 F 2 "" V 6690 3890 50  0001 C CNN
@@ -418,10 +434,12 @@ F 3 "~" H 6650 3900 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 00000000
+U 1 1 5E607F68
 P 6650 4700
-AR Path="/00000000" Ref="R?"  Part="1" 
-AR Path="/00000000/00000000" Ref="R?"  Part="1" 
+AR Path="/5E607F68" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F68" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F68" Ref="R?"  Part="1" 
+AR Path="/5E607BA5/5E607F68" Ref="R?"  Part="1" 
 F 0 "R?" V 6854 4700 50  0000 C CNN
 F 1 "10k" V 6763 4700 50  0000 C CNN
 F 2 "" V 6690 4690 50  0001 C CNN
@@ -431,10 +449,12 @@ F 3 "~" H 6650 4700 50  0001 C CNN
 $EndComp
 $Comp
 L Diode:1N4004 D?
-U 1 1 00000000
+U 1 1 5E607F75
 P 4750 3400
-AR Path="/00000000" Ref="D?"  Part="1" 
-AR Path="/00000000/00000000" Ref="D?"  Part="1" 
+AR Path="/5E607F75" Ref="D?"  Part="1" 
+AR Path="/00000000/5E607F75" Ref="D?"  Part="1" 
+AR Path="/5E607B97/5E607F75" Ref="D?"  Part="1" 
+AR Path="/5E607BA5/5E607F75" Ref="D?"  Part="1" 
 F 0 "D?" H 4750 3275 50  0000 C CNN
 F 1 "1N4004" H 4750 3184 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4750 3225 50  0001 C CNN
@@ -444,10 +464,12 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4750 3400 50  0001 C CNN
 $EndComp
 $Comp
 L Diode:1N4004 D?
-U 1 1 00000000
+U 1 1 5E607F82
 P 5100 3100
-AR Path="/00000000" Ref="D?"  Part="1" 
-AR Path="/00000000/00000000" Ref="D?"  Part="1" 
+AR Path="/5E607F82" Ref="D?"  Part="1" 
+AR Path="/00000000/5E607F82" Ref="D?"  Part="1" 
+AR Path="/5E607B97/5E607F82" Ref="D?"  Part="1" 
+AR Path="/5E607BA5/5E607F82" Ref="D?"  Part="1" 
 F 0 "D?" V 5145 3328 50  0000 C CNN
 F 1 "1N4004" V 5055 3328 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5100 2925 50  0001 C CNN
@@ -457,10 +479,12 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5100 3100 50  0001 C CNN
 $EndComp
 $Comp
 L Diode:1N4004 D?
-U 1 1 00000000
+U 1 1 5E607F8F
 P 5750 3400
-AR Path="/00000000" Ref="D?"  Part="1" 
-AR Path="/00000000/00000000" Ref="D?"  Part="1" 
+AR Path="/5E607F8F" Ref="D?"  Part="1" 
+AR Path="/00000000/5E607F8F" Ref="D?"  Part="1" 
+AR Path="/5E607B97/5E607F8F" Ref="D?"  Part="1" 
+AR Path="/5E607BA5/5E607F8F" Ref="D?"  Part="1" 
 F 0 "D?" H 5750 3275 50  0000 C CNN
 F 1 "1N4004" H 5750 3184 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5750 3225 50  0001 C CNN
@@ -470,10 +494,12 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5750 3400 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_POT_US RV?
-U 1 1 00000000
+U 1 1 5E607F9C
 P 5450 4800
-AR Path="/00000000" Ref="RV?"  Part="1" 
-AR Path="/00000000/00000000" Ref="RV?"  Part="1" 
+AR Path="/5E607F9C" Ref="RV?"  Part="1" 
+AR Path="/00000000/5E607F9C" Ref="RV?"  Part="1" 
+AR Path="/5E607B97/5E607F9C" Ref="RV?"  Part="1" 
+AR Path="/5E607BA5/5E607F9C" Ref="RV?"  Part="1" 
 F 0 "RV?" V 5275 4800 50  0000 C CNN
 F 1 "R_POT_US" V 5350 4800 50  0000 C CNN
 F 2 "" H 5450 4800 50  0001 C CNN
@@ -483,8 +509,10 @@ F 3 "~" H 5450 4800 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_POT_US RV?
-U 1 1 00000000
+U 1 1 5E607FA9
 P 6650 4300
+AR Path="/5E607B97/5E607FA9" Ref="RV?"  Part="1" 
+AR Path="/5E607BA5/5E607FA9" Ref="RV?"  Part="1" 
 F 0 "RV?" V 6475 4300 50  0000 C CNN
 F 1 "R_POT_US" V 6550 4300 50  0000 C CNN
 F 2 "" H 6650 4300 50  0001 C CNN
@@ -494,10 +522,12 @@ F 3 "~" H 6650 4300 50  0001 C CNN
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q?
-U 1 1 00000000
+U 1 1 5E607FB6
 P 4400 4300
-AR Path="/00000000" Ref="Q?"  Part="1" 
-AR Path="/00000000/00000000" Ref="Q?"  Part="1" 
+AR Path="/5E607FB6" Ref="Q?"  Part="1" 
+AR Path="/00000000/5E607FB6" Ref="Q?"  Part="1" 
+AR Path="/5E607B97/5E607FB6" Ref="Q?"  Part="1" 
+AR Path="/5E607BA5/5E607FB6" Ref="Q?"  Part="1" 
 F 0 "Q?" H 4739 4345 50  0000 C CNN
 F 1 "2N4401" H 4739 4255 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4600 4225 50  0001 L CIN
@@ -507,10 +537,12 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4400 4300 50  000
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q?
-U 1 1 00000000
+U 1 1 5E607FC3
 P 4400 5750
-AR Path="/00000000" Ref="Q?"  Part="1" 
-AR Path="/00000000/00000000" Ref="Q?"  Part="1" 
+AR Path="/5E607FC3" Ref="Q?"  Part="1" 
+AR Path="/00000000/5E607FC3" Ref="Q?"  Part="1" 
+AR Path="/5E607B97/5E607FC3" Ref="Q?"  Part="1" 
+AR Path="/5E607BA5/5E607FC3" Ref="Q?"  Part="1" 
 F 0 "Q?" H 4739 5795 50  0000 C CNN
 F 1 "2N4401" H 4739 5705 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4600 5675 50  0001 L CIN
@@ -520,10 +552,12 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4400 5750 50  000
 $EndComp
 $Comp
 L Device:Q_NPN_EBC Q?
-U 1 1 00000000
+U 1 1 5E607FD0
 P 4600 2700
-AR Path="/00000000" Ref="Q?"  Part="1" 
-AR Path="/00000000/00000000" Ref="Q?"  Part="1" 
+AR Path="/5E607FD0" Ref="Q?"  Part="1" 
+AR Path="/00000000/5E607FD0" Ref="Q?"  Part="1" 
+AR Path="/5E607B97/5E607FD0" Ref="Q?"  Part="1" 
+AR Path="/5E607BA5/5E607FD0" Ref="Q?"  Part="1" 
 F 0 "Q?" H 4915 2745 50  0000 C CNN
 F 1 "KSP44" H 4915 2655 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-5-3" H 4800 2800 50  0001 C CNN
@@ -533,10 +567,12 @@ F 3 "~" H 4600 2700 50  0001 C CNN
 $EndComp
 $Comp
 L Device:Q_NPN_EBC Q?
-U 1 1 00000000
+U 1 1 5E607FDD
 P 5900 2700
-AR Path="/00000000" Ref="Q?"  Part="1" 
-AR Path="/00000000/00000000" Ref="Q?"  Part="1" 
+AR Path="/5E607FDD" Ref="Q?"  Part="1" 
+AR Path="/00000000/5E607FDD" Ref="Q?"  Part="1" 
+AR Path="/5E607B97/5E607FDD" Ref="Q?"  Part="1" 
+AR Path="/5E607BA5/5E607FDD" Ref="Q?"  Part="1" 
 F 0 "Q?" H 6215 2745 50  0000 C CNN
 F 1 "KSP44" H 6215 2655 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-5-3" H 6100 2800 50  0001 C CNN
@@ -546,10 +582,12 @@ F 3 "~" H 5900 2700 50  0001 C CNN
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q?
-U 1 1 00000000
+U 1 1 5E607FEA
 P 5900 5750
-AR Path="/00000000" Ref="Q?"  Part="1" 
-AR Path="/00000000/00000000" Ref="Q?"  Part="1" 
+AR Path="/5E607FEA" Ref="Q?"  Part="1" 
+AR Path="/00000000/5E607FEA" Ref="Q?"  Part="1" 
+AR Path="/5E607B97/5E607FEA" Ref="Q?"  Part="1" 
+AR Path="/5E607BA5/5E607FEA" Ref="Q?"  Part="1" 
 F 0 "Q?" H 6239 5795 50  0000 C CNN
 F 1 "2N4401" H 6239 5705 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6100 5675 50  0001 L CIN
@@ -559,10 +597,12 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5900 5750 50  000
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q?
-U 1 1 00000000
+U 1 1 5E607FF7
 P 6100 4300
-AR Path="/00000000" Ref="Q?"  Part="1" 
-AR Path="/00000000/00000000" Ref="Q?"  Part="1" 
+AR Path="/5E607FF7" Ref="Q?"  Part="1" 
+AR Path="/00000000/5E607FF7" Ref="Q?"  Part="1" 
+AR Path="/5E607B97/5E607FF7" Ref="Q?"  Part="1" 
+AR Path="/5E607BA5/5E607FF7" Ref="Q?"  Part="1" 
 F 0 "Q?" H 6439 4345 50  0000 C CNN
 F 1 "2N4401" H 6439 4255 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6300 4225 50  0001 L CIN
