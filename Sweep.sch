@@ -21,9 +21,7 @@ $EndDescr
 Connection ~ 9500 6050
 Connection ~ 6550 3100
 Connection ~ 6550 3400
-Connection ~ 8400 4000
 Connection ~ 6150 1900
-Connection ~ 4100 5700
 Connection ~ 2200 3850
 Connection ~ 9500 5700
 Connection ~ 3900 3100
@@ -35,18 +33,19 @@ Connection ~ 8100 3400
 Connection ~ 6550 1250
 Connection ~ 2950 3100
 Connection ~ 9200 3500
-Connection ~ 7000 5700
-Connection ~ 5550 5900
 Connection ~ 9500 5300
 Connection ~ 6950 3400
-Connection ~ 6550 5700
-Connection ~ 5550 6100
 Connection ~ 9200 3050
 Connection ~ 8100 3050
 Connection ~ 2950 3850
-Connection ~ 6950 4000
 Connection ~ 9050 3050
 Connection ~ 6550 900 
+Connection ~ 5900 5400
+Connection ~ 5900 5300
+Connection ~ 8400 4000
+Connection ~ 6950 3500
+Connection ~ 6600 5900
+Connection ~ 6200 5000
 NoConn ~ 2600 2800
 NoConn ~ 2700 2800
 NoConn ~ 9400 5500
@@ -79,9 +78,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 3850 2950 3100
 Wire Wire Line
-	2950 3850 2950 5700
-Wire Wire Line
-	2950 5700 4100 5700
+	2950 3850 2950 5650
 Wire Wire Line
 	3150 2550 3150 2650
 Wire Wire Line
@@ -91,51 +88,41 @@ Wire Wire Line
 Wire Wire Line
 	3550 3100 3900 3100
 Wire Wire Line
-	3850 5900 4200 5900
-Wire Wire Line
 	3900 3100 4900 3100
 Wire Wire Line
 	3900 3350 3900 3100
-Wire Wire Line
-	4100 5700 4200 5700
-Wire Wire Line
-	4100 6100 4100 5700
-Wire Wire Line
-	4100 6100 4200 6100
 Wire Wire Line
 	4350 3550 4200 3550
 Wire Wire Line
 	4350 3600 4350 3550
 Wire Wire Line
-	4350 3900 4350 4600
+	4350 3900 4350 4300
 Wire Wire Line
-	4350 4600 9500 4600
-Wire Wire Line
-	4700 5450 4700 5500
+	4350 4300 9500 4300
 Wire Wire Line
 	4850 3300 4900 3300
 Wire Wire Line
-	5200 5700 5850 5700
+	5050 5650 2950 5650
 Wire Wire Line
-	5200 5900 5250 5900
-Wire Wire Line
-	5200 6100 5550 6100
+	5350 5400 5350 5450
 Wire Wire Line
 	5400 2850 5400 2900
 Wire Wire Line
-	5550 5650 5550 5900
+	5450 5400 5350 5400
 Wire Wire Line
-	5550 5900 5550 6100
-Wire Wire Line
-	5550 6100 5550 6150
-Wire Wire Line
-	5850 6250 5850 5700
+	5750 5400 5900 5400
 Wire Wire Line
 	5900 3300 6150 3300
 Wire Wire Line
 	5900 3500 6050 3500
 Wire Wire Line
-	5900 6250 5850 6250
+	5900 4650 5900 4900
+Wire Wire Line
+	5900 5200 5900 5300
+Wire Wire Line
+	5900 5300 5900 5400
+Wire Wire Line
+	5900 5400 5900 5500
 Wire Wire Line
 	6050 2500 6050 3100
 Wire Wire Line
@@ -161,7 +148,13 @@ Wire Wire Line
 Wire Wire Line
 	6150 2600 6550 2600
 Wire Wire Line
-	6250 6250 6200 6250
+	6200 4950 6200 5000
+Wire Wire Line
+	6200 5000 6200 5500
+Wire Wire Line
+	6200 5000 6600 5000
+Wire Wire Line
+	6300 5300 5900 5300
 Wire Wire Line
 	6550 850  6550 900 
 Wire Wire Line
@@ -189,13 +182,13 @@ Wire Wire Line
 Wire Wire Line
 	6550 3400 6600 3400
 Wire Wire Line
-	6550 5600 6550 5700
+	6600 5000 6600 5100
 Wire Wire Line
-	6550 5700 6550 6050
+	6600 5500 6600 5900
 Wire Wire Line
-	6550 5700 7000 5700
+	6600 5900 6600 6000
 Wire Wire Line
-	6550 6500 6550 6450
+	6600 5900 6700 5900
 Wire Wire Line
 	6700 1250 6700 1100
 Wire Wire Line
@@ -203,21 +196,19 @@ Wire Wire Line
 Wire Wire Line
 	6950 3300 6950 3400
 Wire Wire Line
-	6950 3400 6950 3700
+	6950 3400 6950 3500
 Wire Wire Line
-	6950 3700 6950 4000
+	6950 3500 6950 3700
 Wire Wire Line
-	6950 4000 6950 4050
-Wire Wire Line
-	6950 4000 8400 4000
-Wire Wire Line
-	7000 5700 7000 6000
+	6950 3700 6950 3750
 Wire Wire Line
 	7000 5700 8400 5700
 Wire Wire Line
-	7000 6400 7000 6500
+	7500 3500 6950 3500
 Wire Wire Line
-	7800 5300 7800 6050
+	7500 4000 7500 3500
+Wire Wire Line
+	7800 6050 7800 5300
 Wire Wire Line
 	7800 6050 9500 6050
 Wire Wire Line
@@ -234,6 +225,8 @@ Wire Wire Line
 	8350 5500 8400 5500
 Wire Wire Line
 	8400 3600 8450 3600
+Wire Wire Line
+	8400 4000 7500 4000
 Wire Wire Line
 	8400 4000 8400 3600
 Wire Wire Line
@@ -263,7 +256,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 5700 9500 5700
 Wire Wire Line
-	9500 5300 9500 4600
+	9500 5300 9500 4300
 Wire Wire Line
 	9500 5300 9500 5350
 Wire Wire Line
@@ -380,8 +373,10 @@ Text Notes 2250 7500 0    40   Italic 0
 threshold set by NE555
 Text Notes 2250 7650 0    40   Italic 0
 threshold set by LM393 blanker
-Text Notes 4250 6800 0    75   Italic 15
+Text Notes 4850 6500 0    75   Italic 15
 AUTO TRIGGER\nTIMEOUT GENRERATOR
+Text Notes 4850 6650 0    50   ~ 0
+delay approx= R*C
 Text Notes 5050 2300 0    75   Italic 15
 SWEEP\nSEQUENCER
 Text Notes 5550 1000 0    75   Italic 15
@@ -394,7 +389,7 @@ Text Notes 8350 6500 0    75   Italic 15
 AUTO TRIGGER\nOSCILLATOR
 Text Label 4650 3100 0    50   ~ 0
 ~TRIG
-Text Label 4650 4600 0    50   ~ 0
+Text Label 4650 4300 0    50   ~ 0
 AUTO_TRIGGER
 Text Label 7050 2500 0    50   ~ 0
 SWEEP_EN
@@ -460,17 +455,6 @@ F 3 "" H 3150 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+9V #PWR?
-U 1 1 5E754295
-P 4700 5450
-F 0 "#PWR?" H 4700 5300 50  0001 C CNN
-F 1 "+9V" H 4700 5590 50  0000 C CNN
-F 2 "" H 4700 5450 50  0001 C CNN
-F 3 "" H 4700 5450 50  0001 C CNN
-	1    4700 5450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR?
 U 1 1 5E608125
 P 4900 3500
@@ -497,13 +481,24 @@ F 3 "" H 5400 2850 50  0001 C CNN
 $EndComp
 $Comp
 L power:+9V #PWR?
-U 1 1 5E7534AE
-P 5550 5350
-F 0 "#PWR?" H 5550 5200 50  0001 C CNN
-F 1 "+9V" H 5550 5490 50  0000 C CNN
-F 2 "" H 5550 5350 50  0001 C CNN
-F 3 "" H 5550 5350 50  0001 C CNN
-	1    5550 5350
+U 1 1 5E7AB134
+P 5900 4650
+F 0 "#PWR?" H 5900 4500 50  0001 C CNN
+F 1 "+9V" H 5900 4790 50  0000 C CNN
+F 2 "" H 5900 4650 50  0001 C CNN
+F 3 "" H 5900 4650 50  0001 C CNN
+	1    5900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 5E7B35C3
+P 6200 4650
+F 0 "#PWR?" H 6200 4500 50  0001 C CNN
+F 1 "+9V" H 6200 4790 50  0000 C CNN
+F 2 "" H 6200 4650 50  0001 C CNN
+F 3 "" H 6200 4650 50  0001 C CNN
+	1    6200 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -515,17 +510,6 @@ F 1 "+9V" H 6550 990 50  0000 C CNN
 F 2 "" H 6550 850 50  0001 C CNN
 F 3 "" H 6550 850 50  0001 C CNN
 	1    6550 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+9V #PWR?
-U 1 1 5E7527AC
-P 6550 5300
-F 0 "#PWR?" H 6550 5150 50  0001 C CNN
-F 1 "+9V" H 6550 5440 50  0000 C CNN
-F 2 "" H 6550 5300 50  0001 C CNN
-F 3 "" H 6550 5300 50  0001 C CNN
-	1    6550 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -542,12 +526,12 @@ $EndComp
 $Comp
 L power:-9V #PWR?
 U 1 1 5E74E5CA
-P 6950 4350
-F 0 "#PWR?" H 6950 4225 50  0001 C CNN
-F 1 "-9V" H 6950 4500 50  0000 C CNN
-F 2 "" H 6950 4350 50  0001 C CNN
-F 3 "" H 6950 4350 50  0001 C CNN
-	1    6950 4350
+P 6950 4050
+F 0 "#PWR?" H 6950 3925 50  0001 C CNN
+F 1 "-9V" H 6950 4200 50  0000 C CNN
+F 2 "" H 6950 4050 50  0001 C CNN
+F 3 "" H 6950 4050 50  0001 C CNN
+	1    6950 4050
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -610,17 +594,6 @@ F 3 "" H 2600 3400 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5E6081C1
-P 3550 5900
-F 0 "#PWR?" H 3550 5650 50  0001 C CNN
-F 1 "GND" H 3550 5750 50  0001 C CNN
-F 2 "" H 3550 5900 50  0001 C CNN
-F 3 "" H 3550 5900 50  0001 C CNN
-	1    3550 5900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 5E6081CE
 P 3900 3750
 F 0 "#PWR?" H 3900 3500 50  0001 C CNN
@@ -643,16 +616,16 @@ F 3 "" H 4550 3300 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5E6081E8
-P 4700 6300
-AR Path="/5E6081E8" Ref="#PWR?"  Part="1" 
-AR Path="/00000000/5E6081E8" Ref="#PWR?"  Part="1" 
-AR Path="/5E607BA1/5E6081E8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4700 6050 50  0001 C CNN
-F 1 "GND" H 4700 6150 50  0001 C CNN
-F 2 "" H 4700 6300 50  0001 C CNN
-F 3 "" H 4700 6300 50  0001 C CNN
-	1    4700 6300
+U 1 1 5E794DA4
+P 5350 5850
+AR Path="/5E794DA4" Ref="#PWR?"  Part="1" 
+AR Path="/00000000/5E794DA4" Ref="#PWR?"  Part="1" 
+AR Path="/5E607BA1/5E794DA4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5350 5600 50  0001 C CNN
+F 1 "GND" H 5350 5700 50  0001 C CNN
+F 2 "" H 5350 5850 50  0001 C CNN
+F 3 "" H 5350 5850 50  0001 C CNN
+	1    5350 5850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -671,16 +644,16 @@ F 3 "" H 5400 3700 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5E608202
-P 5550 6450
-AR Path="/5E608202" Ref="#PWR?"  Part="1" 
-AR Path="/00000000/5E608202" Ref="#PWR?"  Part="1" 
-AR Path="/5E607BA1/5E608202" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5550 6200 50  0001 C CNN
-F 1 "GND" H 5550 6300 50  0001 C CNN
-F 2 "" H 5550 6450 50  0001 C CNN
-F 3 "" H 5550 6450 50  0001 C CNN
-	1    5550 6450
+U 1 1 5E7943B7
+P 5900 5800
+AR Path="/5E7943B7" Ref="#PWR?"  Part="1" 
+AR Path="/00000000/5E7943B7" Ref="#PWR?"  Part="1" 
+AR Path="/5E607BA1/5E7943B7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 5550 50  0001 C CNN
+F 1 "GND" H 5900 5650 50  0001 C CNN
+F 2 "" H 5900 5800 50  0001 C CNN
+F 3 "" H 5900 5800 50  0001 C CNN
+	1    5900 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -692,6 +665,20 @@ F 1 "GND" H 6150 2100 50  0001 C CNN
 F 2 "" H 6150 2250 50  0001 C CNN
 F 3 "" H 6150 2250 50  0001 C CNN
 	1    6150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E7BF300
+P 6200 5800
+AR Path="/5E7BF300" Ref="#PWR?"  Part="1" 
+AR Path="/00000000/5E7BF300" Ref="#PWR?"  Part="1" 
+AR Path="/5E607BA1/5E7BF300" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6200 5550 50  0001 C CNN
+F 1 "GND" H 6200 5650 50  0001 C CNN
+F 2 "" H 6200 5800 50  0001 C CNN
+F 3 "" H 6200 5800 50  0001 C CNN
+	1    6200 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -710,30 +697,30 @@ F 3 "" H 6550 4050 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5E608229
-P 6550 6500
-AR Path="/5E608229" Ref="#PWR?"  Part="1" 
-AR Path="/00000000/5E608229" Ref="#PWR?"  Part="1" 
-AR Path="/5E607BA1/5E608229" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6550 6250 50  0001 C CNN
-F 1 "GND" H 6550 6350 50  0001 C CNN
-F 2 "" H 6550 6500 50  0001 C CNN
-F 3 "" H 6550 6500 50  0001 C CNN
-	1    6550 6500
+U 1 1 5E793C96
+P 6600 6300
+AR Path="/5E793C96" Ref="#PWR?"  Part="1" 
+AR Path="/00000000/5E793C96" Ref="#PWR?"  Part="1" 
+AR Path="/5E607BA1/5E793C96" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6600 6050 50  0001 C CNN
+F 1 "GND" H 6600 6150 50  0001 C CNN
+F 2 "" H 6600 6300 50  0001 C CNN
+F 3 "" H 6600 6300 50  0001 C CNN
+	1    6600 6300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5E608236
-P 7000 6500
-AR Path="/5E608236" Ref="#PWR?"  Part="1" 
-AR Path="/00000000/5E608236" Ref="#PWR?"  Part="1" 
-AR Path="/5E607BA1/5E608236" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7000 6250 50  0001 C CNN
-F 1 "GND" H 7000 6350 50  0001 C CNN
-F 2 "" H 7000 6500 50  0001 C CNN
-F 3 "" H 7000 6500 50  0001 C CNN
-	1    7000 6500
+U 1 1 5E792268
+P 7000 6100
+AR Path="/5E792268" Ref="#PWR?"  Part="1" 
+AR Path="/00000000/5E792268" Ref="#PWR?"  Part="1" 
+AR Path="/5E607BA1/5E792268" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7000 5850 50  0001 C CNN
+F 1 "GND" H 7000 5950 50  0001 C CNN
+F 2 "" H 7000 6100 50  0001 C CNN
+F 3 "" H 7000 6100 50  0001 C CNN
+	1    7000 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -911,45 +898,31 @@ F 3 "~" H 4350 3750 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 5E6082EC
-P 5400 5900
-AR Path="/5E6082EC" Ref="R?"  Part="1" 
-AR Path="/00000000/5E6082EC" Ref="R?"  Part="1" 
-AR Path="/5E607BA1/5E6082EC" Ref="R?"  Part="1" 
-F 0 "R?" V 5604 5900 50  0000 C CNN
-F 1 "100" V 5513 5900 50  0000 C CNN
-F 2 "" V 5440 5890 50  0001 C CNN
-F 3 "~" H 5400 5900 50  0001 C CNN
-	1    5400 5900
-	0    -1   -1   0   
+U 1 1 5E76A975
+P 5600 5400
+AR Path="/5E76A975" Ref="R?"  Part="1" 
+AR Path="/00000000/5E76A975" Ref="R?"  Part="1" 
+AR Path="/5E607BA1/5E76A975" Ref="R?"  Part="1" 
+F 0 "R?" V 5396 5400 50  0000 C CNN
+F 1 "10" V 5487 5400 50  0000 C CNN
+F 2 "" V 5640 5390 50  0001 C CNN
+F 3 "~" H 5600 5400 50  0001 C CNN
+	1    5600 5400
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 5E6082F9
-P 5550 5500
-AR Path="/5E6082F9" Ref="R?"  Part="1" 
-AR Path="/00000000/5E6082F9" Ref="R?"  Part="1" 
-AR Path="/5E607BA1/5E6082F9" Ref="R?"  Part="1" 
-F 0 "R?" H 5689 5545 50  0000 C CNN
-F 1 "100k" H 5689 5455 50  0000 C CNN
-F 2 "" V 5590 5490 50  0001 C CNN
-F 3 "~" H 5550 5500 50  0001 C CNN
-	1    5550 5500
+U 1 1 5E76C226
+P 5900 5050
+AR Path="/5E76C226" Ref="R?"  Part="1" 
+AR Path="/00000000/5E76C226" Ref="R?"  Part="1" 
+AR Path="/5E607BA1/5E76C226" Ref="R?"  Part="1" 
+F 0 "R?" H 6063 5095 50  0000 C CNN
+F 1 "100k" H 6063 5005 50  0000 C CNN
+F 2 "" V 5940 5040 50  0001 C CNN
+F 3 "~" H 5900 5050 50  0001 C CNN
+	1    5900 5050
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5E608306
-P 6050 6250
-AR Path="/5E608306" Ref="R?"  Part="1" 
-AR Path="/00000000/5E608306" Ref="R?"  Part="1" 
-AR Path="/5E607BA1/5E608306" Ref="R?"  Part="1" 
-F 0 "R?" V 6254 6250 50  0000 C CNN
-F 1 "100k" V 6163 6250 50  0000 C CNN
-F 2 "" V 6090 6240 50  0001 C CNN
-F 3 "~" H 6050 6250 50  0001 C CNN
-	1    6050 6250
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R?
@@ -981,6 +954,34 @@ F 3 "~" H 6150 2100 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
+U 1 1 5E7B1C80
+P 6200 4800
+AR Path="/5E7B1C80" Ref="R?"  Part="1" 
+AR Path="/00000000/5E7B1C80" Ref="R?"  Part="1" 
+AR Path="/5E607BA1/5E7B1C80" Ref="R?"  Part="1" 
+F 0 "R?" H 6363 4845 50  0000 C CNN
+F 1 "10k" H 6363 4755 50  0000 C CNN
+F 2 "" V 6240 4790 50  0001 C CNN
+F 3 "~" H 6200 4800 50  0001 C CNN
+	1    6200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E7B3FDD
+P 6200 5650
+AR Path="/5E7B3FDD" Ref="R?"  Part="1" 
+AR Path="/00000000/5E7B3FDD" Ref="R?"  Part="1" 
+AR Path="/5E607BA1/5E7B3FDD" Ref="R?"  Part="1" 
+F 0 "R?" H 6363 5695 50  0000 C CNN
+F 1 "22k" H 6363 5605 50  0000 C CNN
+F 2 "" V 6240 5640 50  0001 C CNN
+F 3 "~" H 6200 5650 50  0001 C CNN
+	1    6200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
 U 1 1 5E60832D
 P 6550 1450
 F 0 "R?" H 6715 1495 50  0000 C CNN
@@ -1006,30 +1007,30 @@ F 3 "~" H 6550 2850 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 5E608347
-P 6550 5450
-AR Path="/5E608347" Ref="R?"  Part="1" 
-AR Path="/00000000/5E608347" Ref="R?"  Part="1" 
-AR Path="/5E607BA1/5E608347" Ref="R?"  Part="1" 
-F 0 "R?" H 6689 5495 50  0000 C CNN
-F 1 "100k" H 6689 5405 50  0000 C CNN
-F 2 "" V 6590 5440 50  0001 C CNN
-F 3 "~" H 6550 5450 50  0001 C CNN
-	1    6550 5450
+U 1 1 5E776EF2
+P 6600 6150
+AR Path="/5E776EF2" Ref="R?"  Part="1" 
+AR Path="/00000000/5E776EF2" Ref="R?"  Part="1" 
+AR Path="/5E607BA1/5E776EF2" Ref="R?"  Part="1" 
+F 0 "R?" H 6763 6195 50  0000 C CNN
+F 1 "100k" H 6763 6105 50  0000 C CNN
+F 2 "" V 6640 6140 50  0001 C CNN
+F 3 "~" H 6600 6150 50  0001 C CNN
+	1    6600 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E608354
-P 6950 4200
+P 6950 3900
 AR Path="/5E608354" Ref="R?"  Part="1" 
 AR Path="/00000000/5E608354" Ref="R?"  Part="1" 
 AR Path="/5E607BA1/5E608354" Ref="R?"  Part="1" 
-F 0 "R?" H 7089 4245 50  0000 C CNN
-F 1 "10k" H 7089 4155 50  0000 C CNN
-F 2 "" V 6990 4190 50  0001 C CNN
-F 3 "~" H 6950 4200 50  0001 C CNN
-	1    6950 4200
+F 0 "R?" H 7089 3945 50  0000 C CNN
+F 1 "10k" H 7089 3855 50  0000 C CNN
+F 2 "" V 6990 3890 50  0001 C CNN
+F 3 "~" H 6950 3900 50  0001 C CNN
+	1    6950 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1139,31 +1140,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9050 
 	0    -1   1    0   
 $EndComp
 $Comp
-L Switch:SW_SPST SW?
-U 1 1 5E6083C9
-P 7000 6200
-F 0 "SW?" V 7045 6407 50  0000 C CNN
-F 1 "NORM" V 6955 6407 50  0000 C CNN
-F 2 "" H 7000 6200 50  0001 C CNN
-F 3 "~" H 7000 6200 50  0001 C CNN
-	1    7000 6200
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E6083D6
-P 3700 5900
-AR Path="/5E6083D6" Ref="C?"  Part="1" 
-AR Path="/00000000/5E6083D6" Ref="C?"  Part="1" 
-AR Path="/5E607BA1/5E6083D6" Ref="C?"  Part="1" 
-F 0 "C?" V 3540 5900 50  0000 C CNN
-F 1 "10n" V 3449 5900 50  0000 C CNN
-F 2 "" H 3738 5750 50  0001 C CNN
-F 3 "~" H 3700 5900 50  0001 C CNN
-	1    3700 5900
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5E6083E3
 P 4700 3300
@@ -1179,13 +1155,13 @@ F 3 "~" H 4700 3300 50  0001 C CNN
 $EndComp
 $Comp
 L Device:CP1 C?
-U 1 1 5E6083F0
-P 5550 6300
-F 0 "C?" H 5738 6345 50  0000 C CNN
-F 1 "3u3" H 5738 6255 50  0000 C CNN
-F 2 "" H 5550 6300 50  0001 C CNN
-F 3 "~" H 5550 6300 50  0001 C CNN
-	1    5550 6300
+U 1 1 5E76BB49
+P 5900 5650
+F 0 "C?" H 5925 5750 50  0000 L CNN
+F 1 "3u3" H 5925 5550 50  0000 L CNN
+F 2 "" H 5900 5650 50  0001 C CNN
+F 3 "~" H 5900 5650 50  0001 C CNN
+	1    5900 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1259,6 +1235,17 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4000 3550 50  000
 $EndComp
 $Comp
 L Transistor_BJT:2N3906 Q?
+U 1 1 5E7685A5
+P 5250 5650
+F 0 "Q?" H 5589 5605 50  0000 C CNN
+F 1 "2N3906" H 5589 5695 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5450 5575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 5250 5650 50  0001 L CNN
+	1    5250 5650
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3906 Q?
 U 1 1 5E60844B
 P 6450 1900
 F 0 "Q?" H 6789 1855 50  0000 C CNN
@@ -1269,15 +1256,15 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6450 1900 50  000
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5E608458
-P 6450 6250
-F 0 "Q?" H 6789 6295 50  0000 C CNN
-F 1 "2N3904" H 6789 6205 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6650 6175 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6450 6250 50  0001 L CNN
-	1    6450 6250
-	1    0    0    -1  
+L Transistor_BJT:2N3906 Q?
+U 1 1 5E76D501
+P 6500 5300
+F 0 "Q?" H 6839 5255 50  0000 C CNN
+F 1 "2N3906" H 6839 5345 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6700 5225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6500 5300 50  0001 L CNN
+	1    6500 5300
+	1    0    0    1   
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q?
@@ -1288,6 +1275,17 @@ F 1 "2N3904" H 7189 3055 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7050 3025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6850 3100 50  0001 L CNN
 	1    6850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 5E778AE8
+P 6900 5900
+F 0 "Q?" H 7239 5945 50  0000 C CNN
+F 1 "2N3904" H 7239 5855 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7100 5825 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6900 5900 50  0001 L CNN
+	1    6900 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1310,17 +1308,6 @@ F 1 "LM311" H 8900 3650 50  0000 C CNN
 F 2 "" H 8750 3500 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/lm311.pdf" H 8750 3500 50  0001 C CNN
 	1    8750 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Timer:NE555P U?
-U 1 1 5E60848C
-P 4700 5900
-F 0 "U?" H 4900 6400 50  0000 C CNN
-F 1 "NE555P" H 4900 6300 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 5350 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 5550 5500 50  0001 C CNN
-	1    4700 5900
 	1    0    0    -1  
 $EndComp
 $Comp
