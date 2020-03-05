@@ -46,6 +46,7 @@ Connection ~ 8400 4000
 Connection ~ 6950 3500
 Connection ~ 6600 5900
 Connection ~ 6200 5000
+Connection ~ 7450 5700
 NoConn ~ 2600 2800
 NoConn ~ 2700 2800
 NoConn ~ 9400 5500
@@ -202,15 +203,17 @@ Wire Wire Line
 Wire Wire Line
 	6950 3700 6950 3750
 Wire Wire Line
-	7000 5700 8400 5700
+	7000 5700 7450 5700
+Wire Wire Line
+	7450 5700 8400 5700
 Wire Wire Line
 	7500 3500 6950 3500
 Wire Wire Line
 	7500 4000 7500 3500
 Wire Wire Line
-	7800 6050 7800 5300
+	7900 6050 7900 5300
 Wire Wire Line
-	7800 6050 9500 6050
+	7900 6050 9500 6050
 Wire Wire Line
 	8100 3000 8100 3050
 Wire Wire Line
@@ -232,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 4000 9900 4000
 Wire Wire Line
-	8400 5300 7800 5300
+	8400 5300 7900 5300
 Wire Wire Line
 	8600 3050 9050 3050
 Wire Wire Line
@@ -725,6 +728,20 @@ F 3 "" H 7000 6100 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
+U 1 1 5E7E7A3F
+P 7450 6100
+AR Path="/5E7E7A3F" Ref="#PWR?"  Part="1" 
+AR Path="/00000000/5E7E7A3F" Ref="#PWR?"  Part="1" 
+AR Path="/5E607BA1/5E7E7A3F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7450 5850 50  0001 C CNN
+F 1 "GND" H 7450 5950 50  0001 C CNN
+F 2 "" H 7450 6100 50  0001 C CNN
+F 3 "" H 7450 6100 50  0001 C CNN
+	1    7450 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
 U 1 1 5E608243
 P 8050 5500
 F 0 "#PWR?" H 8050 5250 50  0001 C CNN
@@ -1138,6 +1155,17 @@ F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9050 2800 50  0001 C CNN
 	1    9050 2800
 	0    -1   1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5E7E640C
+P 7450 5900
+F 0 "SW?" V 7405 6164 50  0000 C CNN
+F 1 "NORM" V 7495 6164 50  0000 C CNN
+F 2 "" H 7450 5900 50  0001 C CNN
+F 3 "~" H 7450 5900 50  0001 C CNN
+	1    7450 5900
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C?
