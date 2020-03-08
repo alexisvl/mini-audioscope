@@ -3,15 +3,15 @@ EELAYER 32 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 5 6
+Sheet 2 6
 Title "Trigger and sweep generator"
 Date ""
 Rev ""
 Comp "Alexis Lockwood"
 Comment1 "CC BY-SA-NC"
 Comment2 ""
-Comment3 "Contact may result in serious injury or death. System may retain charge."
-Comment4 "DANGER! High voltage in excess of ±400V with lethal current."
+Comment3 "in all areas. Contact may KILL. System may retain charge."
+Comment4 "DANGER! HIGH VOLTAGE in excess of ±400V with lethal current"
 Comment5 ""
 Comment6 ""
 Comment7 ""
@@ -386,17 +386,17 @@ LEVEL
 Text Notes 1350 6750 0    40   Italic 0
 threshold set by comparator
 Text Notes 2200 2300 0    75   Italic 15
-THRESHOLD\nCOMPARATOR
+TRIGGER\nCOMPARATOR
 Text Notes 2250 7500 0    40   Italic 0
 threshold set by NE555
 Text Notes 2250 7650 0    40   Italic 0
 threshold set by LM393 blanker
 Text Notes 2800 6500 0    75   Italic 15
-AUTO TRIGGER\nTIMEOUT GENRERATOR
+AUTO/NORM\nCONTORL
 Text Notes 3300 6650 0    50   ~ 0
 delay approx= R*C
 Text Notes 4500 2700 0    75   Italic 15
-SWEEP\nSEQUENCER
+SWEEP\nGENERATOR
 Text Notes 5150 1000 0    75   Italic 15
 SLOPE\nSOURCE
 Text Notes 6300 6500 0    75   Italic 15
@@ -501,10 +501,10 @@ F 3 "" H 4150 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+9V #PWR?
+L power:+9V #PWR0101
 U 1 1 5E74AEC9
 P 4900 3500
-F 0 "#PWR?" H 4900 3350 50  0001 C CNN
+F 0 "#PWR0101" H 4900 3350 50  0001 C CNN
 F 1 "+9V" V 4915 3707 50  0000 C CNN
 F 2 "" H 4900 3500 50  0001 C CNN
 F 3 "" H 4900 3500 50  0001 C CNN
@@ -1279,7 +1279,7 @@ U 1 1 5E76BB49
 P 3850 5650
 F 0 "C32" H 4038 5695 50  0000 C CNN
 F 1 "3u3" H 4038 5605 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 3850 5650 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 3850 5650 50  0001 C CNN
 F 3 "~" H 3850 5650 50  0001 C CNN
 	1    3850 5650
 	1    0    0    -1  

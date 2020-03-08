@@ -3,15 +3,15 @@ EELAYER 32 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
 Comp "Alexis Lockwood"
 Comment1 "CC BY-SA-NC"
 Comment2 ""
-Comment3 "Contact may result in serious injury or death. System may retain charge."
-Comment4 "DANGER! High voltage in excess of ±400V with lethal current."
+Comment3 "in all areas. Contact may KILL. System may retain charge."
+Comment4 "DANGER! HIGH VOLTAGE in excess of ±400V with lethal current"
 Comment5 ""
 Comment6 ""
 Comment7 ""
@@ -260,7 +260,7 @@ L Device:C C28
 U 1 1 5E867155
 P 3250 2750
 F 0 "C28" V 3501 2750 50  0000 C CNN
-F 1 "330n" V 3410 2750 50  0000 C CNN
+F 1 "220n" V 3410 2750 50  0000 C CNN
 F 2 "Capacitor_THT:C_Rect_L9.0mm_W4.2mm_P7.50mm_MKT" H 3288 2600 50  0001 C CNN
 F 3 "~" H 3250 2750 50  0001 C CNN
 	1    3250 2750
@@ -271,7 +271,7 @@ L Device:C C29
 U 1 1 5E867675
 P 3250 3100
 F 0 "C29" V 3090 3100 50  0000 C CNN
-F 1 "330n" V 2999 3100 50  0000 C CNN
+F 1 "220n" V 2999 3100 50  0000 C CNN
 F 2 "Capacitor_THT:C_Rect_L9.0mm_W4.2mm_P7.50mm_MKT" H 3288 2950 50  0001 C CNN
 F 3 "~" H 3250 3100 50  0001 C CNN
 	1    3250 3100

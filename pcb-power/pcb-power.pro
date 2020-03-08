@@ -1,4 +1,4 @@
-update=Sat 07 Mar 2020 11:50:47 PM MST
+update=Sun 08 Mar 2020 11:50:31 AM MDT
 version=1
 last_client=kicad
 [general]
@@ -20,8 +20,6 @@ version=1
 version=1
 [LibeditFrame]
 version=1
-[sheetnames]
-1=00000000-0000-0000-0000-00005e660a34:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -287,3 +285,5 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[sheetnames]
+1=00000000-0000-0000-0000-00005e6530b0:

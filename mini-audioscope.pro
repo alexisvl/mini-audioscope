@@ -1,4 +1,4 @@
-update=Sun 08 Mar 2020 12:10:14 AM MST
+update=Sun 08 Mar 2020 02:25:52 PM MDT
 version=1
 last_client=kicad
 [general]
@@ -18,13 +18,6 @@ version=1
 version=1
 [SchematicFrame]
 version=1
-[sheetnames]
-1=00000000-0000-0000-0000-00005e6478c2:
-2=00000000-0000-0000-0000-00005e607b8b:CRT Bias
-3=00000000-0000-0000-0000-00005e607ba5:Vert Defl
-4=00000000-0000-0000-0000-00005e607b97:Horiz Defl
-5=00000000-0000-0000-0000-00005e607ba1:Sweep
-6=00000000-0000-0000-0000-00005e82d3f3:Input
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -48,8 +41,8 @@ RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 CopperEdgeClearance=0.01
 TrackWidth1=0.25
-ViaDiameter1=0.8
-ViaDrill1=0.4
+ViaDiameter1=1.4
+ViaDrill1=0.6
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -250,8 +243,8 @@ Enabled=0
 Name=Default
 Clearance=0.2
 TrackWidth=0.25
-ViaDiameter=0.8
-ViaDrill=0.4
+ViaDiameter=1.4
+ViaDrill=0.6
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
@@ -279,3 +272,10 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[sheetnames]
+1=00000000-0000-0000-0000-00005e6556fc:
+2=00000000-0000-0000-0000-00005e607ba1:Sweep
+3=00000000-0000-0000-0000-00005e607b97:Horiz Defl
+4=00000000-0000-0000-0000-00005e82d3f3:Input
+5=00000000-0000-0000-0000-00005e607ba5:Vert Defl
+6=00000000-0000-0000-0000-00005e607b8b:CRT Bias

@@ -10,8 +10,8 @@ Rev ""
 Comp "Alexis Lockwood"
 Comment1 "CC BY-NC-SA"
 Comment2 ""
-Comment3 "Contact may result in serious injury or death. System may retain charge."
-Comment4 "DANGER! High voltage in excess of ±400V with lethal current."
+Comment3 "in all areas. Contact may KILL. System may retain charge."
+Comment4 "DANGER! HIGH VOLTAGE in excess of ±400V with lethal current"
 Comment5 ""
 Comment6 ""
 Comment7 ""
@@ -1278,12 +1278,12 @@ F 3 "~" H 9250 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:SYM_Flash_Small SYM1
+L Graphic:SYM_Flash_Small #SYM2
 U 1 1 5E62BE2A
 P 10350 6950
-F 0 "SYM1" V 10260 6950 50  0001 C CNN
+F 0 "#SYM2" V 10260 6950 50  0001 C CNN
 F 1 "SYM_Flash_Small" V 10440 6950 50  0001 C CNN
-F 2 "Symbol:Symbol_HighVoltage_Type2_CopperTop_VerySmall" H 10350 6925 50  0001 C CNN
+F 2 "" H 10350 6925 50  0001 C CNN
 F 3 "~" H 10750 6850 50  0001 C CNN
 	1    10350 6950
 	1    0    0    -1  

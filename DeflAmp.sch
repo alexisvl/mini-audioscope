@@ -3,15 +3,15 @@ EELAYER 32 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 6
+Sheet 3 6
 Title "Deflection Amplifier"
 Date ""
 Rev ""
 Comp "Alexis Lockwood"
 Comment1 "CC BY-SA-NC"
 Comment2 ""
-Comment3 "Contact may result in serious injury or death. System may retain charge."
-Comment4 "DANGER! High voltage in excess of ±400V with lethal current."
+Comment3 "in all areas. Contact may KILL. System may retain charge."
+Comment4 "DANGER! HIGH VOLTAGE in excess of ±400V with lethal current"
 Comment5 ""
 Comment6 ""
 Comment7 ""

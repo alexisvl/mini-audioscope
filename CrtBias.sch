@@ -3,15 +3,15 @@ EELAYER 32 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
 Comp "Alexis Lockwood"
 Comment1 "CC BY-SA-NC"
 Comment2 ""
-Comment3 "Contact may result in serious injury or death. System may retain charge."
-Comment4 "DANGER! High voltage in excess of ±400V with lethal current."
+Comment3 "in all areas. Contact may KILL. System may retain charge."
+Comment4 "DANGER! HIGH VOLTAGE in excess of ±400V with lethal current"
 Comment5 ""
 Comment6 ""
 Comment7 ""
@@ -34,7 +34,7 @@ Connection ~ 7500 4950
 Connection ~ 7500 5250
 Connection ~ 2500 3550
 Connection ~ 6500 5150
-Connection ~ 5400 4950
+Connection ~ 5150 4950
 Connection ~ 3400 2900
 Wire Wire Line
 	1350 3550 2500 3550
@@ -63,6 +63,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 4050 2500 4300
 Wire Wire Line
+	2750 4350 2850 4350
+Wire Wire Line
+	2750 4400 2750 4350
+Wire Wire Line
 	2900 2000 3000 2000
 Wire Wire Line
 	3000 1900 3000 2000
@@ -71,9 +75,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 3550 3400 3550
 Wire Wire Line
-	3000 4350 3100 4350
-Wire Wire Line
-	3000 4400 3000 4350
+	3150 4350 3550 4350
 Wire Wire Line
 	3250 2900 3400 2900
 Wire Wire Line
@@ -84,8 +86,6 @@ Wire Wire Line
 	3400 2900 3400 3550
 Wire Wire Line
 	3400 3550 3550 3550
-Wire Wire Line
-	3400 4350 3550 4350
 Wire Wire Line
 	3550 3550 3550 3700
 Wire Wire Line
@@ -121,33 +121,33 @@ Wire Wire Line
 Wire Wire Line
 	4000 5700 5000 5700
 Wire Wire Line
-	4450 4950 5400 4950
+	4450 4950 5150 4950
 Wire Wire Line
 	5000 1750 5000 1850
 Wire Wire Line
 	5000 2150 5000 2250
 Wire Wire Line
-	5000 2550 5000 2600
+	5000 2550 5000 2800
 Wire Wire Line
-	5000 2900 5000 5700
+	5000 3100 5000 5700
 Wire Wire Line
 	5000 5700 6500 5700
 Wire Wire Line
 	5150 2400 8950 2400
 Wire Wire Line
-	5400 4950 7500 4950
+	5150 4950 7500 4950
 Wire Wire Line
-	5400 5150 5400 4950
+	5150 5150 5150 4950
 Wire Wire Line
-	5500 5150 5400 5150
+	5250 5150 5150 5150
 Wire Wire Line
 	5800 1000 8950 1000
 Wire Wire Line
-	6000 5150 5900 5150
+	6000 5150 5650 5150
 Wire Wire Line
-	6500 3950 6500 4100
+	6500 3800 6500 3850
 Wire Wire Line
-	6500 4400 6500 4450
+	6500 4150 6500 4450
 Wire Wire Line
 	6500 4750 6500 5150
 Wire Wire Line
@@ -161,7 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 5650 6500 5700
 Wire Wire Line
-	7500 4950 8950 4950
+	7500 4950 9300 4950
 Wire Wire Line
 	7500 5250 8350 5250
 Wire Wire Line
@@ -175,11 +175,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 4750 8350 5250
 Wire Wire Line
-	8350 5250 8950 5250
+	8350 5250 9300 5250
 Wire Wire Line
-	8500 4600 8550 4600
+	8500 4600 8900 4600
 Wire Wire Line
-	8850 4600 8950 4600
+	9200 4600 9300 4600
 Text Notes 1850 4650 0    50   ~ 0
 max brightness
 Text Notes 5150 2250 0    50   ~ 0
@@ -190,6 +190,20 @@ Text Notes 6900 4950 0    50   ~ 0
 -(400-310)V
 Text Notes 7000 5250 0    50   ~ 0
 -310V
+Text Label 3250 4350 0    30   ~ 0
+NC250_3
+Text Label 4000 4000 1    30   ~ 0
+NC250_2
+Text Label 4000 5250 1    30   ~ 0
+NC400_3
+Text Label 5000 2800 1    30   ~ 0
+NC400_2
+Text Label 5700 5150 0    30   ~ 0
+NC250_5
+Text Label 6500 4400 1    30   ~ 0
+NC250_1
+Text Label 8600 4600 0    30   ~ 0
+NC250_4
 Text GLabel 2400 1000 0    50   Input Italic 10
 +400V
 Text GLabel 2400 5700 0    50   Input Italic 10
@@ -206,11 +220,11 @@ Text HLabel 8950 1000 2    50   Output ~ 0
 A2
 Text HLabel 8950 2400 2    50   Output ~ 0
 A1
-Text HLabel 8950 4600 2    50   Output ~ 0
+Text HLabel 9300 4600 2    50   Output ~ 0
 F
-Text HLabel 8950 4950 2    50   Output ~ 0
+Text HLabel 9300 4950 2    50   Output ~ 0
 G
-Text HLabel 8950 5250 2    50   Output ~ 0
+Text HLabel 9300 5250 2    50   Output ~ 0
 K
 $Comp
 L power:+9V #PWR05
@@ -292,12 +306,12 @@ $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5E607C34
-P 3000 4400
-F 0 "#PWR010" H 3000 4150 50  0001 C CNN
-F 1 "GND" H 3000 4250 50  0001 C CNN
-F 2 "" H 3000 4400 50  0001 C CNN
-F 3 "" H 3000 4400 50  0001 C CNN
-	1    3000 4400
+P 2750 4400
+F 0 "#PWR010" H 2750 4150 50  0001 C CNN
+F 1 "GND" H 2750 4250 50  0001 C CNN
+F 2 "" H 2750 4400 50  0001 C CNN
+F 3 "" H 2750 4400 50  0001 C CNN
+	1    2750 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -347,12 +361,12 @@ $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 5E8035AD
-P 6500 3950
-F 0 "#PWR017" H 6500 3700 50  0001 C CNN
-F 1 "GND" H 6500 3800 50  0001 C CNN
-F 2 "" H 6500 3950 50  0001 C CNN
-F 3 "" H 6500 3950 50  0001 C CNN
-	1    6500 3950
+P 6500 3800
+F 0 "#PWR017" H 6500 3550 50  0001 C CNN
+F 1 "GND" H 6500 3650 50  0001 C CNN
+F 2 "" H 6500 3800 50  0001 C CNN
+F 3 "" H 6500 3800 50  0001 C CNN
+	1    6500 3800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -437,12 +451,12 @@ $EndComp
 $Comp
 L Device:R_US R8
 U 1 1 5E607C75
-P 3250 4350
-F 0 "R8" V 3454 4350 50  0000 C CNN
-F 1 "220k/HW" V 3363 4350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3290 4340 50  0001 C CNN
-F 3 "~" H 3250 4350 50  0001 C CNN
-	1    3250 4350
+P 3000 4350
+F 0 "R8" V 3204 4350 50  0000 C CNN
+F 1 "220k/HW" V 3113 4350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3040 4340 50  0001 C CNN
+F 3 "~" H 3000 4350 50  0001 C CNN
+	1    3000 4350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -503,12 +517,12 @@ $EndComp
 $Comp
 L Device:R_US R14
 U 1 1 5E607CD0
-P 5000 2750
-F 0 "R14" H 4734 2795 50  0000 C CNN
-F 1 "330k/HW" H 4734 2705 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5040 2740 50  0001 C CNN
-F 3 "~" H 5000 2750 50  0001 C CNN
-	1    5000 2750
+P 5000 2950
+F 0 "R14" H 4734 2995 50  0000 C CNN
+F 1 "330k/HW" H 4734 2905 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5040 2940 50  0001 C CNN
+F 3 "~" H 5000 2950 50  0001 C CNN
+	1    5000 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -525,12 +539,12 @@ $EndComp
 $Comp
 L Device:R_US R16
 U 1 1 5E7767F9
-P 6500 4250
-F 0 "R16" H 6749 4295 50  0000 C CNN
-F 1 "390k/HW" H 6749 4205 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6540 4240 50  0001 C CNN
-F 3 "~" H 6500 4250 50  0001 C CNN
-	1    6500 4250
+P 6500 4000
+F 0 "R16" H 6749 4045 50  0000 C CNN
+F 1 "390k/HW" H 6749 3955 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6540 3990 50  0001 C CNN
+F 3 "~" H 6500 4000 50  0001 C CNN
+	1    6500 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -558,12 +572,12 @@ $EndComp
 $Comp
 L Device:R_US R19
 U 1 1 5E87EBA3
-P 8700 4600
-F 0 "R19" V 8904 4600 50  0000 C CNN
-F 1 "100k/HW" V 8813 4600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 8740 4590 50  0001 C CNN
-F 3 "~" H 8700 4600 50  0001 C CNN
-	1    8700 4600
+P 9050 4600
+F 0 "R19" V 9254 4600 50  0000 C CNN
+F 1 "100k/HW" V 9163 4600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9090 4590 50  0001 C CNN
+F 3 "~" H 9050 4600 50  0001 C CNN
+	1    9050 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -637,12 +651,12 @@ $EndComp
 $Comp
 L Device:Lamp_Neon NE1
 U 1 1 5E8A6E52
-P 5700 5150
-F 0 "NE1" V 5873 5150 50  0000 C CNN
-F 1 "A9A" V 5964 5150 50  0000 C CNN
-F 2 "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm" V 5700 5250 50  0001 C CNN
-F 3 "~" V 5700 5250 50  0001 C CNN
-	1    5700 5150
+P 5450 5150
+F 0 "NE1" V 5623 5150 50  0000 C CNN
+F 1 "A9A" V 5714 5150 50  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm" V 5450 5250 50  0001 C CNN
+F 3 "~" V 5450 5250 50  0001 C CNN
+	1    5450 5150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -672,7 +686,7 @@ L Transistor_BJT:MPSA92 Q2
 U 1 1 5E607DE1
 P 3900 3550
 F 0 "Q2" H 4245 3505 50  0000 C CNN
-F 1 "ZTX558" H 4245 3595 50  0000 C CNN
+F 1 "MPSA92" H 4245 3595 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-5-3" H 4100 3475 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 3900 3550 50  0001 L CNN
 	1    3900 3550
@@ -683,7 +697,7 @@ L Transistor_BJT:MPSA92 Q3
 U 1 1 5E607DEE
 P 3900 4350
 F 0 "Q3" H 4240 4305 50  0000 C CNN
-F 1 "ZTX558" H 4240 4395 50  0000 C CNN
+F 1 "MPSA92" H 4240 4395 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-5-3" H 4100 4275 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 3900 4350 50  0001 L CNN
 	1    3900 4350
