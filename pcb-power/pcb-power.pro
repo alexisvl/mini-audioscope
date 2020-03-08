@@ -1,4 +1,4 @@
-update=Sun 08 Mar 2020 12:10:14 AM MST
+update=Sat 07 Mar 2020 11:50:47 PM MST
 version=1
 last_client=kicad
 [general]
@@ -14,17 +14,14 @@ LibDir=
 [eeschema/libraries]
 [ModEditFrame]
 version=1
-[LibeditFrame]
-version=1
 [SchematicFrame]
 version=1
+[PcbFrame]
+version=1
+[LibeditFrame]
+version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005e6478c2:
-2=00000000-0000-0000-0000-00005e607b8b:CRT Bias
-3=00000000-0000-0000-0000-00005e607ba5:Vert Defl
-4=00000000-0000-0000-0000-00005e607b97:Horiz Defl
-5=00000000-0000-0000-0000-00005e607ba1:Sweep
-6=00000000-0000-0000-0000-00005e82d3f3:Input
+1=00000000-0000-0000-0000-00005e660a34:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -78,7 +75,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -258,7 +255,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=250_or_hiz
+Name=250
 Clearance=1.25
 TrackWidth=0.25
 ViaDiameter=0.8
@@ -271,6 +268,17 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=400
 Clearance=2.5
+TrackWidth=0.5
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=Mains
+Clearance=1.25
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
