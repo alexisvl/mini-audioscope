@@ -559,10 +559,10 @@ Text GLabel 3500 4250 0    50   Input ~ 0
 Text GLabel 7500 800  2    50   Output ~ 0
 +15UNREG
 $Comp
-L mini-audioscope:Conn_Pin X1
+L mini-audioscope:Conn_Pin XSW1
 U 1 1 5E7A8FAF
 P 1050 1450
-F 0 "X1" H 800 1450 50  0000 C CNN
+F 0 "XSW1" H 750 1450 50  0000 C CNN
 F 1 "PH" H 950 1450 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1050 1450 50  0001 C CNN
 F 3 "" H 1050 1450 50  0001 C CNN
@@ -571,10 +571,10 @@ F 4 "ED90539-ND" H 1050 1450 50  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mini-audioscope:Conn_Pin X2
+L mini-audioscope:Conn_Pin XJ2.2
 U 1 1 5E7A9EB5
 P 1050 1650
-F 0 "X2" H 800 1650 50  0000 C CNN
+F 0 "XJ2.2" H 750 1650 50  0000 C CNN
 F 1 "N" H 950 1650 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1050 1650 50  0001 C CNN
 F 3 "" H 1050 1650 50  0001 C CNN
@@ -583,10 +583,10 @@ F 4 "ED90539-ND" H 1050 1650 50  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mini-audioscope:Conn_Pin X3
+L mini-audioscope:Conn_Pin XJ2.3
 U 1 1 5E7AA6F3
 P 1050 1850
-F 0 "X3" H 800 1850 50  0000 C CNN
+F 0 "XJ2.3" H 750 1850 50  0000 C CNN
 F 1 "G" H 950 1850 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1050 1850 50  0001 C CNN
 F 3 "" H 1050 1850 50  0001 C CNN
@@ -595,10 +595,10 @@ F 4 "ED90539-ND" H 1050 1850 50  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mini-audioscope:Conn_Pin X4
+L mini-audioscope:Conn_Pin X12
 U 1 1 5E790CD2
 P 9950 1150
-F 0 "X4" H 9950 1250 50  0000 C CNN
+F 0 "X12" H 9950 1250 50  0000 C CNN
 F 1 "+9V" H 9950 1050 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 9950 1150 50  0001 C CNN
 F 3 "" H 9950 1150 50  0001 C CNN
@@ -607,10 +607,10 @@ F 4 "ED90539-ND" H 9950 1150 50  0001 C CNN "DKPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L mini-audioscope:Conn_Pin X5
+L mini-audioscope:Conn_Pin X13
 U 1 1 5E79145B
 P 9950 2050
-F 0 "X5" H 9950 2150 50  0000 C CNN
+F 0 "X13" H 9950 2150 50  0000 C CNN
 F 1 "-9V" H 9950 1950 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 9950 2050 50  0001 C CNN
 F 3 "" H 9950 2050 50  0001 C CNN
@@ -619,10 +619,10 @@ F 4 "ED90539-ND" H 9950 2050 50  0001 C CNN "DKPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L mini-audioscope:Conn_Pin X6
+L mini-audioscope:Conn_Pin XR1
 U 1 1 5E79230C
 P 10000 2650
-F 0 "X6" H 10000 2750 50  0000 C CNN
+F 0 "XR1" H 10000 2750 50  0000 C CNN
 F 1 "H1" H 10000 2550 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 10000 2650 50  0001 C CNN
 F 3 "" H 10000 2650 50  0001 C CNN
@@ -631,10 +631,10 @@ F 4 "ED90539-ND" H 10000 2650 50  0001 C CNN "DKPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L mini-audioscope:Conn_Pin X7
+L mini-audioscope:Conn_Pin XV1.14
 U 1 1 5E7940EF
 P 10000 2950
-F 0 "X7" H 10000 3050 50  0000 C CNN
+F 0 "XV1.14" H 10000 3050 50  0000 C CNN
 F 1 "H2" H 10000 2850 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 10000 2950 50  0001 C CNN
 F 3 "" H 10000 2950 50  0001 C CNN
@@ -643,10 +643,10 @@ F 4 "ED90539-ND" H 10000 2950 50  0001 C CNN "DKPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L mini-audioscope:Conn_Pin X8
+L mini-audioscope:Conn_Pin X14
 U 1 1 5E796A2D
 P 10050 4250
-F 0 "X8" H 10050 4350 50  0000 C CNN
+F 0 "X14" H 10050 4350 50  0000 C CNN
 F 1 "+400V" H 10050 4150 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 10050 4250 50  0001 C CNN
 F 3 "" H 10050 4250 50  0001 C CNN
@@ -655,10 +655,10 @@ F 4 "ED90539-ND" H 10050 4250 50  0001 C CNN "DKPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L mini-audioscope:Conn_Pin X9
+L mini-audioscope:Conn_Pin X15
 U 1 1 5E7988C0
 P 10050 5550
-F 0 "X9" H 10050 5650 50  0000 C CNN
+F 0 "X15" H 10050 5650 50  0000 C CNN
 F 1 "-400V" H 10050 5450 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 10050 5550 50  0001 C CNN
 F 3 "" H 10050 5550 50  0001 C CNN
