@@ -3,7 +3,7 @@ EELAYER 32 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 6
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -85,11 +85,9 @@ Wire Wire Line
 Wire Wire Line
 	6000 3600 6000 3700
 Wire Wire Line
-	6000 3600 6050 3600
+	6000 3600 6700 3600
 Wire Wire Line
 	6000 4000 6000 4050
-Wire Wire Line
-	6350 3600 6700 3600
 Wire Wire Line
 	6600 3800 6600 4000
 Wire Wire Line
@@ -232,17 +230,6 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6040 3840
 F 3 "~" H 6000 3850 50  0001 C CNN
 	1    6000 3850
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R66
-U 1 1 5E7ADD95
-P 6200 3600
-F 0 "R66" V 6404 3600 50  0000 C CNN
-F 1 "10k" V 6313 3600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6240 3590 50  0001 C CNN
-F 3 "~" H 6200 3600 50  0001 C CNN
-	1    6200 3600
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C C27

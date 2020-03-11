@@ -1,4 +1,4 @@
-update=Sun 08 Mar 2020 02:25:52 PM MDT
+update=Tue 10 Mar 2020 08:02:42 PM MDT
 version=1
 last_client=kicad
 [general]
@@ -18,6 +18,13 @@ version=1
 version=1
 [SchematicFrame]
 version=1
+[sheetnames]
+1=00000000-0000-0000-0000-00005e68228a:
+2=00000000-0000-0000-0000-00005e607ba1:Sweep
+3=00000000-0000-0000-0000-00005e607b8b:CRT Bias
+4=00000000-0000-0000-0000-00005e607b97:Horiz Defl
+5=00000000-0000-0000-0000-00005e607ba5:Vert Defl
+6=00000000-0000-0000-0000-00005e82d3f3:Input
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -71,7 +78,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -272,10 +279,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[sheetnames]
-1=00000000-0000-0000-0000-00005e6556fc:
-2=00000000-0000-0000-0000-00005e607ba1:Sweep
-3=00000000-0000-0000-0000-00005e607b97:Horiz Defl
-4=00000000-0000-0000-0000-00005e82d3f3:Input
-5=00000000-0000-0000-0000-00005e607ba5:Vert Defl
-6=00000000-0000-0000-0000-00005e607b8b:CRT Bias

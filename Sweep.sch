@@ -3,7 +3,7 @@ EELAYER 32 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 6
+Sheet 6 6
 Title "Trigger and sweep generator"
 Date ""
 Rev ""
@@ -20,7 +20,6 @@ Comment9 ""
 $EndDescr
 Connection ~ 7450 6050
 Connection ~ 6550 3100
-Connection ~ 6550 3400
 Connection ~ 2200 3850
 Connection ~ 7450 5700
 Connection ~ 3900 3100
@@ -32,7 +31,6 @@ Connection ~ 8100 3400
 Connection ~ 2950 3100
 Connection ~ 9200 3500
 Connection ~ 7450 5300
-Connection ~ 6950 3400
 Connection ~ 9200 3000
 Connection ~ 8100 3000
 Connection ~ 2950 3850
@@ -40,8 +38,8 @@ Connection ~ 9050 3000
 Connection ~ 3850 5400
 Connection ~ 3850 5300
 Connection ~ 6950 3500
-Connection ~ 4550 5900
-Connection ~ 4150 5000
+Connection ~ 4600 5900
+Connection ~ 4200 5000
 Connection ~ 6100 1600
 Connection ~ 5750 1850
 Connection ~ 5400 5700
@@ -53,18 +51,15 @@ NoConn ~ 2700 2800
 NoConn ~ 7350 5500
 NoConn ~ 8850 3200
 NoConn ~ 8750 3200
-Wire Wire Line
-	1450 3000 1800 3000
+NoConn ~ 6350 5500
 Wire Wire Line
 	1600 3650 1600 3700
 Wire Wire Line
 	1600 4000 1600 4050
 Wire Wire Line
-	1750 3850 1800 3850
+	1750 3000 2300 3000
 Wire Wire Line
-	2100 3000 2300 3000
-Wire Wire Line
-	2100 3850 2200 3850
+	1750 3850 2200 3850
 Wire Wire Line
 	2200 3200 2200 3850
 Wire Wire Line
@@ -110,33 +105,31 @@ Wire Wire Line
 Wire Wire Line
 	3900 3350 3900 3100
 Wire Wire Line
-	4150 4950 4150 5000
+	4200 4950 4200 5000
 Wire Wire Line
-	4150 5000 4150 5500
+	4200 5000 4200 5500
 Wire Wire Line
-	4150 5000 4550 5000
+	4200 5000 4600 5000
 Wire Wire Line
-	4250 5300 3850 5300
+	4300 5300 3850 5300
 Wire Wire Line
 	4350 3550 4200 3550
 Wire Wire Line
-	4350 3600 4350 3550
-Wire Wire Line
-	4350 3900 4350 4300
+	4350 3550 4350 4300
 Wire Wire Line
 	4350 4300 7450 4300
 Wire Wire Line
-	4550 5000 4550 5100
+	4600 5000 4600 5100
 Wire Wire Line
-	4550 5500 4550 5900
+	4600 5500 4600 5900
 Wire Wire Line
-	4550 5900 4550 6000
+	4600 5900 4600 6000
 Wire Wire Line
-	4550 5900 4650 5900
+	4600 5900 4700 5900
 Wire Wire Line
 	4750 3300 4900 3300
 Wire Wire Line
-	4950 5700 5400 5700
+	5000 5700 5400 5700
 Wire Wire Line
 	5300 5500 5400 5500
 Wire Wire Line
@@ -192,8 +185,6 @@ Wire Wire Line
 Wire Wire Line
 	6150 2600 6550 2600
 Wire Wire Line
-	6300 5500 6350 5500
-Wire Wire Line
 	6350 5300 5850 5300
 Wire Wire Line
 	6550 950  6550 1050
@@ -206,19 +197,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 3000 6550 3100
 Wire Wire Line
-	6550 3100 6550 3400
+	6550 3100 6550 3750
 Wire Wire Line
 	6550 3100 6650 3100
 Wire Wire Line
-	6550 3400 6550 3750
-Wire Wire Line
-	6550 3400 6600 3400
-Wire Wire Line
-	6900 3400 6950 3400
-Wire Wire Line
-	6950 3300 6950 3400
-Wire Wire Line
-	6950 3400 6950 3500
+	6950 3300 6950 3500
 Wire Wire Line
 	6950 3500 6950 3700
 Wire Wire Line
@@ -413,7 +396,7 @@ Text Label 4650 4300 0    50   ~ 0
 AUTO_TRIGGER
 Text Label 7050 2400 0    50   ~ 0
 SWEEP_EN
-Text HLabel 1450 3000 0    50   Input ~ 0
+Text HLabel 1750 3000 0    50   Input ~ 0
 IN
 Text HLabel 5300 5500 0    50   Input ~ 0
 ~NORM
@@ -492,12 +475,12 @@ $EndComp
 $Comp
 L power:+9V #PWR071
 U 1 1 5E7B35C3
-P 4150 4650
-F 0 "#PWR071" H 4150 4500 50  0001 C CNN
-F 1 "+9V" H 4150 4790 50  0000 C CNN
-F 2 "" H 4150 4650 50  0001 C CNN
-F 3 "" H 4150 4650 50  0001 C CNN
-	1    4150 4650
+P 4200 4650
+F 0 "#PWR071" H 4200 4500 50  0001 C CNN
+F 1 "+9V" H 4200 4790 50  0000 C CNN
+F 2 "" H 4200 4650 50  0001 C CNN
+F 3 "" H 4200 4650 50  0001 C CNN
+	1    4200 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -729,15 +712,15 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E7BF300
-P 4150 5800
+P 4200 5800
 AR Path="/5E7BF300" Ref="#PWR?"  Part="1" 
 AR Path="/00000000/5E7BF300" Ref="#PWR?"  Part="1" 
 AR Path="/5E607BA1/5E7BF300" Ref="#PWR072"  Part="1" 
-F 0 "#PWR072" H 4150 5550 50  0001 C CNN
-F 1 "GND" H 4150 5650 50  0001 C CNN
-F 2 "" H 4150 5800 50  0001 C CNN
-F 3 "" H 4150 5800 50  0001 C CNN
-	1    4150 5800
+F 0 "#PWR072" H 4200 5550 50  0001 C CNN
+F 1 "GND" H 4200 5650 50  0001 C CNN
+F 2 "" H 4200 5800 50  0001 C CNN
+F 3 "" H 4200 5800 50  0001 C CNN
+	1    4200 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -754,29 +737,29 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E793C96
-P 4550 6300
+P 4600 6300
 AR Path="/5E793C96" Ref="#PWR?"  Part="1" 
 AR Path="/00000000/5E793C96" Ref="#PWR?"  Part="1" 
 AR Path="/5E607BA1/5E793C96" Ref="#PWR074"  Part="1" 
-F 0 "#PWR074" H 4550 6050 50  0001 C CNN
-F 1 "GND" H 4550 6150 50  0001 C CNN
-F 2 "" H 4550 6300 50  0001 C CNN
-F 3 "" H 4550 6300 50  0001 C CNN
-	1    4550 6300
+F 0 "#PWR074" H 4600 6050 50  0001 C CNN
+F 1 "GND" H 4600 6150 50  0001 C CNN
+F 2 "" H 4600 6300 50  0001 C CNN
+F 3 "" H 4600 6300 50  0001 C CNN
+	1    4600 6300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E792268
-P 4950 6100
+P 5000 6100
 AR Path="/5E792268" Ref="#PWR?"  Part="1" 
 AR Path="/00000000/5E792268" Ref="#PWR?"  Part="1" 
 AR Path="/5E607BA1/5E792268" Ref="#PWR076"  Part="1" 
-F 0 "#PWR076" H 4950 5850 50  0001 C CNN
-F 1 "GND" H 4950 5950 50  0001 C CNN
-F 2 "" H 4950 6100 50  0001 C CNN
-F 3 "" H 4950 6100 50  0001 C CNN
-	1    4950 6100
+F 0 "#PWR076" H 5000 5850 50  0001 C CNN
+F 1 "GND" H 5000 5950 50  0001 C CNN
+F 2 "" H 5000 6100 50  0001 C CNN
+F 3 "" H 5000 6100 50  0001 C CNN
+	1    5000 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -806,17 +789,6 @@ F 2 "" H 5900 7200 50  0001 C CNN
 F 3 "" H 5900 7200 50  0001 C CNN
 	1    5900 7200
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR086
-U 1 1 5E608243
-P 6000 5500
-F 0 "#PWR086" H 6000 5250 50  0001 C CNN
-F 1 "GND" H 6000 5350 50  0001 C CNN
-F 2 "" H 6000 5500 50  0001 C CNN
-F 3 "" H 6000 5500 50  0001 C CNN
-	1    6000 5500
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -923,34 +895,6 @@ F 3 "~" H 1600 4200 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 5E60829E
-P 1950 3000
-AR Path="/5E60829E" Ref="R?"  Part="1" 
-AR Path="/00000000/5E60829E" Ref="R?"  Part="1" 
-AR Path="/5E607BA1/5E60829E" Ref="R69"  Part="1" 
-F 0 "R69" V 2154 3000 50  0000 C CNN
-F 1 "4k7" V 2063 3000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1990 2990 50  0001 C CNN
-F 3 "~" H 1950 3000 50  0001 C CNN
-	1    1950 3000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5E6082AB
-P 1950 3850
-AR Path="/5E6082AB" Ref="R?"  Part="1" 
-AR Path="/00000000/5E6082AB" Ref="R?"  Part="1" 
-AR Path="/5E607BA1/5E6082AB" Ref="R70"  Part="1" 
-F 0 "R70" V 1837 3850 50  0000 C CNN
-F 1 "10k" V 1746 3850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1990 3840 50  0001 C CNN
-F 3 "~" H 1950 3850 50  0001 C CNN
-	1    1950 3850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R?
 U 1 1 5E6082B8
 P 2600 3850
 AR Path="/5E6082B8" Ref="R?"  Part="1" 
@@ -1022,57 +966,43 @@ $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E7B1C80
-P 4150 4800
+P 4200 4800
 AR Path="/5E7B1C80" Ref="R?"  Part="1" 
 AR Path="/00000000/5E7B1C80" Ref="R?"  Part="1" 
 AR Path="/5E607BA1/5E7B1C80" Ref="R76"  Part="1" 
-F 0 "R76" H 4313 4845 50  0000 C CNN
-F 1 "10k" H 4313 4755 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4190 4790 50  0001 C CNN
-F 3 "~" H 4150 4800 50  0001 C CNN
-	1    4150 4800
+F 0 "R76" H 4363 4845 50  0000 C CNN
+F 1 "10k" H 4363 4755 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4240 4790 50  0001 C CNN
+F 3 "~" H 4200 4800 50  0001 C CNN
+	1    4200 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E7B3FDD
-P 4150 5650
+P 4200 5650
 AR Path="/5E7B3FDD" Ref="R?"  Part="1" 
 AR Path="/00000000/5E7B3FDD" Ref="R?"  Part="1" 
 AR Path="/5E607BA1/5E7B3FDD" Ref="R77"  Part="1" 
-F 0 "R77" H 4313 5695 50  0000 C CNN
-F 1 "22k" H 4313 5605 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4190 5640 50  0001 C CNN
-F 3 "~" H 4150 5650 50  0001 C CNN
-	1    4150 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5E6082DF
-P 4350 3750
-AR Path="/5E6082DF" Ref="R?"  Part="1" 
-AR Path="/00000000/5E6082DF" Ref="R?"  Part="1" 
-AR Path="/5E607BA1/5E6082DF" Ref="R78"  Part="1" 
-F 0 "R78" H 4489 3795 50  0000 C CNN
-F 1 "100k" H 4489 3705 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4390 3740 50  0001 C CNN
-F 3 "~" H 4350 3750 50  0001 C CNN
-	1    4350 3750
+F 0 "R77" H 4363 5695 50  0000 C CNN
+F 1 "22k" H 4363 5605 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4240 5640 50  0001 C CNN
+F 3 "~" H 4200 5650 50  0001 C CNN
+	1    4200 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E776EF2
-P 4550 6150
+P 4600 6150
 AR Path="/5E776EF2" Ref="R?"  Part="1" 
 AR Path="/00000000/5E776EF2" Ref="R?"  Part="1" 
 AR Path="/5E607BA1/5E776EF2" Ref="R79"  Part="1" 
-F 0 "R79" H 4713 6195 50  0000 C CNN
-F 1 "100k" H 4713 6105 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4590 6140 50  0001 C CNN
-F 3 "~" H 4550 6150 50  0001 C CNN
-	1    4550 6150
+F 0 "R79" H 4763 6195 50  0000 C CNN
+F 1 "100k" H 4763 6105 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4640 6140 50  0001 C CNN
+F 3 "~" H 4600 6150 50  0001 C CNN
+	1    4600 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1249,20 +1179,6 @@ F 3 "~" H 9200 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D?
-U 1 1 5E6083AF
-P 6750 3400
-AR Path="/5E6083AF" Ref="D?"  Part="1" 
-AR Path="/00000000/5E6083AF" Ref="D?"  Part="1" 
-AR Path="/5E607BA1/5E6083AF" Ref="D21"  Part="1" 
-F 0 "D21" H 6750 3250 50  0000 C CNN
-F 1 "1N4148" H 6750 3150 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6750 3225 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6750 3400 50  0001 C CNN
-	1    6750 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:1N4148 D22
 U 1 1 5E6083BC
 P 9050 2700
@@ -1333,26 +1249,12 @@ F 4 "493-1896-ND" H 5900 7050 50  0001 C CNN "DKPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 5E60840A
-P 6150 5500
-AR Path="/5E60840A" Ref="C?"  Part="1" 
-AR Path="/00000000/5E60840A" Ref="C?"  Part="1" 
-AR Path="/5E607BA1/5E60840A" Ref="C37"  Part="1" 
-F 0 "C37" V 5990 5500 50  0000 C CNN
-F 1 "10n" V 5899 5500 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 6188 5350 50  0001 C CNN
-F 3 "~" H 6150 5500 50  0001 C CNN
-	1    6150 5500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C38
 U 1 1 5E6083FD
 P 6550 3900
 F 0 "C38" H 6762 3945 50  0000 C CNN
 F 1 "470n" H 6762 3855 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L9.0mm_W5.1mm_P7.50mm_MKT" H 6588 3750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L13.0mm_W6.5mm_P7.50mm_P10.00mm" H 6588 3750 50  0001 C CNN
 F 3 "~" H 6550 3900 50  0001 C CNN
 	1    6550 3900
 	1    0    0    -1  
@@ -1391,36 +1293,25 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 3200 5650 50  000
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q18
-U 1 1 5E60843E
-P 4000 3550
-F 0 "Q18" H 4339 3595 50  0000 C CNN
-F 1 "2N3904" H 4339 3505 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4200 3475 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4000 3550 50  0001 L CNN
-	1    4000 3550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Transistor_BJT:2N3906 Q19
 U 1 1 5E76D501
-P 4450 5300
-F 0 "Q19" H 4789 5255 50  0000 C CNN
-F 1 "2N3906" H 4789 5345 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4650 5225 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4450 5300 50  0001 L CNN
-	1    4450 5300
+P 4500 5300
+F 0 "Q19" H 4839 5255 50  0000 C CNN
+F 1 "2N3906" H 4839 5345 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4700 5225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4500 5300 50  0001 L CNN
+	1    4500 5300
 	1    0    0    1   
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q20
 U 1 1 5E778AE8
-P 4850 5900
-F 0 "Q20" H 5189 5945 50  0000 C CNN
-F 1 "2N3904" H 5189 5855 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5050 5825 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4850 5900 50  0001 L CNN
-	1    4850 5900
+P 4900 5900
+F 0 "Q20" H 5239 5945 50  0000 C CNN
+F 1 "2N3904" H 5239 5855 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5100 5825 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4900 5900 50  0001 L CNN
+	1    4900 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1455,6 +1346,17 @@ F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7050 3025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6850 3100 50  0001 L CNN
 	1    6850 3100
 	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q18
+U 1 1 5E69517D
+P 4000 3550
+F 0 "Q18" H 4353 3595 50  0000 C CNN
+F 1 "2N7000" H 4353 3505 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4200 3475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4000 3550 50  0001 L CNN
+	1    4000 3550
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Comparator:LM311 U5
