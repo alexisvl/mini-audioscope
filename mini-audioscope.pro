@@ -1,4 +1,4 @@
-update=Tue 10 Mar 2020 09:57:42 PM MDT
+update=Thu 19 Mar 2020 11:41:24 PM MDT
 version=1
 last_client=kicad
 [general]
@@ -14,6 +14,10 @@ LibDir=
 [eeschema/libraries]
 [LibeditFrame]
 version=1
+[ModEditFrame]
+version=1
+[SchematicFrame]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -23,17 +27,20 @@ SubpartFirstId=65
 NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=50
-FieldNameTemplates=(templatefields)
+FieldNameTemplates=(templatefields (field (name "BOM")))
 ERC_TestSimilarLabels=1
 ERC_CheckUniqueGlobalLabels=1
 ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
-[SchematicFrame]
-version=1
-[ModEditFrame]
-version=1
+[sheetnames]
+1=00000000-0000-0000-0000-00005e82fbdb:
+2=00000000-0000-0000-0000-00005e82d3f3:Input
+3=00000000-0000-0000-0000-00005e607ba1:Sweep
+4=00000000-0000-0000-0000-00005e607b97:Horiz Defl
+5=00000000-0000-0000-0000-00005e607ba5:Vert Defl
+6=00000000-0000-0000-0000-00005e607b8b:CRT Bias
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -56,9 +63,9 @@ MinHoleToHole=0.25
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 CopperEdgeClearance=0.01
-TrackWidth1=0.25
-ViaDiameter1=1.4
-ViaDrill1=0.6
+TrackWidth1=0.508
+ViaDiameter1=1.524
+ViaDrill1=0.762
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -257,10 +264,10 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
-TrackWidth=0.25
-ViaDiameter=1.4
-ViaDrill=0.6
+Clearance=0.2032
+TrackWidth=0.508
+ViaDiameter=1.524
+ViaDrill=0.762
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
@@ -268,10 +275,10 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=250_or_hiz
-Clearance=1.25
-TrackWidth=0.25
-ViaDiameter=0.8
-ViaDrill=0.4
+Clearance=1.27
+TrackWidth=0.508
+ViaDiameter=0.8128
+ViaDrill=0.4064
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
@@ -279,19 +286,12 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=400
-Clearance=2.5
-TrackWidth=0.25
-ViaDiameter=0.8
-ViaDrill=0.4
+Clearance=2.54
+TrackWidth=0.508
+ViaDiameter=0.8128
+ViaDrill=0.4064
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[sheetnames]
-1=00000000-0000-0000-0000-00005e694586:
-2=00000000-0000-0000-0000-00005e607b8b:CRT Bias
-3=00000000-0000-0000-0000-00005e607ba5:Vert Defl
-4=00000000-0000-0000-0000-00005e607b97:Horiz Defl
-5=00000000-0000-0000-0000-00005e607ba1:Sweep
-6=00000000-0000-0000-0000-00005e82d3f3:Input

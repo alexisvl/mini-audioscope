@@ -129,4 +129,5 @@
   (lib (name "RF_Mini-Circuits")(type "KiCad")(uri "/home/alex/git/kicad-footprints/RF_Mini-Circuits.pretty")(options "")(descr ""))
   (lib (name "RF_GPS")(type "KiCad")(uri "/home/alex/git/kicad-footprints/RF_GPS.pretty")(options "")(descr ""))
   (lib (name "RF_GSM")(type "KiCad")(uri "/home/alex/git/kicad-footprints/RF_GSM.pretty")(options "")(descr ""))
+  (lib (name "mini-audioscope")(type "KiCad")(uri "/home/alex/git/mini-audioscope/mini-audioscope.pretty")(options "")(descr ""))
 )

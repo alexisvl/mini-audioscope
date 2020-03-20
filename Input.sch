@@ -3,7 +3,7 @@ EELAYER 32 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -195,6 +195,7 @@ F 0 "R67" V 3854 2750 50  0000 C CNN
 F 1 "100k" V 3763 2750 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3690 2740 50  0001 C CNN
 F 3 "~" H 3650 2750 50  0001 C CNN
+F 4 "Stock:res/100k" H 3650 2750 50  0001 C CNN "BOM"
 	1    3650 2750
 	0    -1   -1   0   
 $EndComp
@@ -206,6 +207,7 @@ F 0 "R68" V 3854 3100 50  0000 C CNN
 F 1 "100k" V 3763 3100 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3690 3090 50  0001 C CNN
 F 3 "~" H 3650 3100 50  0001 C CNN
+F 4 "Stock:res/100k" H 3650 3100 50  0001 C CNN "BOM"
 	1    3650 3100
 	0    -1   -1   0   
 $EndComp
@@ -217,6 +219,7 @@ F 0 "R69" V 4554 2750 50  0000 C CNN
 F 1 "100k" V 4463 2750 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4390 2740 50  0001 C CNN
 F 3 "~" H 4350 2750 50  0001 C CNN
+F 4 "Stock:res/100k" H 4350 2750 50  0001 C CNN "BOM"
 	1    4350 2750
 	0    -1   -1   0   
 $EndComp
@@ -228,6 +231,7 @@ F 0 "R70" H 5861 3805 50  0000 C CNN
 F 1 "1M" H 5861 3895 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6040 3840 50  0001 C CNN
 F 3 "~" H 6000 3850 50  0001 C CNN
+F 4 "Stock:res/1M" H 6000 3850 50  0001 C CNN "BOM"
 	1    6000 3850
 	-1   0    0    1   
 $EndComp
@@ -239,6 +243,7 @@ F 0 "C16" H 1288 7205 50  0000 C CNN
 F 1 "100n" H 1288 7295 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1538 7100 50  0001 C CNN
 F 3 "~" H 1500 7250 50  0001 C CNN
+F 4 "Stock:cer/100n" H 1500 7250 50  0001 C CNN "BOM"
 	1    1500 7250
 	-1   0    0    1   
 $EndComp
@@ -250,6 +255,7 @@ F 0 "C17" V 3501 2750 50  0000 C CNN
 F 1 "220n" V 3410 2750 50  0000 C CNN
 F 2 "Capacitor_THT:C_Rect_L9.0mm_W4.2mm_P7.50mm_MKT" H 3288 2600 50  0001 C CNN
 F 3 "~" H 3250 2750 50  0001 C CNN
+F 4 "Stock:film/220n" H 3250 2750 50  0001 C CNN "BOM"
 	1    3250 2750
 	0    -1   -1   0   
 $EndComp
@@ -261,6 +267,7 @@ F 0 "C18" V 3090 3100 50  0000 C CNN
 F 1 "220n" V 2999 3100 50  0000 C CNN
 F 2 "Capacitor_THT:C_Rect_L9.0mm_W4.2mm_P7.50mm_MKT" H 3288 2950 50  0001 C CNN
 F 3 "~" H 3250 3100 50  0001 C CNN
+F 4 "Stock:film/220n" H 3250 3100 50  0001 C CNN "BOM"
 	1    3250 3100
 	0    -1   -1   0   
 $EndComp
@@ -272,6 +279,7 @@ F 0 "C19" V 4901 2853 50  0000 C CNN
 F 1 "47p" V 4810 2853 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4688 2800 50  0001 C CNN
 F 3 "~" H 4650 2950 50  0001 C CNN
+F 4 "Stock:cer/47p" H 4650 2950 50  0001 C CNN "BOM"
 	1    4650 2950
 	0    -1   -1   0   
 $EndComp
@@ -283,6 +291,7 @@ F 0 "C20" H 5539 3805 50  0000 C CNN
 F 1 "22p" H 5539 3895 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 5838 3700 50  0001 C CNN
 F 3 "~" H 5800 3850 50  0001 C CNN
+F 4 "Stock:cer/22p" H 5800 3850 50  0001 C CNN "BOM"
 	1    5800 3850
 	1    0    0    1   
 $EndComp
@@ -296,7 +305,7 @@ F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 1000 6950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071a.pdf" H 1000 6850 50  0001 C CNN
 F 4 "TI" H 1000 6650 50  0001 C CNN "Manuf"
 F 5 "TL072CP" H 1000 6550 50  0001 C CNN "MPN"
-F 6 "TI TL072CP" H 1000 6750 50  0001 C CNN "BOM"
+F 6 "M:595-TL072IPE4, DK:296-14997-5-ND" H 1000 6750 50  0001 C CNN "BOM"
 	3    1000 7250
 	1    0    0    -1  
 $EndComp
@@ -310,7 +319,7 @@ F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 4450 3300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071a.pdf" H 4450 3200 50  0001 C CNN
 F 4 "TI" H 4450 3000 50  0001 C CNN "Manuf"
 F 5 "TL072CP" H 4450 2900 50  0001 C CNN "MPN"
-F 6 "TI TL072CP" H 4450 3100 50  0001 C CNN "BOM"
+F 6 "M:595-TL072IPE4, DK:296-14997-5-ND" H 4450 3100 50  0001 C CNN "BOM"
 	1    4450 3600
 	1    0    0    -1  
 $EndComp
@@ -324,7 +333,7 @@ F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 7000 3400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071a.pdf" H 7000 3300 50  0001 C CNN
 F 4 "TI" H 7000 3100 50  0001 C CNN "Manuf"
 F 5 "TL072CP" H 7000 3000 50  0001 C CNN "MPN"
-F 6 "TI TL072CP" H 7000 3200 50  0001 C CNN "BOM"
+F 6 "M:595-TL072IPE4, DK:296-14997-5-ND" H 7000 3200 50  0001 C CNN "BOM"
 	2    7000 3700
 	1    0    0    1   
 $EndComp

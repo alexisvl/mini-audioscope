@@ -3,7 +3,7 @@ EELAYER 32 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 6
+Sheet 3 6
 Title "Deflection Amplifier"
 Date ""
 Rev ""
@@ -18,611 +18,605 @@ Comment7 ""
 Comment8 ""
 Comment9 ""
 $EndDescr
-Connection ~ 4500 1900
-Connection ~ 6000 4800
-Connection ~ 5250 4800
-Connection ~ 5250 2700
-Connection ~ 4500 4800
-Connection ~ 4500 1250
-Connection ~ 4100 5750
-Connection ~ 4500 3400
-Connection ~ 6000 3400
-Connection ~ 6000 2000
-Connection ~ 4100 5500
-Connection ~ 6000 5150
-Connection ~ 4500 5150
-Connection ~ 5250 3400
+Connection ~ 3000 4000
+Connection ~ 4500 3250
+Connection ~ 4500 4000
+Connection ~ 5150 4000
+Connection ~ 5150 2300
+Connection ~ 5150 5700
+Connection ~ 5850 4000
+Connection ~ 4500 4750
+Connection ~ 4100 3250
+Connection ~ 4100 4750
+Connection ~ 3600 4000
+Connection ~ 3250 4000
+Connection ~ 6650 2300
+Connection ~ 6650 5700
+Connection ~ 6650 4000
 Wire Wire Line
-	4000 1250 4500 1250
+	3000 4000 3000 3900
 Wire Wire Line
-	4000 4300 4200 4300
+	3000 4000 3000 4100
 Wire Wire Line
-	4100 5400 4100 5500
+	3000 4000 3250 4000
 Wire Wire Line
-	4100 5500 4100 5750
+	3200 5300 3200 5350
 Wire Wire Line
-	4100 5750 4100 5850
+	3200 5650 3200 5750
 Wire Wire Line
-	4100 5750 4200 5750
+	3250 3450 3250 4000
 Wire Wire Line
-	4100 6150 4100 6200
+	3250 4000 3250 4550
 Wire Wire Line
-	4500 1250 4500 1350
+	3250 4550 3300 4550
 Wire Wire Line
-	4500 1250 6000 1250
+	3300 3450 3250 3450
 Wire Wire Line
-	4500 1650 4500 1900
+	3600 3250 4100 3250
 Wire Wire Line
-	4500 1900 4500 2500
+	3600 3950 3600 4000
 Wire Wire Line
-	4500 1900 6600 1900
+	3600 4000 3550 4000
 Wire Wire Line
-	4500 2900 4500 3400
+	3600 4000 3600 4050
 Wire Wire Line
-	4500 3400 4500 4100
+	3600 4750 4100 4750
 Wire Wire Line
-	4500 3400 4600 3400
+	4050 2500 4200 2500
 Wire Wire Line
-	4500 4500 4500 4800
+	4100 3250 4500 3250
 Wire Wire Line
-	4500 4800 4500 5150
+	4100 3650 4100 3250
 Wire Wire Line
-	4500 4800 4900 4800
+	4100 4050 4100 3950
 Wire Wire Line
-	4500 5150 4500 5550
+	4100 4750 4100 4350
 Wire Wire Line
-	4500 5950 4500 6050
+	4100 4750 4500 4750
 Wire Wire Line
-	4500 6350 4500 6400
+	4200 5500 3350 5500
 Wire Wire Line
-	4800 2700 5250 2700
+	4500 2300 5150 2300
 Wire Wire Line
-	4900 3400 5250 3400
+	4500 2700 4500 3250
 Wire Wire Line
-	4900 5150 4500 5150
+	4500 3250 4500 3650
 Wire Wire Line
-	5200 4800 5250 4800
+	4500 3950 4500 4000
 Wire Wire Line
-	5250 2150 5250 2200
+	4500 4000 4500 4050
 Wire Wire Line
-	5250 2500 5250 2700
+	4500 4350 4500 4750
 Wire Wire Line
-	5250 2700 5700 2700
+	4500 4750 4500 5300
 Wire Wire Line
-	5250 3200 5300 3200
+	4500 5700 5150 5700
 Wire Wire Line
-	5250 3400 5250 3200
+	4650 4000 4500 4000
 Wire Wire Line
-	5250 3400 5600 3400
+	4650 4200 4650 4000
 Wire Wire Line
-	5250 4650 5250 4800
+	5150 2300 5150 2400
 Wire Wire Line
-	5250 4800 5300 4800
+	5150 2300 5650 2300
 Wire Wire Line
-	5300 5150 5200 5150
+	5150 2700 5150 4000
 Wire Wire Line
-	5450 4650 5250 4650
+	5150 4000 5150 5300
 Wire Wire Line
-	5550 5500 4100 5500
+	5150 5600 5150 5700
 Wire Wire Line
-	5550 5750 5550 5500
+	5150 5700 5650 5700
 Wire Wire Line
-	5600 4800 6000 4800
+	5350 4000 5150 4000
 Wire Wire Line
-	5700 5750 5550 5750
+	5850 2600 5850 4000
 Wire Wire Line
-	5900 3400 6000 3400
+	5850 4000 5850 5400
 Wire Wire Line
-	6000 1250 6000 1350
+	5950 4000 5850 4000
 Wire Wire Line
-	6000 1650 6000 2000
+	6050 2300 6650 2300
 Wire Wire Line
-	6000 2000 6000 2500
+	6050 5700 6650 5700
 Wire Wire Line
-	6000 2000 6600 2000
+	6650 2300 7250 2300
 Wire Wire Line
-	6000 2900 6000 3400
+	6650 3000 6650 2300
 Wire Wire Line
-	6000 3400 6000 4100
+	6650 3300 6650 4000
 Wire Wire Line
-	6000 4500 6000 4800
+	6650 4000 6650 5200
 Wire Wire Line
-	6000 4800 6000 5150
+	6650 5500 6650 5700
 Wire Wire Line
-	6000 5150 5600 5150
+	6650 5700 7250 5700
 Wire Wire Line
-	6000 5150 6000 5550
+	6700 4000 6650 4000
 Wire Wire Line
-	6000 5950 6000 6050
+	7550 2300 8150 2300
 Wire Wire Line
-	6000 6350 6000 6400
-Wire Wire Line
-	6300 4300 6850 4300
-Wire Wire Line
-	6900 1900 7500 1900
-Wire Wire Line
-	6900 2000 7500 2000
-Wire Wire Line
-	7000 4050 7000 4150
-Wire Wire Line
-	7000 4450 7000 4550
-Text Notes 4100 5600 0    50   Italic 0
+	7550 5700 8150 5700
+Text Notes 3200 3400 0    50   Italic 0
 -4.5V
-Text Notes 4500 3100 0    50   Italic 0
-8.5V
-Text Notes 4500 6050 0    50   Italic 0
+Text Notes 3350 3700 0    50   Italic 0
 -5.1V
-Text Notes 4550 4550 0    50   Italic 0
--0.6V±1V
-Text Notes 5350 2700 0    50   Italic 0
-8.9V
-Text Notes 5350 4600 0    50   Italic 10
-GAIN
-Text Notes 6000 3100 2    50   Italic 0
-8.5V
-Text Notes 6050 4550 0    50   Italic 0
--0.6V±1V
-Text Notes 6800 4150 0    50   Italic 0
+Text Notes 3400 5350 2    50   Italic 0
 +1V
-Text Notes 6800 4550 0    50   Italic 0
+Text Notes 3400 5700 2    50   Italic 0
 -1V
-Text Notes 7000 1900 0    50   Italic 0
+Text Notes 4550 2750 0    50   Italic 0
+-0.6V±1V
+Text Notes 4550 4600 0    50   Italic 10
+GAIN
+Text Notes 5450 2300 0    50   Italic 0
+8.5V
+Text Notes 5900 2650 0    50   Italic 0
+8.9V
+Text Notes 7650 2300 0    50   Italic 0
 300V±80V
-Text Label 6150 1900 0    50   ~ 0
+Text Label 6850 2300 0    50   ~ 0
 DEFL_INT-
-Text Label 6150 2000 0    50   ~ 0
+Text Label 6850 5700 0    50   ~ 0
 DEFL_INT+
-Text GLabel 4000 1250 0    50   Input Italic 10
+Text GLabel 6700 4000 2    50   Input ~ 0
 +400V
-Text HLabel 4000 4300 0    50   Input ~ 0
+Text HLabel 4050 2500 0    50   Input ~ 0
 IN
-Text HLabel 5300 3200 2    50   Output ~ 0
+Text HLabel 5350 4000 2    50   Output ~ 0
 CLAMP
-Text HLabel 7500 1900 2    50   Output ~ 0
+Text HLabel 8150 2300 2    50   Output ~ 0
 DEFL-
-Text HLabel 7500 2000 2    50   Output ~ 0
+Text HLabel 8150 5700 2    50   Output ~ 0
 DEFL+
-$Comp
-L power:+9V #PWR074
-U 1 1 5E75B83F
-P 4100 5100
-AR Path="/5E607B97/5E75B83F" Ref="#PWR074"  Part="1" 
-AR Path="/5E607BA5/5E75B83F" Ref="#PWR081"  Part="1" 
-F 0 "#PWR074" H 4100 4950 50  0001 C CNN
-F 1 "+9V" H 4100 5240 50  0000 C CNN
-F 2 "" H 4100 5100 50  0001 C CNN
-F 3 "" H 4100 5100 50  0001 C CNN
-	1    4100 5100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:-9V #PWR075
 U 1 1 5E75AD66
-P 4100 6200
+P 3000 4400
 AR Path="/5E607B97/5E75AD66" Ref="#PWR075"  Part="1" 
 AR Path="/5E607BA5/5E75AD66" Ref="#PWR082"  Part="1" 
-F 0 "#PWR075" H 4100 6075 50  0001 C CNN
-F 1 "-9V" H 4100 6350 50  0000 C CNN
-F 2 "" H 4100 6200 50  0001 C CNN
-F 3 "" H 4100 6200 50  0001 C CNN
-	1    4100 6200
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:-9V #PWR076
-U 1 1 5E75C5B3
-P 4500 6400
-AR Path="/5E607B97/5E75C5B3" Ref="#PWR076"  Part="1" 
-AR Path="/5E607BA5/5E75C5B3" Ref="#PWR083"  Part="1" 
-F 0 "#PWR076" H 4500 6275 50  0001 C CNN
-F 1 "-9V" H 4500 6550 50  0000 C CNN
-F 2 "" H 4500 6400 50  0001 C CNN
-F 3 "" H 4500 6400 50  0001 C CNN
-	1    4500 6400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+9V #PWR077
-U 1 1 5E759F3A
-P 5250 2150
-AR Path="/5E607B97/5E759F3A" Ref="#PWR077"  Part="1" 
-AR Path="/5E607BA5/5E759F3A" Ref="#PWR084"  Part="1" 
-F 0 "#PWR077" H 5250 2000 50  0001 C CNN
-F 1 "+9V" H 5250 2290 50  0000 C CNN
-F 2 "" H 5250 2150 50  0001 C CNN
-F 3 "" H 5250 2150 50  0001 C CNN
-	1    5250 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-9V #PWR078
-U 1 1 5E75CEF5
-P 6000 6400
-AR Path="/5E607B97/5E75CEF5" Ref="#PWR078"  Part="1" 
-AR Path="/5E607BA5/5E75CEF5" Ref="#PWR085"  Part="1" 
-F 0 "#PWR078" H 6000 6275 50  0001 C CNN
-F 1 "-9V" H 6000 6550 50  0000 C CNN
-F 2 "" H 6000 6400 50  0001 C CNN
-F 3 "" H 6000 6400 50  0001 C CNN
-	1    6000 6400
-	-1   0    0    1   
+F 0 "#PWR082" H 3000 4275 50  0001 C CNN
+F 1 "-9V" H 3000 4550 50  0000 C CNN
+F 2 "" H 3000 4400 50  0001 C CNN
+F 3 "" H 3000 4400 50  0001 C CNN
+	1    3000 4400
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+9V #PWR079
 U 1 1 5E75A38D
-P 7000 3750
+P 3200 5000
 AR Path="/5E607B97/5E75A38D" Ref="#PWR079"  Part="1" 
 AR Path="/5E607BA5/5E75A38D" Ref="#PWR086"  Part="1" 
-F 0 "#PWR079" H 7000 3600 50  0001 C CNN
-F 1 "+9V" H 7000 3890 50  0000 C CNN
-F 2 "" H 7000 3750 50  0001 C CNN
-F 3 "" H 7000 3750 50  0001 C CNN
-	1    7000 3750
-	1    0    0    -1  
+F 0 "#PWR086" H 3200 4850 50  0001 C CNN
+F 1 "+9V" H 3200 5140 50  0000 C CNN
+F 2 "" H 3200 5000 50  0001 C CNN
+F 3 "" H 3200 5000 50  0001 C CNN
+	1    3200 5000
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:-9V #PWR080
 U 1 1 5E75A934
-P 7000 4850
+P 3200 6050
 AR Path="/5E607B97/5E75A934" Ref="#PWR080"  Part="1" 
 AR Path="/5E607BA5/5E75A934" Ref="#PWR087"  Part="1" 
-F 0 "#PWR080" H 7000 4725 50  0001 C CNN
-F 1 "-9V" H 7000 5000 50  0000 C CNN
-F 2 "" H 7000 4850 50  0001 C CNN
-F 3 "" H 7000 4850 50  0001 C CNN
-	1    7000 4850
+F 0 "#PWR087" H 3200 5925 50  0001 C CNN
+F 1 "-9V" H 3200 6200 50  0000 C CNN
+F 2 "" H 3200 6050 50  0001 C CNN
+F 3 "" H 3200 6050 50  0001 C CNN
+	1    3200 6050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:-9V #PWR078
+U 1 1 5E75CEF5
+P 3550 4000
+AR Path="/5E607B97/5E75CEF5" Ref="#PWR078"  Part="1" 
+AR Path="/5E607BA5/5E75CEF5" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 3550 3875 50  0001 C CNN
+F 1 "-9V" V 3550 4200 50  0000 C CNN
+F 2 "" H 3550 4000 50  0001 C CNN
+F 3 "" H 3550 4000 50  0001 C CNN
+	1    3550 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+9V #PWR077
+U 1 1 5E759F3A
+P 6250 4000
+AR Path="/5E607B97/5E759F3A" Ref="#PWR077"  Part="1" 
+AR Path="/5E607BA5/5E759F3A" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 6250 3850 50  0001 C CNN
+F 1 "+9V" V 6250 4200 50  0000 C CNN
+F 2 "" H 6250 4000 50  0001 C CNN
+F 3 "" H 6250 4000 50  0001 C CNN
+	1    6250 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E6C49F8
+P 3000 3600
+AR Path="/5E607B97/5E6C49F8" Ref="#PWR0102"  Part="1" 
+AR Path="/5E607BA5/5E6C49F8" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 3000 3350 50  0001 C CNN
+F 1 "GND" H 3000 3450 50  0001 C CNN
+F 2 "" H 3000 3600 50  0001 C CNN
+F 3 "" H 3000 3600 50  0001 C CNN
+	1    3000 3600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 5E607EBF
-P 4100 5250
-AR Path="/5E607EBF" Ref="R?"  Part="1" 
-AR Path="/00000000/5E607EBF" Ref="R?"  Part="1" 
-AR Path="/5E607B97/5E607EBF" Ref="R41"  Part="1" 
-AR Path="/5E607BA5/5E607EBF" Ref="R54"  Part="1" 
-F 0 "R41" H 4265 5295 50  0000 C CNN
-F 1 "10k" H 4265 5205 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4140 5240 50  0001 C CNN
-F 3 "~" H 4100 5250 50  0001 C CNN
-	1    4100 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
 U 1 1 5E607ECC
-P 4100 6000
+P 3000 3750
 AR Path="/5E607ECC" Ref="R?"  Part="1" 
 AR Path="/00000000/5E607ECC" Ref="R?"  Part="1" 
 AR Path="/5E607B97/5E607ECC" Ref="R42"  Part="1" 
 AR Path="/5E607BA5/5E607ECC" Ref="R55"  Part="1" 
-F 0 "R42" H 4265 6045 50  0000 C CNN
-F 1 "10k" H 4265 5955 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4140 5990 50  0001 C CNN
-F 3 "~" H 4100 6000 50  0001 C CNN
-	1    4100 6000
-	1    0    0    -1  
+F 0 "R55" H 2856 3705 50  0000 C CNN
+F 1 "10k" H 2856 3795 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3040 3740 50  0001 C CNN
+F 3 "~" H 3000 3750 50  0001 C CNN
+F 4 "Stock:res/10k/1%" H 3000 3750 50  0001 C CNN "BOM"
+	1    3000 3750
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 5E607ED9
-P 4500 1500
-AR Path="/5E607ED9" Ref="R?"  Part="1" 
-AR Path="/00000000/5E607ED9" Ref="R?"  Part="1" 
-AR Path="/5E607B97/5E607ED9" Ref="R43"  Part="1" 
-AR Path="/5E607BA5/5E607ED9" Ref="R56"  Part="1" 
-F 0 "R43" H 4744 1545 50  0000 C CNN
-F 1 "220k/HW" H 4744 1455 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4540 1490 50  0001 C CNN
-F 3 "~" H 4500 1500 50  0001 C CNN
-	1    4500 1500
-	1    0    0    -1  
+U 1 1 5E607EBF
+P 3000 4250
+AR Path="/5E607EBF" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607EBF" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607EBF" Ref="R41"  Part="1" 
+AR Path="/5E607BA5/5E607EBF" Ref="R54"  Part="1" 
+F 0 "R54" H 2856 4205 50  0000 C CNN
+F 1 "10k" H 2856 4295 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3040 4240 50  0001 C CNN
+F 3 "~" H 3000 4250 50  0001 C CNN
+F 4 "Stock:res/10k/1%" H 3000 4250 50  0001 C CNN "BOM"
+	1    3000 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E607F5B
+P 3200 5150
+AR Path="/5E607F5B" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F5B" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F5B" Ref="R50"  Part="1" 
+AR Path="/5E607BA5/5E607F5B" Ref="R63"  Part="1" 
+F 0 "R63" H 3056 5105 50  0000 C CNN
+F 1 "8k2" H 3056 5195 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3240 5140 50  0001 C CNN
+F 3 "~" H 3200 5150 50  0001 C CNN
+F 4 "Stock:res/8k2/1%" H 3200 5150 50  0001 C CNN "BOM"
+	1    3200 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E607F68
+P 3200 5900
+AR Path="/5E607F68" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F68" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F68" Ref="R51"  Part="1" 
+AR Path="/5E607BA5/5E607F68" Ref="R64"  Part="1" 
+F 0 "R64" H 3056 5855 50  0000 C CNN
+F 1 "8k2" H 3056 5945 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3240 5890 50  0001 C CNN
+F 3 "~" H 3200 5900 50  0001 C CNN
+F 4 "Stock:res/8k2/1%" H 3200 5900 50  0001 C CNN "BOM"
+	1    3200 5900
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E607EF3
-P 4500 6200
+P 3600 3800
 AR Path="/5E607EF3" Ref="R?"  Part="1" 
 AR Path="/00000000/5E607EF3" Ref="R?"  Part="1" 
 AR Path="/5E607B97/5E607EF3" Ref="R44"  Part="1" 
 AR Path="/5E607BA5/5E607EF3" Ref="R57"  Part="1" 
-F 0 "R44" H 4665 6245 50  0000 C CNN
-F 1 "8k2" H 4665 6155 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4540 6190 50  0001 C CNN
-F 3 "~" H 4500 6200 50  0001 C CNN
-	1    4500 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5E607F0D
-P 5050 4800
-AR Path="/5E607F0D" Ref="R?"  Part="1" 
-AR Path="/00000000/5E607F0D" Ref="R?"  Part="1" 
-AR Path="/5E607B97/5E607F0D" Ref="R45"  Part="1" 
-AR Path="/5E607BA5/5E607F0D" Ref="R58"  Part="1" 
-F 0 "R45" V 5254 4800 50  0000 C CNN
-F 1 "1k5" V 5163 4800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5090 4790 50  0001 C CNN
-F 3 "~" H 5050 4800 50  0001 C CNN
-	1    5050 4800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5E6A5B55
-P 5050 5150
-AR Path="/5E6A5B55" Ref="R?"  Part="1" 
-AR Path="/00000000/5E6A5B55" Ref="R?"  Part="1" 
-AR Path="/5E607B97/5E6A5B55" Ref="R46"  Part="1" 
-AR Path="/5E607BA5/5E6A5B55" Ref="R59"  Part="1" 
-F 0 "R46" V 4900 5150 50  0000 C CNN
-F 1 "DNP" V 4800 5150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5090 5140 50  0001 C CNN
-F 3 "~" H 5050 5150 50  0001 C CNN
-	1    5050 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5E607F00
-P 5250 2350
-AR Path="/5E607F00" Ref="R?"  Part="1" 
-AR Path="/00000000/5E607F00" Ref="R?"  Part="1" 
-AR Path="/5E607B97/5E607F00" Ref="R47"  Part="1" 
-AR Path="/5E607BA5/5E607F00" Ref="R60"  Part="1" 
-F 0 "R47" H 5415 2395 50  0000 C CNN
-F 1 "10k" H 5415 2305 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5290 2340 50  0001 C CNN
-F 3 "~" H 5250 2350 50  0001 C CNN
-	1    5250 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5E607F1A
-P 6000 1500
-AR Path="/5E607F1A" Ref="R?"  Part="1" 
-AR Path="/00000000/5E607F1A" Ref="R?"  Part="1" 
-AR Path="/5E607B97/5E607F1A" Ref="R48"  Part="1" 
-AR Path="/5E607BA5/5E607F1A" Ref="R61"  Part="1" 
-F 0 "R48" H 5756 1545 50  0000 C CNN
-F 1 "220k/HW" H 5756 1455 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6040 1490 50  0001 C CNN
-F 3 "~" H 6000 1500 50  0001 C CNN
-	1    6000 1500
+F 0 "R57" H 3765 3845 50  0000 C CNN
+F 1 "8k2" H 3765 3755 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3640 3790 50  0001 C CNN
+F 3 "~" H 3600 3800 50  0001 C CNN
+F 4 "Stock:res/8k2/1%" H 3600 3800 50  0001 C CNN "BOM"
+	1    3600 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E607F34
-P 6000 6200
+P 3600 4200
 AR Path="/5E607F34" Ref="R?"  Part="1" 
 AR Path="/00000000/5E607F34" Ref="R?"  Part="1" 
 AR Path="/5E607B97/5E607F34" Ref="R49"  Part="1" 
 AR Path="/5E607BA5/5E607F34" Ref="R62"  Part="1" 
-F 0 "R49" H 6165 6245 50  0000 C CNN
-F 1 "8k2" H 6165 6155 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6040 6190 50  0001 C CNN
-F 3 "~" H 6000 6200 50  0001 C CNN
-	1    6000 6200
+F 0 "R62" H 3456 4155 50  0000 C CNN
+F 1 "8k2" H 3456 4245 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3640 4190 50  0001 C CNN
+F 3 "~" H 3600 4200 50  0001 C CNN
+F 4 "Stock:res/8k2/1%" H 3600 4200 50  0001 C CNN "BOM"
+	1    3600 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E6A5B55
+P 4100 3800
+AR Path="/5E6A5B55" Ref="R?"  Part="1" 
+AR Path="/00000000/5E6A5B55" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E6A5B55" Ref="R46"  Part="1" 
+AR Path="/5E607BA5/5E6A5B55" Ref="R59"  Part="1" 
+F 0 "R59" H 4247 3845 50  0000 C CNN
+F 1 "DNP" H 4247 3755 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4140 3790 50  0001 C CNN
+F 3 "~" H 4100 3800 50  0001 C CNN
+	1    4100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E607F0D
+P 4500 3800
+AR Path="/5E607F0D" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F0D" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F0D" Ref="R45"  Part="1" 
+AR Path="/5E607BA5/5E607F0D" Ref="R58"  Part="1" 
+F 0 "R58" H 4644 3845 50  0000 C CNN
+F 1 "1k5" H 4644 3755 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4540 3790 50  0001 C CNN
+F 3 "~" H 4500 3800 50  0001 C CNN
+F 4 "Stock:res/1k5" H 4500 3800 50  0001 C CNN "BOM"
+	1    4500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E607F00
+P 6100 4000
+AR Path="/5E607F00" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F00" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F00" Ref="R47"  Part="1" 
+AR Path="/5E607BA5/5E607F00" Ref="R60"  Part="1" 
+F 0 "R60" V 6304 4000 50  0000 C CNN
+F 1 "10k" V 6213 4000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6140 3990 50  0001 C CNN
+F 3 "~" H 6100 4000 50  0001 C CNN
+F 4 "Stock:res/10k" H 6100 4000 50  0001 C CNN "BOM"
+	1    6100 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E607ED9
+P 6650 3150
+AR Path="/5E607ED9" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607ED9" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607ED9" Ref="R43"  Part="1" 
+AR Path="/5E607BA5/5E607ED9" Ref="R56"  Part="1" 
+F 0 "R56" H 6406 3105 50  0000 C CNN
+F 1 "220k/HW" H 6406 3195 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6690 3140 50  0001 C CNN
+F 3 "~" H 6650 3150 50  0001 C CNN
+F 4 "Stock:res/220k/HW" H 6650 3150 50  0001 C CNN "BOM"
+	1    6650 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E607F1A
+P 6650 5350
+AR Path="/5E607F1A" Ref="R?"  Part="1" 
+AR Path="/00000000/5E607F1A" Ref="R?"  Part="1" 
+AR Path="/5E607B97/5E607F1A" Ref="R48"  Part="1" 
+AR Path="/5E607BA5/5E607F1A" Ref="R61"  Part="1" 
+F 0 "R61" H 6894 5395 50  0000 C CNN
+F 1 "220k/HW" H 6894 5305 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6690 5340 50  0001 C CNN
+F 3 "~" H 6650 5350 50  0001 C CNN
+F 4 "Stock:res/220k/HW" H 6650 5350 50  0001 C CNN "BOM"
+	1    6650 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E607F41
-P 6750 1900
+P 7400 2300
 AR Path="/5E607F41" Ref="R?"  Part="1" 
 AR Path="/00000000/5E607F41" Ref="R?"  Part="1" 
 AR Path="/5E607B97/5E607F41" Ref="R52"  Part="1" 
 AR Path="/5E607BA5/5E607F41" Ref="R65"  Part="1" 
-F 0 "R52" V 6954 1900 50  0000 C CNN
-F 1 "10k/HW" V 6863 1900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6790 1890 50  0001 C CNN
-F 3 "~" H 6750 1900 50  0001 C CNN
-	1    6750 1900
+F 0 "R65" V 7604 2300 50  0000 C CNN
+F 1 "10k/HW" V 7513 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7440 2290 50  0001 C CNN
+F 3 "~" H 7400 2300 50  0001 C CNN
+F 4 "Stock:res/10k/HW" H 7400 2300 50  0001 C CNN "BOM"
+	1    7400 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E607F4E
-P 6750 2000
+P 7400 5700
 AR Path="/5E607F4E" Ref="R?"  Part="1" 
 AR Path="/00000000/5E607F4E" Ref="R?"  Part="1" 
 AR Path="/5E607B97/5E607F4E" Ref="R53"  Part="1" 
 AR Path="/5E607BA5/5E607F4E" Ref="R66"  Part="1" 
-F 0 "R53" V 6863 2000 50  0000 C CNN
-F 1 "10k/HW" V 6954 2000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 6790 1990 50  0001 C CNN
-F 3 "~" H 6750 2000 50  0001 C CNN
-	1    6750 2000
+F 0 "R66" V 7513 5700 50  0000 C CNN
+F 1 "10k/HW" V 7604 5700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7440 5690 50  0001 C CNN
+F 3 "~" H 7400 5700 50  0001 C CNN
+F 4 "Stock:res/10k/HW" H 7400 5700 50  0001 C CNN "BOM"
+	1    7400 5700
 	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5E607F5B
-P 7000 3900
-AR Path="/5E607F5B" Ref="R?"  Part="1" 
-AR Path="/00000000/5E607F5B" Ref="R?"  Part="1" 
-AR Path="/5E607B97/5E607F5B" Ref="R50"  Part="1" 
-AR Path="/5E607BA5/5E607F5B" Ref="R63"  Part="1" 
-F 0 "R50" H 6861 3855 50  0000 C CNN
-F 1 "10k" H 6861 3945 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7040 3890 50  0001 C CNN
-F 3 "~" H 7000 3900 50  0001 C CNN
-	1    7000 3900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5E607F68
-P 7000 4700
-AR Path="/5E607F68" Ref="R?"  Part="1" 
-AR Path="/00000000/5E607F68" Ref="R?"  Part="1" 
-AR Path="/5E607B97/5E607F68" Ref="R51"  Part="1" 
-AR Path="/5E607BA5/5E607F68" Ref="R64"  Part="1" 
-F 0 "R51" H 6861 4655 50  0000 C CNN
-F 1 "10k" H 6861 4745 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7040 4690 50  0001 C CNN
-F 3 "~" H 7000 4700 50  0001 C CNN
-	1    7000 4700
-	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:1N4007 D7
 U 1 1 5E92BB40
-P 4750 3400
+P 5150 2550
 AR Path="/5E607BA5/5E92BB40" Ref="D7"  Part="1" 
 AR Path="/5E607B97/5E92BB40" Ref="D5"  Part="1" 
-F 0 "D5" H 4750 3525 50  0000 C CNN
-F 1 "1N4007" H 4750 3616 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4750 3225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4750 3400 50  0001 C CNN
-	1    4750 3400
-	-1   0    0    1   
+F 0 "D7" V 5195 2322 50  0000 C CNN
+F 1 "1N4007" V 5105 2322 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5150 2375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5150 2550 50  0001 C CNN
+F 4 "Stock:1N4007" H 5150 2550 50  0001 C CNN "BOM"
+	1    5150 2550
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4007 D8
 U 1 1 5E92C679
-P 5750 3400
+P 5150 5450
 AR Path="/5E607BA5/5E92C679" Ref="D8"  Part="1" 
 AR Path="/5E607B97/5E92C679" Ref="D6"  Part="1" 
-F 0 "D6" H 5750 3525 50  0000 C CNN
-F 1 "1N4007" H 5750 3616 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5750 3225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5750 3400 50  0001 C CNN
-	1    5750 3400
-	1    0    0    1   
+F 0 "D8" V 5105 5222 50  0000 C CNN
+F 1 "1N4007" V 5195 5222 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5150 5275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5150 5450 50  0001 C CNN
+F 4 "Stock:1N4007" H 5150 5450 50  0001 C CNN "BOM"
+	1    5150 5450
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:C C14
 U 1 1 5E6BA2ED
-P 5450 5150
+P 4100 4200
 AR Path="/5E607B97/5E6BA2ED" Ref="C14"  Part="1" 
 AR Path="/5E607BA5/5E6BA2ED" Ref="C15"  Part="1" 
-F 0 "C14" V 5250 5150 50  0000 C CNN
-F 1 "DNP" V 5150 5150 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5488 5000 50  0001 C CNN
-F 3 "~" H 5450 5150 50  0001 C CNN
-	1    5450 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_POT_US RV?
-U 1 1 5E607F9C
-P 5450 4800
-AR Path="/5E607F9C" Ref="RV?"  Part="1" 
-AR Path="/00000000/5E607F9C" Ref="RV?"  Part="1" 
-AR Path="/5E607B97/5E607F9C" Ref="RV5"  Part="1" 
-AR Path="/5E607BA5/5E607F9C" Ref="RV7"  Part="1" 
-F 0 "RV5" V 5275 4800 50  0000 C CNN
-F 1 "5k" V 5350 4800 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical" H 5450 4800 50  0001 C CNN
-F 3 "~" H 5450 4800 50  0001 C CNN
-	1    5450 4800
-	0    -1   -1   0   
+F 0 "C15" H 4294 4245 50  0000 C CNN
+F 1 "DNP" H 4294 4155 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4138 4050 50  0001 C CNN
+F 3 "~" H 4100 4200 50  0001 C CNN
+	1    4100 4200
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT_US RV6
 U 1 1 5E607FA9
-P 7000 4300
+P 3200 5500
 AR Path="/5E607B97/5E607FA9" Ref="RV6"  Part="1" 
 AR Path="/5E607BA5/5E607FA9" Ref="RV8"  Part="1" 
-F 0 "RV6" H 6861 4255 50  0000 C CNN
-F 1 "2k5" H 6861 4345 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical" H 7000 4300 50  0001 C CNN
-F 3 "~" H 7000 4300 50  0001 C CNN
-	1    7000 4300
-	-1   0    0    1   
+F 0 "RV8" H 3059 5455 50  0000 C CNN
+F 1 "2k" H 3059 5545 50  0000 C CNN
+F 2 "mini-audioscope:stock_pot" H 3200 5500 50  0001 C CNN
+F 3 "~" H 3200 5500 50  0001 C CNN
+F 4 "Stock:rtrim/2k" H 3200 5500 50  0001 C CNN "BOM"
+	1    3200 5500
+	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5E607FB6
-P 4400 4300
-AR Path="/5E607FB6" Ref="Q?"  Part="1" 
-AR Path="/00000000/5E607FB6" Ref="Q?"  Part="1" 
-AR Path="/5E607B97/5E607FB6" Ref="Q11"  Part="1" 
-AR Path="/5E607BA5/5E607FB6" Ref="Q17"  Part="1" 
-F 0 "Q11" H 4739 4345 50  0000 C CNN
-F 1 "2N5551" H 4739 4255 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4600 4225 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4400 4300 50  0001 L CNN
-	1    4400 4300
+L Device:R_POT_US RV?
+U 1 1 5E607F9C
+P 4500 4200
+AR Path="/5E607F9C" Ref="RV?"  Part="1" 
+AR Path="/00000000/5E607F9C" Ref="RV?"  Part="1" 
+AR Path="/5E607B97/5E607F9C" Ref="RV5"  Part="1" 
+AR Path="/5E607BA5/5E607F9C" Ref="RV7"  Part="1" 
+F 0 "RV7" H 4650 4050 50  0000 C CNN
+F 1 "5k" H 4650 3950 50  0000 C CNN
+F 2 "mini-audioscope:stock_pot" H 4500 4200 50  0001 C CNN
+F 3 "~" H 4500 4200 50  0001 C CNN
+F 4 "Stock:rtrim/5k" H 4500 4200 50  0001 C CNN "BOM"
+	1    4500 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q?
 U 1 1 5E607FC3
-P 4400 5750
+P 3500 3450
 AR Path="/5E607FC3" Ref="Q?"  Part="1" 
 AR Path="/00000000/5E607FC3" Ref="Q?"  Part="1" 
 AR Path="/5E607B97/5E607FC3" Ref="Q12"  Part="1" 
 AR Path="/5E607BA5/5E607FC3" Ref="Q18"  Part="1" 
-F 0 "Q12" H 4739 5795 50  0000 C CNN
-F 1 "2N4401" H 4739 5705 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4600 5675 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4400 5750 50  0001 L CNN
-	1    4400 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_EBC Q?
-U 1 1 5E607FD0
-P 4600 2700
-AR Path="/5E607FD0" Ref="Q?"  Part="1" 
-AR Path="/00000000/5E607FD0" Ref="Q?"  Part="1" 
-AR Path="/5E607B97/5E607FD0" Ref="Q13"  Part="1" 
-AR Path="/5E607BA5/5E607FD0" Ref="Q19"  Part="1" 
-F 0 "Q13" H 4932 2745 50  0000 C CNN
-F 1 "ZTX458" H 4932 2655 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-5-3" H 4800 2800 50  0001 C CNN
-F 3 "~" H 4600 2700 50  0001 C CNN
-	1    4600 2700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_EBC Q?
-U 1 1 5E607FDD
-P 5900 2700
-AR Path="/5E607FDD" Ref="Q?"  Part="1" 
-AR Path="/00000000/5E607FDD" Ref="Q?"  Part="1" 
-AR Path="/5E607B97/5E607FDD" Ref="Q14"  Part="1" 
-AR Path="/5E607BA5/5E607FDD" Ref="Q20"  Part="1" 
-F 0 "Q14" H 6232 2745 50  0000 C CNN
-F 1 "ZTX458" H 6232 2655 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-5-3" H 6100 2800 50  0001 C CNN
-F 3 "~" H 5900 2700 50  0001 C CNN
-	1    5900 2700
+F 0 "Q18" H 3839 3495 50  0000 C CNN
+F 1 "2N3904" H 3839 3405 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3700 3375 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3500 3450 50  0001 L CNN
+	1    3500 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q?
 U 1 1 5E607FEA
-P 5900 5750
+P 3500 4550
 AR Path="/5E607FEA" Ref="Q?"  Part="1" 
 AR Path="/00000000/5E607FEA" Ref="Q?"  Part="1" 
 AR Path="/5E607B97/5E607FEA" Ref="Q15"  Part="1" 
 AR Path="/5E607BA5/5E607FEA" Ref="Q21"  Part="1" 
-F 0 "Q15" H 6239 5795 50  0000 C CNN
-F 1 "2N4401" H 6239 5705 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6100 5675 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5900 5750 50  0001 L CNN
-	1    5900 5750
+F 0 "Q21" H 3839 4505 50  0000 C CNN
+F 1 "2N3904" H 3839 4595 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3700 4475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3500 4550 50  0001 L CNN
+	1    3500 4550
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 5E607FB6
+P 4400 2500
+AR Path="/5E607FB6" Ref="Q?"  Part="1" 
+AR Path="/00000000/5E607FB6" Ref="Q?"  Part="1" 
+AR Path="/5E607B97/5E607FB6" Ref="Q11"  Part="1" 
+AR Path="/5E607BA5/5E607FB6" Ref="Q17"  Part="1" 
+F 0 "Q17" H 4739 2545 50  0000 C CNN
+F 1 "2N5551" H 4739 2455 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4600 2425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4400 2500 50  0001 L CNN
+F 4 "Stock:2N5551" H 4400 2500 50  0001 C CNN "BOM"
+	1    4400 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q?
 U 1 1 5E607FF7
-P 6100 4300
+P 4400 5500
 AR Path="/5E607FF7" Ref="Q?"  Part="1" 
 AR Path="/00000000/5E607FF7" Ref="Q?"  Part="1" 
 AR Path="/5E607B97/5E607FF7" Ref="Q16"  Part="1" 
 AR Path="/5E607BA5/5E607FF7" Ref="Q22"  Part="1" 
-F 0 "Q16" H 6439 4345 50  0000 C CNN
-F 1 "2N5551" H 6439 4255 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6300 4225 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6100 4300 50  0001 L CNN
-	1    6100 4300
-	-1   0    0    -1  
+F 0 "Q22" H 4739 5455 50  0000 C CNN
+F 1 "2N5551" H 4739 5545 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4600 5425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4400 5500 50  0001 L CNN
+F 4 "Stock:2N5551" H 4400 5500 50  0001 C CNN "BOM"
+	1    4400 5500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_CBE Q?
+U 1 1 5E607FD0
+P 5850 2400
+AR Path="/5E607FD0" Ref="Q?"  Part="1" 
+AR Path="/00000000/5E607FD0" Ref="Q?"  Part="1" 
+AR Path="/5E607B97/5E607FD0" Ref="Q13"  Part="1" 
+AR Path="/5E607BA5/5E607FD0" Ref="Q19"  Part="1" 
+F 0 "Q19" V 6177 2400 50  0000 C CNN
+F 1 "ZTX458" V 6086 2400 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-5-3" H 6050 2500 50  0001 C CNN
+F 3 "~" H 5850 2400 50  0001 C CNN
+F 4 "M:522-ZTX458STZ, M:575-9174710341005000, DK:ZTX458-ND, DK:ED11270-ND" H 5850 2400 50  0001 C CNN "BOM"
+	1    5850 2400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_NPN_CBE Q?
+U 1 1 5E607FDD
+P 5850 5600
+AR Path="/5E607FDD" Ref="Q?"  Part="1" 
+AR Path="/00000000/5E607FDD" Ref="Q?"  Part="1" 
+AR Path="/5E607B97/5E607FDD" Ref="Q14"  Part="1" 
+AR Path="/5E607BA5/5E607FDD" Ref="Q20"  Part="1" 
+F 0 "Q20" V 6086 5600 50  0000 C CNN
+F 1 "ZTX458" V 6177 5600 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-5-3" H 6050 5700 50  0001 C CNN
+F 3 "~" H 5850 5600 50  0001 C CNN
+F 4 "M:522-ZTX458STZ, M:575-9174710341005000, DK:ZTX458-ND, DK:ED11270-ND" H 5850 5600 50  0001 C CNN "BOM"
+	1    5850 5600
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

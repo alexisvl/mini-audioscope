@@ -3,7 +3,7 @@ EELAYER 32 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 5 6
+Sheet 3 6
 Title "Trigger and sweep generator"
 Date ""
 Rev ""
@@ -872,6 +872,7 @@ F 0 "R1" H 1461 3455 50  0000 C CNN
 F 1 "27k" H 1461 3545 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1640 3490 50  0001 C CNN
 F 3 "~" H 1600 3500 50  0001 C CNN
+F 4 "Stock:res/27k" H 1600 3500 50  0001 C CNN "BOM"
 	1    1600 3500
 	-1   0    0    1   
 $EndComp
@@ -886,6 +887,7 @@ F 0 "R2" H 1461 4155 50  0000 C CNN
 F 1 "27k" H 1461 4245 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1640 4190 50  0001 C CNN
 F 3 "~" H 1600 4200 50  0001 C CNN
+F 4 "Stock:res/27k" H 1600 4200 50  0001 C CNN "BOM"
 	1    1600 4200
 	-1   0    0    1   
 $EndComp
@@ -900,6 +902,7 @@ F 0 "R3" V 2487 3850 50  0000 C CNN
 F 1 "4M7" V 2396 3850 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2640 3840 50  0001 C CNN
 F 3 "~" H 2600 3850 50  0001 C CNN
+F 4 "Stock:res/4M7" H 2600 3850 50  0001 C CNN "BOM"
 	1    2600 3850
 	0    -1   -1   0   
 $EndComp
@@ -914,6 +917,7 @@ F 0 "R4" H 3289 2845 50  0000 C CNN
 F 1 "10k" H 3289 2755 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3190 2790 50  0001 C CNN
 F 3 "~" H 3150 2800 50  0001 C CNN
+F 4 "Stock:res/10k" H 3150 2800 50  0001 C CNN "BOM"
 	1    3150 2800
 	1    0    0    -1  
 $EndComp
@@ -928,6 +932,7 @@ F 0 "R5" V 3287 3100 50  0000 C CNN
 F 1 "100k" V 3196 3100 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3440 3090 50  0001 C CNN
 F 3 "~" H 3400 3100 50  0001 C CNN
+F 4 "Stock:res/100k" H 3400 3100 50  0001 C CNN "BOM"
 	1    3400 3100
 	0    -1   -1   0   
 $EndComp
@@ -942,6 +947,7 @@ F 0 "R6" V 3346 5400 50  0000 C CNN
 F 1 "10" V 3437 5400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3590 5390 50  0001 C CNN
 F 3 "~" H 3550 5400 50  0001 C CNN
+F 4 "Stock:res/10" H 3550 5400 50  0001 C CNN "BOM"
 	1    3550 5400
 	0    1    1    0   
 $EndComp
@@ -956,6 +962,7 @@ F 0 "R7" H 4013 5095 50  0000 C CNN
 F 1 "100k" H 4013 5005 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3890 5040 50  0001 C CNN
 F 3 "~" H 3850 5050 50  0001 C CNN
+F 4 "Stock:res/100k" H 3850 5050 50  0001 C CNN "BOM"
 	1    3850 5050
 	1    0    0    -1  
 $EndComp
@@ -970,6 +977,7 @@ F 0 "R8" H 4363 4845 50  0000 C CNN
 F 1 "10k" H 4363 4755 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4240 4790 50  0001 C CNN
 F 3 "~" H 4200 4800 50  0001 C CNN
+F 4 "Stock:res/10k" H 4200 4800 50  0001 C CNN "BOM"
 	1    4200 4800
 	1    0    0    -1  
 $EndComp
@@ -984,6 +992,7 @@ F 0 "R9" H 4363 5695 50  0000 C CNN
 F 1 "22k" H 4363 5605 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4240 5640 50  0001 C CNN
 F 3 "~" H 4200 5650 50  0001 C CNN
+F 4 "Stock:res/22k" H 4200 5650 50  0001 C CNN "BOM"
 	1    4200 5650
 	1    0    0    -1  
 $EndComp
@@ -998,6 +1007,7 @@ F 0 "R10" H 4763 6195 50  0000 C CNN
 F 1 "100k" H 4763 6105 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4640 6140 50  0001 C CNN
 F 3 "~" H 4600 6150 50  0001 C CNN
+F 4 "Stock:res/100k" H 4600 6150 50  0001 C CNN "BOM"
 	1    4600 6150
 	1    0    0    -1  
 $EndComp
@@ -1009,9 +1019,10 @@ AR Path="/5E6EFA7B" Ref="R?"  Part="1"
 AR Path="/00000000/5E6EFA7B" Ref="R?"  Part="1" 
 AR Path="/5E607BA1/5E6EFA7B" Ref="R11"  Part="1" 
 F 0 "R11" H 5563 5345 50  0000 C CNN
-F 1 "100k" H 5563 5255 50  0000 C CNN
+F 1 "10k" H 5563 5255 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5440 5290 50  0001 C CNN
 F 3 "~" H 5400 5300 50  0001 C CNN
+F 4 "Stock:res/10k" H 5400 5300 50  0001 C CNN "BOM"
 	1    5400 5300
 	1    0    0    -1  
 $EndComp
@@ -1023,6 +1034,7 @@ F 0 "R12" H 5915 1245 50  0000 C CNN
 F 1 "470" H 5915 1155 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5790 1190 50  0001 C CNN
 F 3 "~" H 5750 1200 50  0001 C CNN
+F 4 "Stock:res/470/1%" H 5750 1200 50  0001 C CNN "BOM"
 	1    5750 1200
 	1    0    0    -1  
 $EndComp
@@ -1034,6 +1046,7 @@ F 0 "R13" H 5915 2095 50  0000 C CNN
 F 1 "470" H 5915 2005 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5790 2040 50  0001 C CNN
 F 3 "~" H 5750 2050 50  0001 C CNN
+F 4 "Stock:res/470" H 5750 2050 50  0001 C CNN "BOM"
 	1    5750 2050
 	1    0    0    -1  
 $EndComp
@@ -1045,6 +1058,7 @@ F 0 "R14" H 6715 1245 50  0000 C CNN
 F 1 "470" H 6715 1155 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6590 1190 50  0001 C CNN
 F 3 "~" H 6550 1200 50  0001 C CNN
+F 4 "Stock:res/470/1%" H 6550 1200 50  0001 C CNN "BOM"
 	1    6550 1200
 	1    0    0    -1  
 $EndComp
@@ -1059,6 +1073,7 @@ F 0 "R15" H 6408 2805 50  0000 C CNN
 F 1 "100" H 6408 2895 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6590 2840 50  0001 C CNN
 F 3 "~" H 6550 2850 50  0001 C CNN
+F 4 "Stock:res/100" H 6550 2850 50  0001 C CNN "BOM"
 	1    6550 2850
 	-1   0    0    1   
 $EndComp
@@ -1073,6 +1088,7 @@ F 0 "R16" H 7089 3945 50  0000 C CNN
 F 1 "6k8" H 7089 3855 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6990 3890 50  0001 C CNN
 F 3 "~" H 6950 3900 50  0001 C CNN
+F 4 "Stock:res/6k8" H 6950 3900 50  0001 C CNN "BOM"
 	1    6950 3900
 	1    0    0    -1  
 $EndComp
@@ -1087,6 +1103,7 @@ F 0 "R17" H 7589 5545 50  0000 C CNN
 F 1 "75k" H 7589 5455 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7490 5490 50  0001 C CNN
 F 3 "~" H 7450 5500 50  0001 C CNN
+F 4 "Stock:res/75k" H 7450 5500 50  0001 C CNN "BOM"
 	1    7450 5500
 	1    0    0    -1  
 $EndComp
@@ -1101,6 +1118,7 @@ F 0 "R18" H 8239 2845 50  0000 C CNN
 F 1 "10k" H 8239 2755 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8140 2790 50  0001 C CNN
 F 3 "~" H 8100 2800 50  0001 C CNN
+F 4 "Stock:res/10k/1%" H 8100 2800 50  0001 C CNN "BOM"
 	1    8100 2800
 	1    0    0    -1  
 $EndComp
@@ -1115,6 +1133,7 @@ F 0 "R19" H 8239 3645 50  0000 C CNN
 F 1 "10k" H 8239 3555 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8140 3590 50  0001 C CNN
 F 3 "~" H 8100 3600 50  0001 C CNN
+F 4 "Stock:res/10k/1%" H 8100 3600 50  0001 C CNN "BOM"
 	1    8100 3600
 	1    0    0    -1  
 $EndComp
@@ -1129,6 +1148,7 @@ F 0 "R20" H 8539 4295 50  0000 C CNN
 F 1 "10k" H 8539 4205 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8440 4240 50  0001 C CNN
 F 3 "~" H 8400 4250 50  0001 C CNN
+F 4 "Stock:res/10k/1%" H 8400 4250 50  0001 C CNN "BOM"
 	1    8400 4250
 	1    0    0    -1  
 $EndComp
@@ -1143,6 +1163,7 @@ F 0 "R21" H 8539 4795 50  0000 C CNN
 F 1 "2k7" H 8539 4705 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8440 4740 50  0001 C CNN
 F 3 "~" H 8400 4750 50  0001 C CNN
+F 4 "Stock:res/2k7/1%" H 8400 4750 50  0001 C CNN "BOM"
 	1    8400 4750
 	1    0    0    -1  
 $EndComp
@@ -1157,6 +1178,7 @@ F 0 "R22" V 8654 3000 50  0000 C CNN
 F 1 "4M7" V 8563 3000 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8490 2990 50  0001 C CNN
 F 3 "~" H 8450 3000 50  0001 C CNN
+F 4 "Stock:res/4M7" H 8450 3000 50  0001 C CNN "BOM"
 	1    8450 3000
 	0    -1   -1   0   
 $EndComp
@@ -1171,6 +1193,7 @@ F 0 "R23" H 9339 2745 50  0000 C CNN
 F 1 "10k" H 9339 2655 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9240 2690 50  0001 C CNN
 F 3 "~" H 9200 2700 50  0001 C CNN
+F 4 "Stock:res/10k" H 9200 2700 50  0001 C CNN "BOM"
 	1    9200 2700
 	1    0    0    -1  
 $EndComp
@@ -1182,6 +1205,7 @@ F 0 "D1" V 9005 2928 50  0000 C CNN
 F 1 "1N4148" V 9095 2928 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 2525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9050 2700 50  0001 C CNN
+F 4 "Stock:1N4148" H 9050 2700 50  0001 C CNN "BOM"
 	1    9050 2700
 	0    -1   1    0   
 $EndComp
@@ -1193,6 +1217,7 @@ F 0 "C7" H 4038 5695 50  0000 C CNN
 F 1 "3u3" H 4038 5605 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 3850 5650 50  0001 C CNN
 F 3 "~" H 3850 5650 50  0001 C CNN
+F 4 "Stock:alum/3u3" H 3850 5650 50  0001 C CNN "BOM"
 	1    3850 5650
 	1    0    0    -1  
 $EndComp
@@ -1207,6 +1232,7 @@ F 0 "C8" V 4750 3300 50  0000 C CNN
 F 1 "10n" V 4850 3300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4638 3150 50  0001 C CNN
 F 3 "~" H 4600 3300 50  0001 C CNN
+F 4 "Stock:cer/10n" H 4600 3300 50  0001 C CNN "BOM"
 	1    4600 3300
 	0    -1   1    0   
 $EndComp
@@ -1218,6 +1244,7 @@ F 0 "C9" H 5212 7095 50  0000 C CNN
 F 1 "100n" H 5212 7005 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5038 6900 50  0001 C CNN
 F 3 "~" H 5000 7050 50  0001 C CNN
+F 4 "Stock:cer/100n" H 5000 7050 50  0001 C CNN "BOM"
 	1    5000 7050
 	1    0    0    -1  
 $EndComp
@@ -1229,6 +1256,7 @@ F 0 "C10" H 5662 7095 50  0000 C CNN
 F 1 "100n" H 5662 7005 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5488 6900 50  0001 C CNN
 F 3 "~" H 5450 7050 50  0001 C CNN
+F 4 "Stock:cer/100n" H 5450 7050 50  0001 C CNN "BOM"
 	1    5450 7050
 	1    0    0    -1  
 $EndComp
@@ -1240,7 +1268,7 @@ F 0 "C11" H 6088 7095 50  0000 C CNN
 F 1 "47u" H 6088 7005 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5900 7050 50  0001 C CNN
 F 3 "~" H 5900 7050 50  0001 C CNN
-F 4 "493-1896-ND" H 5900 7050 50  0001 C CNN "DKPN"
+F 4 "M:647-UPW1H470MED1TD, DK:493-1896-ND" H 5900 7050 50  0001 C CNN "BOM"
 	1    5900 7050
 	1    0    0    -1  
 $EndComp
@@ -1252,6 +1280,7 @@ F 0 "C12" H 6762 3945 50  0000 C CNN
 F 1 "470n" H 6762 3855 50  0000 C CNN
 F 2 "Capacitor_THT:C_Rect_L13.0mm_W6.5mm_P7.50mm_P10.00mm" H 6588 3750 50  0001 C CNN
 F 3 "~" H 6550 3900 50  0001 C CNN
+F 4 "Stock:film/470n" H 6550 3900 50  0001 C CNN "BOM"
 	1    6550 3900
 	1    0    0    -1  
 $EndComp
@@ -1263,6 +1292,7 @@ F 0 "C13" H 7662 6295 50  0000 C CNN
 F 1 "470n" H 7662 6205 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7488 6100 50  0001 C CNN
 F 3 "~" H 7450 6250 50  0001 C CNN
+F 4 "Stock:cer/470n" H 7450 6250 50  0001 C CNN "BOM"
 	1    7450 6250
 	1    0    0    -1  
 $EndComp
@@ -1272,8 +1302,9 @@ U 1 1 5E608424
 P 1600 3850
 F 0 "RV1" H 1461 3895 50  0000 C CNN
 F 1 "5k" H 1461 3805 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical" H 1600 3850 50  0001 C CNN
+F 2 "mini-audioscope:stock_pot" H 1600 3850 50  0001 C CNN
 F 3 "~" H 1600 3850 50  0001 C CNN
+F 4 "Stock:rtrim/5k" H 1600 3850 50  0001 C CNN "BOM"
 	1    1600 3850
 	1    0    0    -1  
 $EndComp
@@ -1285,6 +1316,7 @@ F 0 "Q1" H 3539 5605 50  0000 C CNN
 F 1 "2N3906" H 3539 5695 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3400 5575 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 3200 5650 50  0001 L CNN
+F 4 "Stock:2N3906" H 3200 5650 50  0001 C CNN "BOM"
 	1    3200 5650
 	1    0    0    1   
 $EndComp
@@ -1296,6 +1328,7 @@ F 0 "Q3" H 4839 5255 50  0000 C CNN
 F 1 "2N3906" H 4839 5345 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4700 5225 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4500 5300 50  0001 L CNN
+F 4 "Stock:2N3906" H 4500 5300 50  0001 C CNN "BOM"
 	1    4500 5300
 	1    0    0    1   
 $EndComp
@@ -1307,6 +1340,7 @@ F 0 "Q4" H 5239 5945 50  0000 C CNN
 F 1 "2N3904" H 5239 5855 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5100 5825 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4900 5900 50  0001 L CNN
+F 4 "Stock:2N3904" H 4900 5900 50  0001 C CNN "BOM"
 	1    4900 5900
 	1    0    0    -1  
 $EndComp
@@ -1318,6 +1352,7 @@ F 0 "Q5" H 6189 1555 50  0000 C CNN
 F 1 "2N3906" H 6189 1645 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6050 1525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 5850 1600 50  0001 L CNN
+F 4 "Stock:2N3906" H 5850 1600 50  0001 C CNN "BOM"
 	1    5850 1600
 	-1   0    0    1   
 $EndComp
@@ -1329,6 +1364,7 @@ F 0 "Q6" H 6789 1555 50  0000 C CNN
 F 1 "2N3906" H 6789 1645 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6650 1525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6450 1600 50  0001 L CNN
+F 4 "Stock:2N3906" H 6450 1600 50  0001 C CNN "BOM"
 	1    6450 1600
 	1    0    0    1   
 $EndComp
@@ -1340,6 +1376,7 @@ F 0 "Q7" H 7189 3145 50  0000 C CNN
 F 1 "2N3904" H 7189 3055 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7050 3025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6850 3100 50  0001 L CNN
+F 4 "Stock:2N3904" H 6850 3100 50  0001 C CNN "BOM"
 	1    6850 3100
 	1    0    0    -1  
 $EndComp
@@ -1351,6 +1388,7 @@ F 0 "Q2" H 4353 3595 50  0000 C CNN
 F 1 "2N7000" H 4353 3505 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4200 3475 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4000 3550 50  0001 L CNN
+F 4 "Stock:2N7000" H 4000 3550 50  0001 C CNN "BOM"
 	1    4000 3550
 	-1   0    0    -1  
 $EndComp
@@ -1362,6 +1400,7 @@ F 0 "U1" H 2800 3000 50  0000 C CNN
 F 1 "LM311" H 2800 2900 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 2600 3100 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/lm311.pdf" H 2600 3100 50  0001 C CNN
+F 4 "M:595-LM311PE4, DK:296-1389-5-ND" H 2600 3100 50  0001 C CNN "BOM"
 	1    2600 3100
 	1    0    0    -1  
 $EndComp
@@ -1373,6 +1412,7 @@ F 0 "U4" H 9000 3400 50  0000 C CNN
 F 1 "LM311" H 9000 3300 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 8750 3500 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/lm311.pdf" H 8750 3500 50  0001 C CNN
+F 4 "M:595-LM311PE4, DK:296-1389-5-ND" H 8750 3500 50  0001 C CNN "BOM"
 	1    8750 3500
 	1    0    0    -1  
 $EndComp
@@ -1384,6 +1424,7 @@ F 0 "U2" H 5650 3800 50  0000 C CNN
 F 1 "NE555P" H 5650 3700 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6050 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 6250 2900 50  0001 C CNN
+F 4 "M:595-NE555P, DK:296-NE555P-ND" H 5400 3300 50  0001 C CNN "BOM"
 	1    5400 3300
 	1    0    0    -1  
 $EndComp
@@ -1395,6 +1436,7 @@ F 0 "U3" H 7050 6000 50  0000 C CNN
 F 1 "NE555P" H 7050 5900 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 7500 5100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 7700 5100 50  0001 C CNN
+F 4 "M:595-NE555P, DK:296-NE555P-ND" H 6850 5500 50  0001 C CNN "BOM"
 	1    6850 5500
 	1    0    0    -1  
 $EndComp
