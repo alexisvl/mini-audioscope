@@ -17,4 +17,5 @@
   (lib (name "Regulator_Linear")(type "Legacy")(uri "${KICAD_SYMBOL_DIR}/Regulator_Linear.lib")(options "")(descr ""))
   (lib (name "mini-audioscope")(type "Legacy")(uri "${KIPRJMOD}/../mini-audioscope.lib")(options "")(descr ""))
   (lib (name "Mechanical")(type "Legacy")(uri "${KICAD_SYMBOL_DIR}/Mechanical.lib")(options "")(descr ""))
+  (lib (name "AltDevice")(type "Legacy")(uri "${KIPRJMOD}/../AltDevice.lib")(options "")(descr ""))
 )

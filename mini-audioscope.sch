@@ -1,5 +1,5 @@
 EESchema Schematic File Version 5
-EELAYER 32 0
+EELAYER 31 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -25,17 +25,21 @@ Connection ~ 7000 3500
 Connection ~ 2250 6000
 Connection ~ 7000 3700
 Connection ~ 4500 1950
-Connection ~ 1150 1550
 Connection ~ 6950 1900
 Connection ~ 3250 2950
+Connection ~ 1150 1550
+NoConn ~ -1900 7150
+NoConn ~ -2100 6900
 Wire Wire Line
 	950  4200 950  4500
 Wire Wire Line
 	950  4500 1900 4500
 Wire Wire Line
-	1150 1150 1150 1200
+	1150 1150 1150 1250
 Wire Wire Line
-	1150 1500 1150 1550
+	1150 1450 1150 1550
+Wire Wire Line
+	1150 1600 1150 1550
 Wire Wire Line
 	1150 2400 1150 2350
 Wire Wire Line
@@ -43,17 +47,17 @@ Wire Wire Line
 Wire Wire Line
 	1150 2550 2950 2550
 Wire Wire Line
-	1150 2600 1150 2550
+	1150 2650 1150 2550
 Wire Wire Line
-	1150 2950 1150 2900
+	1150 2950 1150 2850
 Wire Wire Line
-	1150 3350 1150 3400
+	1150 3350 1150 3450
 Wire Wire Line
-	1150 3750 1150 3700
+	1150 3750 1150 3650
 Wire Wire Line
-	1300 1350 1350 1350
+	1250 1350 1350 1350
 Wire Wire Line
-	1300 3550 2950 3550
+	1250 3550 2950 3550
 Wire Wire Line
 	1350 1350 1350 1550
 Wire Wire Line
@@ -61,13 +65,13 @@ Wire Wire Line
 Wire Wire Line
 	1350 1950 2950 1950
 Wire Wire Line
-	1500 6000 1400 6000
+	1400 6000 1550 6000
 Wire Wire Line
 	1550 1250 2950 1250
 Wire Wire Line
-	1900 4500 1900 6000
+	1750 6000 1900 6000
 Wire Wire Line
-	1900 6000 1800 6000
+	1900 4500 1900 6000
 Wire Wire Line
 	2000 4200 1350 4200
 Wire Wire Line
@@ -77,9 +81,9 @@ Wire Wire Line
 Wire Wire Line
 	2250 5450 2450 5450
 Wire Wire Line
-	2250 5550 2250 5450
+	2250 5600 2250 5450
 Wire Wire Line
-	2250 5850 2250 6000
+	2250 5800 2250 6000
 Wire Wire Line
 	2250 6000 3150 6000
 Wire Wire Line
@@ -93,7 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 2150 1350 2150
 Wire Wire Line
-	2950 2750 1300 2750
+	2950 2750 1250 2750
 Wire Wire Line
 	2950 2950 1150 2950
 Wire Wire Line
@@ -129,6 +133,10 @@ Wire Wire Line
 Wire Wire Line
 	3600 6550 3600 6400
 Wire Wire Line
+	4150 4700 4150 4750
+Wire Wire Line
+	4150 4950 4150 5000
+Wire Wire Line
 	4250 1950 4500 1950
 Wire Wire Line
 	4500 1950 4500 2500
@@ -137,7 +145,19 @@ Wire Wire Line
 Wire Wire Line
 	4500 2500 5850 2500
 Wire Wire Line
+	4500 4750 4500 4700
+Wire Wire Line
+	4500 5000 4500 4950
+Wire Wire Line
 	4700 1150 3150 1150
+Wire Wire Line
+	4850 4750 4850 4800
+Wire Wire Line
+	4850 5000 4850 5050
+Wire Wire Line
+	5200 4800 5200 4750
+Wire Wire Line
+	5200 5050 5200 5000
 Wire Wire Line
 	5400 1950 5850 1950
 Wire Wire Line
@@ -151,9 +171,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 3750 3150 3750
 Wire Wire Line
-	6350 4650 6450 4650
+	6450 4750 6450 4800
 Wire Wire Line
-	6450 4650 6450 4750
+	6450 5000 6450 5050
 Wire Wire Line
 	6850 1900 6950 1900
 Wire Wire Line
@@ -181,11 +201,9 @@ Wire Wire Line
 Wire Wire Line
 	6850 6050 7150 6050
 Wire Wire Line
-	6850 6300 8900 6300
+	6850 6300 8950 6300
 Wire Wire Line
 	6850 6400 9750 6400
-Wire Wire Line
-	6900 4650 7000 4650
 Wire Wire Line
 	6950 1200 7250 1200
 Wire Wire Line
@@ -209,17 +227,19 @@ Wire Wire Line
 Wire Wire Line
 	7000 3900 8100 3900
 Wire Wire Line
-	7000 4650 7000 4750
+	7000 4750 7000 4800
+Wire Wire Line
+	7000 5050 7000 5000
 Wire Wire Line
 	7250 1200 7250 1300
 Wire Wire Line
-	7350 5750 7600 5750
+	7350 5750 7550 5750
 Wire Wire Line
-	7350 5950 7650 5950
+	7350 5950 7550 5950
 Wire Wire Line
 	7600 5850 7350 5850
 Wire Wire Line
-	7650 6050 7350 6050
+	7600 6050 7350 6050
 Wire Wire Line
 	8100 2700 6850 2700
 Wire Wire Line
@@ -241,7 +261,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 3900 9250 3900
 Wire Wire Line
-	9200 6300 9550 6300
+	9150 6300 9550 6300
 Wire Wire Line
 	9250 3500 8300 3500
 Wire Wire Line
@@ -300,129 +320,129 @@ Wire Notes Line style dotted rgb(0, 43, 54)
 	9350 3700 9450 3700
 Wire Notes Line style dotted rgb(0, 43, 54)
 	9350 3900 9450 3900
-Wire Notes Line style solid rgb(0, 43, 54)
-	9450 3150 9450 3050
-Wire Notes Line style solid rgb(0, 43, 54)
-	9450 3300 9450 3200
-Wire Notes Line style solid rgb(0, 43, 54)
-	9450 3450 9450 3350
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9450 3050 9450 3150
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9450 3200 9450 3300
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9450 3350 9450 3450
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9450 3600 9450 3500
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9450 3900 9450 3800
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9500 2450 9550 2650
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9500 2450 9800 2450
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9525 3700 9475 3700
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9550 2050 9500 1850
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9550 2400 9560 2450
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9550 2400 9850 2400
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9550 3050 9450 3050
-Wire Notes Line style dash_dot rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9550 3050 9550 3150
+Wire Notes Line width 10 style dash_dot rgb(0, 43, 54)
 	9550 3050 9750 3050
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9550 3150 9450 3150
-Wire Notes Line style solid rgb(0, 43, 54)
-	9550 3150 9550 3050
-Wire Notes Line style dash_dot rgb(0, 43, 54)
+Wire Notes Line width 10 style dash_dot rgb(0, 43, 54)
 	9550 3150 9750 3150
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9550 3200 9450 3200
-Wire Notes Line style dash_dot rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9550 3200 9550 3300
+Wire Notes Line width 10 style dash_dot rgb(0, 43, 54)
 	9550 3200 9750 3200
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9550 3300 9450 3300
-Wire Notes Line style solid rgb(0, 43, 54)
-	9550 3300 9550 3200
-Wire Notes Line style dash_dot rgb(0, 43, 54)
+Wire Notes Line width 10 style dash_dot rgb(0, 43, 54)
 	9550 3300 9750 3300
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9550 3350 9450 3350
-Wire Notes Line style dash_dot rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9550 3350 9550 3450
+Wire Notes Line width 10 style dash_dot rgb(0, 43, 54)
 	9550 3350 9750 3350
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9550 3450 9450 3450
-Wire Notes Line style solid rgb(0, 43, 54)
-	9550 3450 9550 3350
-Wire Notes Line style dash_dot rgb(0, 43, 54)
+Wire Notes Line width 10 style dash_dot rgb(0, 43, 54)
 	9550 3450 9750 3450
 Wire Notes Line style dotted rgb(0, 43, 54)
 	9550 3950 9550 4050
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9550 3950 9650 3850
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9600 2250 9450 2250
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9600 3500 9450 3500
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9600 3700 9550 3700
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9650 3850 9750 3950
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9675 3700 9625 3700
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9750 2050 9800 1850
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9750 2650 9550 2650
-Wire Notes Line style solid rgb(0, 43, 54)
-	9750 3150 9750 3050
-Wire Notes Line style solid rgb(0, 43, 54)
-	9750 3300 9750 3200
-Wire Notes Line style solid rgb(0, 43, 54)
-	9750 3450 9750 3350
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9750 3050 9750 3150
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9750 3200 9750 3300
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9750 3350 9750 3450
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9750 3700 9700 3700
 Wire Notes Line style dotted rgb(0, 43, 54)
 	9750 3950 9750 4050
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9800 2450 9750 2650
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9800 2600 9763 2600
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9825 3700 9775 3700
 Wire Notes Line style dotted rgb(0, 43, 54)
 	9850 1950 9775 1950
 Wire Notes Line style dotted rgb(0, 43, 54)
 	9850 2100 9850 1950
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 2250 9700 2250
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 2400 9800 2600
 Wire Notes Line style dotted rgb(0, 43, 54)
 	9850 2550 9820 2550
 Wire Notes Line style dotted rgb(0, 43, 54)
 	9850 2700 9850 2550
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 3050 9750 3050
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9850 3050 9850 3150
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 3150 9750 3150
-Wire Notes Line style solid rgb(0, 43, 54)
-	9850 3150 9850 3050
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 3200 9750 3200
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9850 3200 9850 3300
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 3300 9750 3300
-Wire Notes Line style solid rgb(0, 43, 54)
-	9850 3300 9850 3200
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 3350 9750 3350
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
+	9850 3350 9850 3450
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 3450 9750 3450
-Wire Notes Line style solid rgb(0, 43, 54)
-	9850 3450 9850 3350
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 3500 9700 3500
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 3600 9850 3500
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 3800 9450 3800
-Wire Notes Line style solid rgb(0, 43, 54)
+Wire Notes Line width 10 style solid rgb(0, 43, 54)
 	9850 3850 9850 3800
 Wire Notes Line style dotted rgb(0, 43, 54)
 	9900 2250 9850 2250
@@ -484,14 +504,6 @@ Text Label 7000 2600 0    50   ~ 0
 DEFLY+
 Text Label 7000 2700 0    50   ~ 0
 DEFLY-
-Text GLabel 6350 4650 0    50   Input ~ 0
-+400V
-Text GLabel 6900 4650 0    50   Input ~ 0
--400V
-Text GLabel 7650 5950 2    50   Output ~ 0
-+400V
-Text GLabel 7650 6050 2    50   Output ~ 0
--400V
 $Comp
 L mini-audioscope:Conn_Pin #X1
 U 1 1 5E76DEAB
@@ -623,6 +635,282 @@ F 3 "" H 9750 4050 50  0001 C CNN
 F 4 "M:649-86563004064LF, DK:609-6269-1-ND" H 9750 4050 50  0001 C CNN "BOM"
 	1    9750 4050
 	0    1    1    0   
+$EndComp
+$Comp
+L power-all:-9V_wave #PWR?
+U 1 1 5E81E2C8
+P 4150 5000
+F 0 "#PWR?" H 4150 5200 50  0001 C CNN
+F 1 "-9V_wave" H 4150 5200 50  0001 C CNN
+F 2 "" H 4150 5000 50  0001 C CNN
+F 3 "" H 4150 5000 50  0001 C CNN
+F 4 "-9V" H 4150 5100 50  0000 C CNN "Net"
+	1    4150 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-all:-9V_wave #PWR?
+U 1 1 5E81ED63
+P 4500 5000
+F 0 "#PWR?" H 4500 5200 50  0001 C CNN
+F 1 "-9V_wave" H 4500 5200 50  0001 C CNN
+F 2 "" H 4500 5000 50  0001 C CNN
+F 3 "" H 4500 5000 50  0001 C CNN
+F 4 "-9V" H 4500 5100 50  0000 C CNN "Net"
+	1    4500 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-all:+9V_wave #PWR?
+U 1 1 5E81F946
+P 4850 4750
+F 0 "#PWR?" H 4850 4950 50  0001 C CNN
+F 1 "+9V_wave" H 4850 4950 50  0001 C CNN
+F 2 "" H 4850 4750 50  0001 C CNN
+F 3 "" H 4850 4750 50  0001 C CNN
+F 4 "+9V" H 4850 4850 50  0000 C CNN "Net"
+	1    4850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:+9V_wave #PWR?
+U 1 1 5E81FECC
+P 5200 4750
+F 0 "#PWR?" H 5200 4950 50  0001 C CNN
+F 1 "+9V_wave" H 5200 4950 50  0001 C CNN
+F 2 "" H 5200 4750 50  0001 C CNN
+F 3 "" H 5200 4750 50  0001 C CNN
+F 4 "+9V" H 5200 4850 50  0000 C CNN "Net"
+	1    5200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:+400V_wave #PWR?
+U 1 1 5E82261E
+P 6450 4750
+F 0 "#PWR?" H 6450 4950 50  0001 C CNN
+F 1 "+400V_wave" H 6450 4950 50  0001 C CNN
+F 2 "" H 6450 4750 50  0001 C CNN
+F 3 "" H 6450 4750 50  0001 C CNN
+F 4 "+400V" H 6450 4850 50  0000 C CNN "Net"
+	1    6450 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:-400V_wave #PWR?
+U 1 1 5E8284D2
+P 7000 4750
+F 0 "#PWR?" H 7000 4950 50  0001 C CNN
+F 1 "-400V_wave" H 7000 4950 50  0001 C CNN
+F 2 "" H 7000 4750 50  0001 C CNN
+F 3 "" H 7000 4750 50  0001 C CNN
+F 4 "-400V" H 7000 4850 50  0000 C CNN "Net"
+	1    7000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:+9V_wave #PWR?
+U 1 1 5E82F9DA
+P 7550 5750
+F 0 "#PWR?" H 7550 5950 50  0001 C CNN
+F 1 "+9V_wave" H 7550 5950 50  0001 C CNN
+F 2 "" H 7550 5750 50  0001 C CNN
+F 3 "" H 7550 5750 50  0001 C CNN
+F 4 "+9V" V 7550 5900 50  0000 C CNN "Net"
+	1    7550 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L power-all:+400V_wave #PWR?
+U 1 1 5E83430D
+P 7550 5950
+F 0 "#PWR?" H 7550 6150 50  0001 C CNN
+F 1 "+400V_wave" H 7550 6150 50  0001 C CNN
+F 2 "" H 7550 5950 50  0001 C CNN
+F 3 "" H 7550 5950 50  0001 C CNN
+F 4 "+400V" V 7550 6150 50  0000 C CNN "Net"
+	1    7550 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L power-all:-9V_wave #PWR?
+U 1 1 5E83124D
+P 7600 5850
+F 0 "#PWR?" H 7600 6050 50  0001 C CNN
+F 1 "-9V_wave" H 7600 6050 50  0001 C CNN
+F 2 "" H 7600 5850 50  0001 C CNN
+F 3 "" H 7600 5850 50  0001 C CNN
+F 4 "-9V" V 7600 6000 50  0000 C CNN "Net"
+	1    7600 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L power-all:-400V_wave #PWR?
+U 1 1 5E8360EC
+P 7600 6050
+F 0 "#PWR?" H 7600 6250 50  0001 C CNN
+F 1 "-400V_wave" H 7600 6250 50  0001 C CNN
+F 2 "" H 7600 6050 50  0001 C CNN
+F 3 "" H 7600 6050 50  0001 C CNN
+F 4 "-400V" V 7600 6250 50  0000 C CNN "Net"
+	1    7600 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E8150E2
+P 1150 1600
+F 0 "#PWR?" H 1150 1400 50  0001 C CNN
+F 1 "GND" H 1150 1400 50  0001 C CNN
+F 2 "" H 1150 1600 50  0001 C CNN
+F 3 "" H 1150 1600 50  0001 C CNN
+F 4 "GND" H 1150 1500 50  0001 C CNN "Net"
+	1    1150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E8155DA
+P 1550 1650
+F 0 "#PWR?" H 1550 1450 50  0001 C CNN
+F 1 "GND" H 1550 1450 50  0001 C CNN
+F 2 "" H 1550 1650 50  0001 C CNN
+F 3 "" H 1550 1650 50  0001 C CNN
+F 4 "GND" H 1550 1550 50  0001 C CNN "Net"
+	1    1550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E816586
+P 3250 3000
+F 0 "#PWR?" H 3250 2800 50  0001 C CNN
+F 1 "GND" H 3250 2800 50  0001 C CNN
+F 2 "" H 3250 3000 50  0001 C CNN
+F 3 "" H 3250 3000 50  0001 C CNN
+F 4 "GND" H 3250 2900 50  0001 C CNN "Net"
+	1    3250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E8178B8
+P 3250 5050
+F 0 "#PWR?" H 3250 4850 50  0001 C CNN
+F 1 "GND" H 3250 4850 50  0001 C CNN
+F 2 "" H 3250 5050 50  0001 C CNN
+F 3 "" H 3250 5050 50  0001 C CNN
+F 4 "GND" H 3250 4950 50  0001 C CNN "Net"
+	1    3250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E817C08
+P 3450 5050
+F 0 "#PWR?" H 3450 4850 50  0001 C CNN
+F 1 "GND" H 3450 4850 50  0001 C CNN
+F 2 "" H 3450 5050 50  0001 C CNN
+F 3 "" H 3450 5050 50  0001 C CNN
+F 4 "GND" H 3450 4950 50  0001 C CNN "Net"
+	1    3450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E83EAC9
+P 3600 6550
+F 0 "#PWR?" H 3600 6350 50  0001 C CNN
+F 1 "GND" H 3600 6350 50  0001 C CNN
+F 2 "" H 3600 6550 50  0001 C CNN
+F 3 "" H 3600 6550 50  0001 C CNN
+F 4 "GND" H 3600 6450 50  0001 C CNN "Net"
+	1    3600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E818132
+P 3650 5050
+F 0 "#PWR?" H 3650 4850 50  0001 C CNN
+F 1 "GND" H 3650 4850 50  0001 C CNN
+F 2 "" H 3650 5050 50  0001 C CNN
+F 3 "" H 3650 5050 50  0001 C CNN
+F 4 "GND" H 3650 4950 50  0001 C CNN "Net"
+	1    3650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E81883A
+P 3850 5050
+F 0 "#PWR?" H 3850 4850 50  0001 C CNN
+F 1 "GND" H 3850 4850 50  0001 C CNN
+F 2 "" H 3850 5050 50  0001 C CNN
+F 3 "" H 3850 5050 50  0001 C CNN
+F 4 "GND" H 3850 4950 50  0001 C CNN "Net"
+	1    3850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E818E31
+P 4150 4700
+F 0 "#PWR?" H 4150 4500 50  0001 C CNN
+F 1 "GND" H 4150 4500 50  0001 C CNN
+F 2 "" H 4150 4700 50  0001 C CNN
+F 3 "" H 4150 4700 50  0001 C CNN
+F 4 "GND" H 4150 4600 50  0001 C CNN "Net"
+	1    4150 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E819BFF
+P 4500 4700
+F 0 "#PWR?" H 4500 4500 50  0001 C CNN
+F 1 "GND" H 4500 4500 50  0001 C CNN
+F 2 "" H 4500 4700 50  0001 C CNN
+F 3 "" H 4500 4700 50  0001 C CNN
+F 4 "GND" H 4500 4600 50  0001 C CNN "Net"
+	1    4500 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E81AE40
+P 4850 5050
+F 0 "#PWR?" H 4850 4850 50  0001 C CNN
+F 1 "GND" H 4850 4850 50  0001 C CNN
+F 2 "" H 4850 5050 50  0001 C CNN
+F 3 "" H 4850 5050 50  0001 C CNN
+F 4 "GND" H 4850 4950 50  0001 C CNN "Net"
+	1    4850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E81BB3B
+P 5200 5050
+F 0 "#PWR?" H 5200 4850 50  0001 C CNN
+F 1 "GND" H 5200 4850 50  0001 C CNN
+F 2 "" H 5200 5050 50  0001 C CNN
+F 3 "" H 5200 5050 50  0001 C CNN
+F 4 "GND" H 5200 4950 50  0001 C CNN "Net"
+	1    5200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-all:GND #PWR?
+U 1 1 5E842B8D
+P 7250 1700
+F 0 "#PWR?" H 7250 1500 50  0001 C CNN
+F 1 "GND" H 7250 1500 50  0001 C CNN
+F 2 "" H 7250 1700 50  0001 C CNN
+F 3 "" H 7250 1700 50  0001 C CNN
+F 4 "GND" H 7250 1600 50  0001 C CNN "Net"
+	1    7250 1700
+	1    0    0    -1  
 $EndComp
 $Comp
 L mini-audioscope:Conn_Thru X1
@@ -1045,204 +1333,6 @@ F 5 "M:649-86563004064LF, M:575-4717000800000080, DK:609-6269-1-ND, DK:ED11075-N
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:-9V #PWR035
-U 1 1 5E6B5982
-P 4150 5000
-F 0 "#PWR035" H 4150 4875 50  0001 C CNN
-F 1 "-9V" H 4150 5150 50  0000 C CNN
-F 2 "" H 4150 5000 50  0001 C CNN
-F 3 "" H 4150 5000 50  0001 C CNN
-	1    4150 5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:-9V #PWR039
-U 1 1 5E6B5B6A
-P 4700 5000
-F 0 "#PWR039" H 4700 4875 50  0001 C CNN
-F 1 "-9V" H 4700 5150 50  0000 C CNN
-F 2 "" H 4700 5000 50  0001 C CNN
-F 3 "" H 4700 5000 50  0001 C CNN
-	1    4700 5000
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+9V #PWR022
-U 1 1 5E6AAF49
-P 5250 4750
-F 0 "#PWR022" H 5250 4600 50  0001 C CNN
-F 1 "+9V" H 5250 4890 50  0000 C CNN
-F 2 "" H 5250 4750 50  0001 C CNN
-F 3 "" H 5250 4750 50  0001 C CNN
-	1    5250 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+9V #PWR036
-U 1 1 5E6AE3F5
-P 5800 4750
-F 0 "#PWR036" H 5800 4600 50  0001 C CNN
-F 1 "+9V" H 5800 4890 50  0000 C CNN
-F 2 "" H 5800 4750 50  0001 C CNN
-F 3 "" H 5800 4750 50  0001 C CNN
-	1    5800 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+9V #PWR026
-U 1 1 5E6A10A5
-P 7600 5750
-F 0 "#PWR026" H 7600 5600 50  0001 C CNN
-F 1 "+9V" V 7600 5950 50  0000 C CNN
-F 2 "" H 7600 5750 50  0001 C CNN
-F 3 "" H 7600 5750 50  0001 C CNN
-	1    7600 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:-9V #PWR027
-U 1 1 5E6A19E1
-P 7600 5850
-F 0 "#PWR027" H 7600 5725 50  0001 C CNN
-F 1 "-9V" V 7600 6050 50  0000 C CNN
-F 2 "" H 7600 5850 50  0001 C CNN
-F 3 "" H 7600 5850 50  0001 C CNN
-	1    7600 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5E79D2F1
-P 1150 1550
-F 0 "#PWR01" H 1150 1300 50  0001 C CNN
-F 1 "GND" H 1150 1400 50  0001 C CNN
-F 2 "" H 1150 1550 50  0001 C CNN
-F 3 "" H 1150 1550 50  0001 C CNN
-	1    1150 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5E9592C2
-P 1550 1650
-F 0 "#PWR02" H 1550 1400 50  0001 C CNN
-F 1 "GND" H 1550 1500 50  0001 C CNN
-F 2 "" H 1550 1650 50  0001 C CNN
-F 3 "" H 1550 1650 50  0001 C CNN
-	1    1550 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5E7C1FA6
-P 3250 3000
-F 0 "#PWR03" H 3250 2750 50  0001 C CNN
-F 1 "GND" H 3250 2850 50  0001 C CNN
-F 2 "" H 3250 3000 50  0001 C CNN
-F 3 "" H 3250 3000 50  0001 C CNN
-	1    3250 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR028
-U 1 1 5E6BCB7A
-P 3250 5050
-F 0 "#PWR028" H 3250 4800 50  0001 C CNN
-F 1 "GND" H 3250 4900 50  0001 C CNN
-F 2 "" H 3250 5050 50  0001 C CNN
-F 3 "" H 3250 5050 50  0001 C CNN
-	1    3250 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR029
-U 1 1 5E6BD9CF
-P 3450 5050
-F 0 "#PWR029" H 3450 4800 50  0001 C CNN
-F 1 "GND" H 3450 4900 50  0001 C CNN
-F 2 "" H 3450 5050 50  0001 C CNN
-F 3 "" H 3450 5050 50  0001 C CNN
-	1    3450 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5E607A60
-P 3600 6550
-F 0 "#PWR04" H 3600 6300 50  0001 C CNN
-F 1 "GND" H 3600 6400 50  0001 C CNN
-F 2 "" H 3600 6550 50  0001 C CNN
-F 3 "" H 3600 6550 50  0001 C CNN
-	1    3600 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR030
-U 1 1 5E6BE31F
-P 3650 5050
-F 0 "#PWR030" H 3650 4800 50  0001 C CNN
-F 1 "GND" H 3650 4900 50  0001 C CNN
-F 2 "" H 3650 5050 50  0001 C CNN
-F 3 "" H 3650 5050 50  0001 C CNN
-	1    3650 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR031
-U 1 1 5E6BE933
-P 3850 5050
-F 0 "#PWR031" H 3850 4800 50  0001 C CNN
-F 1 "GND" H 3850 4900 50  0001 C CNN
-F 2 "" H 3850 5050 50  0001 C CNN
-F 3 "" H 3850 5050 50  0001 C CNN
-	1    3850 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR034
-U 1 1 5E6B4167
-P 4150 4700
-F 0 "#PWR034" H 4150 4450 50  0001 C CNN
-F 1 "GND" H 4150 4550 50  0001 C CNN
-F 2 "" H 4150 4700 50  0001 C CNN
-F 3 "" H 4150 4700 50  0001 C CNN
-	1    4150 4700
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR038
-U 1 1 5E6B4C51
-P 4700 4700
-F 0 "#PWR038" H 4700 4450 50  0001 C CNN
-F 1 "GND" H 4700 4550 50  0001 C CNN
-F 2 "" H 4700 4700 50  0001 C CNN
-F 3 "" H 4700 4700 50  0001 C CNN
-	1    4700 4700
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR033
-U 1 1 5E6AD6AE
-P 5250 5050
-F 0 "#PWR033" H 5250 4800 50  0001 C CNN
-F 1 "GND" H 5250 4900 50  0001 C CNN
-F 2 "" H 5250 5050 50  0001 C CNN
-F 3 "" H 5250 5050 50  0001 C CNN
-	1    5250 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR037
-U 1 1 5E6AE3C9
-P 5800 5050
-F 0 "#PWR037" H 5800 4800 50  0001 C CNN
-F 1 "GND" H 5800 4900 50  0001 C CNN
-F 2 "" H 5800 5050 50  0001 C CNN
-F 3 "" H 5800 5050 50  0001 C CNN
-	1    5800 5050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR040
 U 1 1 5E739AE0
 P 6450 5050
@@ -1265,18 +1355,40 @@ F 3 "" H 7000 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR050
-U 1 1 5E8C0555
-P 7250 1700
-AR Path="/5E607B97/5E8C0555" Ref="#PWR050"  Part="1" 
-AR Path="/5E607BA5/5E8C0555" Ref="#PWR022"  Part="1" 
-AR Path="/5E8C0555" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 7250 1450 50  0001 C CNN
-F 1 "GND" H 7250 1550 50  0001 C CNN
-F 2 "" H 7250 1700 50  0001 C CNN
-F 3 "" H 7250 1700 50  0001 C CNN
-	1    7250 1700
+L AltDevice:Fuse #F1
+U 1 1 5E607AFC
+P 1650 6000
+F 0 "#F1" V 1730 6000 50  0000 C CNN
+F 1 "1A MB" V 1575 6000 50  0000 C CNN
+F 2 "" V 1580 6000 50  0001 C CNN
+F 3 "~" H 1650 6000 50  0001 C CNN
+F 4 "M:576-0233001.MXP, DK:F3625-ND" H 1650 6000 50  0001 C CNN "BOM"
+	1    1650 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AltDevice:R #RNE1
+U 1 1 5E607B23
+P 2250 5700
+F 0 "#RNE1" V 2350 5700 50  0001 C CNN
+F 1 "R_US" V 2150 5700 50  0001 C CNN
+F 2 "" V 2290 5690 50  0001 C CNN
+F 3 "~" H 2250 5700 50  0001 C CNN
+F 4 "Part of 1050QC3" H 2250 5700 50  0001 C CNN "Desc"
+	1    2250 5700
 	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_8W #R1
+U 1 1 5E7448E5
+P 9050 6300
+F 0 "#R1" V 8856 6300 50  0000 C CNN
+F 1 "22" V 8947 6300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal" V 9090 6290 50  0001 C CNN
+F 3 "~" H 9050 6300 50  0001 C CNN
+F 4 "M:279-HSA1022RJ, DK:A102118-ND" H 9050 6300 50  0001 C CNN "BOM"
+	1    9050 6300
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint_Probe TP1
@@ -1330,40 +1442,80 @@ F 5 "M:534-4952, DK:36-4952-ND" H 7000 3850 50  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Fuse #F1
-U 1 1 5E607AFC
-P 1650 6000
-F 0 "#F1" V 1730 6000 50  0000 C CNN
-F 1 "1A MB" V 1575 6000 50  0000 C CNN
-F 2 "" V 1580 6000 50  0001 C CNN
-F 3 "~" H 1650 6000 50  0001 C CNN
-F 4 "M:576-0233001.MXP, DK:F3625-ND" H 1650 6000 50  0001 C CNN "BOM"
-	1    1650 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_US #RNE1
-U 1 1 5E607B23
-P 2250 5700
-F 0 "#RNE1" V 2350 5700 50  0001 C CNN
-F 1 "R_US" V 2150 5700 50  0001 C CNN
-F 2 "" V 2290 5690 50  0001 C CNN
-F 3 "~" H 2250 5700 50  0001 C CNN
-F 4 "Part of 1050QC3" H 2250 5700 50  0001 C CNN "Desc"
-	1    2250 5700
+L AltDevice:CP C2
+U 1 1 5E6B03EA
+P 4150 4850
+F 0 "C2" H 4315 4895 50  0000 C CNN
+F 1 "33µ" H 4315 4805 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 4150 4850 50  0001 C CNN
+F 3 "~" H 4150 4850 50  0001 C CNN
+F 4 "(from stash)" H 4150 4850 50  0001 C CNN "Desc"
+F 5 "Stock:alum/33u/16" H 4150 4850 50  0001 C CNN "BOM"
+	1    4150 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US #R1
-U 1 1 5E7448E5
-P 9050 6300
-F 0 "#R1" V 9254 6300 50  0000 C CNN
-F 1 "22/8W" V 9163 6300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal" V 9090 6290 50  0001 C CNN
-F 3 "~" H 9050 6300 50  0001 C CNN
-F 4 "M:279-HSA1022RJ, DK:A102118-ND" H 9050 6300 50  0001 C CNN "BOM"
-	1    9050 6300
-	0    -1   -1   0   
+L AltDevice:CP C4
+U 1 1 5E6B035D
+P 4500 4850
+F 0 "C4" H 4665 4895 50  0000 C CNN
+F 1 "33µ" H 4665 4805 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 4500 4850 50  0001 C CNN
+F 3 "~" H 4500 4850 50  0001 C CNN
+F 4 "(from stash)" H 4500 4850 50  0001 C CNN "Desc"
+F 5 "Stock:alum/33u/16" H 4500 4850 50  0001 C CNN "BOM"
+	1    4500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:CP C1
+U 1 1 5E6AA50D
+P 4850 4900
+F 0 "C1" H 5015 4945 50  0000 C CNN
+F 1 "33µ" H 5015 4855 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 4850 4900 50  0001 C CNN
+F 3 "~" H 4850 4900 50  0001 C CNN
+F 4 "(from stash)" H 4850 4900 50  0001 C CNN "Desc"
+F 5 "Stock:alum/33u/16" H 4850 4900 50  0001 C CNN "BOM"
+	1    4850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:CP C3
+U 1 1 5E6AE425
+P 5200 4900
+F 0 "C3" H 5365 4945 50  0000 C CNN
+F 1 "33µ" H 5365 4855 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5200 4900 50  0001 C CNN
+F 3 "~" H 5200 4900 50  0001 C CNN
+F 4 "(from stash)" H 5200 4900 50  0001 C CNN "Desc"
+F 5 "Stock:alum/33u/16" H 5200 4900 50  0001 C CNN "BOM"
+	1    5200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:C C5
+U 1 1 5E73933F
+P 6450 4900
+F 0 "C5" H 6638 4945 50  0000 C CNN
+F 1 "22n" H 6638 4855 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 6488 4750 50  0001 C CNN
+F 3 "~" H 6450 4900 50  0001 C CNN
+F 4 "Stock:cer/22n/1kV" H 6450 4900 50  0001 C CNN "BOM"
+	1    6450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:C C6
+U 1 1 5E73B773
+P 7000 4900
+F 0 "C6" H 7188 4945 50  0000 C CNN
+F 1 "22n" H 7188 4855 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 7038 4750 50  0001 C CNN
+F 3 "~" H 7000 4900 50  0001 C CNN
+F 4 "Stock:cer/22n/1kV" H 7000 4900 50  0001 C CNN "BOM"
+	1    7000 4900
+	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:SYM_Flash_Small #SYM2
@@ -1374,6 +1526,42 @@ F 1 "SYM_Flash_Small" V 10440 6950 50  0001 C CNN
 F 2 "" H 10350 6925 50  0001 C CNN
 F 3 "~" H 10750 6850 50  0001 C CNN
 	1    10350 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_POT #RV1
+U 1 1 5E768E50
+P 1150 1350
+F 0 "#RV1" H 1011 1395 50  0000 C CNN
+F 1 "5k" H 1011 1305 50  0000 C CNN
+F 2 "" H 1150 1350 50  0001 C CNN
+F 3 "~" H 1150 1350 50  0001 C CNN
+F 4 "M:858-P2301FC25BR5K, DK:987-1319-ND, AES:P-K900" H 1150 1350 50  0001 C CNN "BOM"
+	1    1150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L AltDevice:R_POT #RV2
+U 1 1 5E7BF3E9
+P 1150 2750
+F 0 "#RV2" H 994 2705 50  0000 C CNN
+F 1 "10kA" H 994 2795 50  0000 C CNN
+F 2 "" H 1150 2750 50  0001 C CNN
+F 3 "~" H 1150 2750 50  0001 C CNN
+F 4 "M:652-PDA241SRT02103A2, DK:PDA241-SRT02-103A2-ND, AES:P-K900" H 1150 2750 50  0001 C CNN "BOM"
+	1    1150 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L AltDevice:R_POT #RV3
+U 1 1 5E868533
+P 1150 3550
+F 0 "#RV3" H 950 3750 50  0000 C CNN
+F 1 "20k" H 950 3650 50  0000 C CNN
+F 2 "" H 1150 3550 50  0001 C CNN
+F 3 "~" H 1150 3550 50  0001 C CNN
+F 4 "M:774-450T328S503A1C1, DK:CT3048-ND, AES: P-K900" H 1150 3550 50  0001 C CNN "BOM"
+	1    1150 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1464,118 +1652,6 @@ F 3 "~" H 1550 1450 50  0001 C CNN
 F 4 "M:612-100-A1111, DK:EG2350-ND" H 1550 1450 50  0001 C CNN "BOM"
 	1    1550 1450
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:CP1 C2
-U 1 1 5E6B03EA
-P 4150 4850
-F 0 "C2" H 4412 4895 50  0000 C CNN
-F 1 "33u/16" H 4412 4805 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 4150 4850 50  0001 C CNN
-F 3 "~" H 4150 4850 50  0001 C CNN
-F 4 "(from stash)" H 4150 4850 50  0001 C CNN "Desc"
-F 5 "Stock:alum/33u/16" H 4150 4850 50  0001 C CNN "BOM"
-	1    4150 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C4
-U 1 1 5E6B035D
-P 4700 4850
-F 0 "C4" H 4962 4895 50  0000 C CNN
-F 1 "33u/16" H 4962 4805 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 4700 4850 50  0001 C CNN
-F 3 "~" H 4700 4850 50  0001 C CNN
-F 4 "(from stash)" H 4700 4850 50  0001 C CNN "Desc"
-F 5 "Stock:alum/33u/16" H 4700 4850 50  0001 C CNN "BOM"
-	1    4700 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C1
-U 1 1 5E6AA50D
-P 5250 4900
-F 0 "C1" H 5512 4945 50  0000 C CNN
-F 1 "33u/16" H 5512 4855 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5250 4900 50  0001 C CNN
-F 3 "~" H 5250 4900 50  0001 C CNN
-F 4 "(from stash)" H 5250 4900 50  0001 C CNN "Desc"
-F 5 "Stock:alum/33u/16" H 5250 4900 50  0001 C CNN "BOM"
-	1    5250 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C3
-U 1 1 5E6AE425
-P 5800 4900
-F 0 "C3" H 6062 4945 50  0000 C CNN
-F 1 "33u/16" H 6062 4855 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5800 4900 50  0001 C CNN
-F 3 "~" H 5800 4900 50  0001 C CNN
-F 4 "(from stash)" H 5800 4900 50  0001 C CNN "Desc"
-F 5 "Stock:alum/33u/16" H 5800 4900 50  0001 C CNN "BOM"
-	1    5800 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5E73933F
-P 6450 4900
-F 0 "C5" H 6638 4945 50  0000 C CNN
-F 1 "22n" H 6638 4855 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 6488 4750 50  0001 C CNN
-F 3 "~" H 6450 4900 50  0001 C CNN
-F 4 "Stock:cer/22n/1kV" H 6450 4900 50  0001 C CNN "BOM"
-	1    6450 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5E73B773
-P 7000 4900
-F 0 "C6" H 7188 4945 50  0000 C CNN
-F 1 "22n" H 7188 4855 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm" H 7038 4750 50  0001 C CNN
-F 3 "~" H 7000 4900 50  0001 C CNN
-F 4 "Stock:cer/22n/1kV" H 7000 4900 50  0001 C CNN "BOM"
-	1    7000 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_POT_US #RV1
-U 1 1 5E768E50
-P 1150 1350
-F 0 "#RV1" H 1011 1395 50  0000 C CNN
-F 1 "5k" H 1011 1305 50  0000 C CNN
-F 2 "" H 1150 1350 50  0001 C CNN
-F 3 "~" H 1150 1350 50  0001 C CNN
-F 4 "M:858-P2301FC25BR5K, DK:987-1319-ND, AES:P-K900" H 1150 1350 50  0001 C CNN "BOM"
-	1    1150 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_POT_US #RV2
-U 1 1 5E7BF3E9
-P 1150 2750
-F 0 "#RV2" H 986 2795 50  0000 C CNN
-F 1 "10kA" H 986 2705 50  0000 C CNN
-F 2 "" H 1150 2750 50  0001 C CNN
-F 3 "~" H 1150 2750 50  0001 C CNN
-F 4 "M:652-PDA241SRT02103A2, DK:PDA241-SRT02-103A2-ND, AES:P-K900" H 1150 2750 50  0001 C CNN "BOM"
-	1    1150 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_POT_US #RV3
-U 1 1 5E868533
-P 1150 3550
-F 0 "#RV3" H 950 3750 50  0000 C CNN
-F 1 "20k" H 950 3650 50  0000 C CNN
-F 2 "" H 1150 3550 50  0001 C CNN
-F 3 "~" H 1150 3550 50  0001 C CNN
-F 4 "M:774-450T328S503A1C1, DK:CT3048-ND, AES: P-K900" H 1150 3550 50  0001 C CNN "BOM"
-	1    1150 3550
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Lamp_Neon #NE1

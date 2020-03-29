@@ -1,4 +1,4 @@
-update=Thu 19 Mar 2020 11:41:24 PM MDT
+update=Fri 27 Mar 2020 09:57:14 AM MDT
 version=1
 last_client=kicad
 [general]
@@ -12,11 +12,7 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[LibeditFrame]
-version=1
 [ModEditFrame]
-version=1
-[SchematicFrame]
 version=1
 [schematic_editor]
 version=1
@@ -34,12 +30,16 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[SchematicFrame]
+version=1
+[LibeditFrame]
+version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005e82fbdb:
+1=00000000-0000-0000-0000-00005e7ea3f0:Sheet00000000-0000-0000-0000-00005e7ea3f0
 2=00000000-0000-0000-0000-00005e82d3f3:Input
 3=00000000-0000-0000-0000-00005e607ba1:Sweep
-4=00000000-0000-0000-0000-00005e607b97:Horiz Defl
-5=00000000-0000-0000-0000-00005e607ba5:Vert Defl
+4=00000000-0000-0000-0000-00005e607ba5:Vert Defl
+5=00000000-0000-0000-0000-00005e607b97:Horiz Defl
 6=00000000-0000-0000-0000-00005e607b8b:CRT Bias
 [pcbnew]
 version=1

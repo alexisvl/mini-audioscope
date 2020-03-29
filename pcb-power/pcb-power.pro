@@ -1,4 +1,4 @@
-update=Thu 19 Mar 2020 11:59:10 PM MDT
+update=Tue 24 Mar 2020 11:22:06 PM MDT
 version=1
 last_client=kicad
 [general]
@@ -14,11 +14,7 @@ LibDir=
 [eeschema/libraries]
 [PcbFrame]
 version=1
-[LibeditFrame]
-version=1
 [ModEditFrame]
-version=1
-[SchematicFrame]
 version=1
 [schematic_editor]
 version=1
@@ -36,8 +32,12 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[SchematicFrame]
+version=1
+[LibeditFrame]
+version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005e77dce2:
+1=00000000-0000-0000-0000-00005e7ae13b:Sheet00000000-0000-0000-0000-00005e7ae13b
 [pcbnew]
 version=1
 PageLayoutDescrFile=
